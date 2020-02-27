@@ -1,0 +1,1913 @@
+:icons: font
+// :toc: left
+:toclevel: 3
+:sectnums:
+
+:compname-short: D4L
+:compname-legal: D4L data4life gGmbH
+:compname: data4life
+:email-contact: contact@data4life.care
+:email-docs: docs@data4life.care
+:url-company: https://www.data4life.care
+:url-docs: https://d4l.io
+:prod-name: data4life
+:app-name: data4life
+:app-plat: Android
+:phdp-plat: Personal Health Data Platform (NEW)
+:sw-name: {compname} {prod-name}
+:sw-version: 1.30
+:pub-type: Internal
+:pub-version: 1.00
+:pub-status: draft
+:pub-title: {software-name} {pub-type}
+:copyright-year: 2019 – 2020
+:copyright-statement: (C) {copyright-year} {compname-legal}. All rights reserved.
+
+
+////
+Recycle icons from here:
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+
+icon:eye[] An eye that is a "see reference"
+
+icon:external-link[] External link
+
+icon:bomb[] Da bomb
+
+icon:book[] Book
+
+icon:database[] Database
+
+icon:desktop[] Desktop
+
+icon:mobile[] Mobile
+
+icon:cloud[] Cloud
+
+icon:edit[] Edit
+
+icon:lock[] Lock for maximum security
+
+icon:question-circle[] Question mark with circle
+
+icon:key[] Key
+
+icon:copyright[] Copyright sign
+
+icon:envelope[] For email address {email-docs}
+
+icon:check[] Checkmark, for positive example
+
+icon:times[] Do not do this, actually it's the times sign, but no better X available here
+
+icon:trash[] Trash icon
+////
+
+
+= The {compname} Technical Writing Style Guide
+
+Guidelines for writing technical documentation and user assistance content at {compname}
+
+==  Publication information
+
+=== Intended use of this document
+
+This document is for anyone writing or editing developer documentation or user assistance content at {compname}.
+This content is for external target audiences by definition.
+Other {compname} content, such as content from the Brand team, might use other guidelines.
+
+This guide is a living document and will change over time.
+
+=== Revision history
+
+[cols=3*,options=header]
+|===
+|Document version
+|Revision date
+|Change description
+
+|0.8
+|January 2020
+|Initially created
+
+|===
+
+
+=== Abbreviations
+
+Abbreviations used in this style guide.
+
+[cols=2*,options=header]
+|===
+|Abbreviation
+|Definition
+
+|CAT
+|computer aided translation
+
+|CMOS
+|Chicago Manual of Style
+
+|D4L
+|data4life
+
+|ISO
+|International Organization for Standardization
+
+|URL
+|Uniform Resource Locator
+
+|UTC
+|Coordinated Universal Time
+
+|W3C
+|World Wide Web Consortium
+
+
+|===
+
+
+=== Feedback
+
+We made every effort to ensure that this document fulfills the intended use.
+Your feedback on any aspect of this publication is welcome and is considered during updates.
+Should you have any such feedback, talk to your technical writer or send an email to icon:envelope[] {email-docs}.
+
+////
+- List of abbreviations used in the style guide (if needed)
+- Remember to reference the upcoming word list and glossary
+////
+
+
+== Main rules for technical writing and user assistance
+
+Always keep in mind the following questions:
+
+- Who is your audience?
+- What does your audience want to accomplish?
+- Will your content be translated?
+
+== Other references
+
+The master language for {compname} technical documentation and user assistance content is American English.
+This style guide isn't intended to provide a complete set of writing guidelines from the ground up.
+For example, it doesn't cover parts of speech, subject-verb agreement, or other writing basics.
+You can look up words online if you're unsure about spelling and word usage:
+
+- icon:external-link[] link:https://www.merriam-webster.com/[Merriam-Webster Dictionary]
+
+In most cases, {compname} follows the writing rules in the Chicago Manual of Style:
+
+- icon:book[] Chicago Manual of Style, 17th edition
+- icon:external-link[] link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
+
+We sometimes deviate from these rules and mention the differences in this style guide.
+To find out how other companies manage the style of their content, icon:eye[] see:
+
+- icon:external-link[] link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
+- icon:external-link[] link:https://help.apple.com/applestyleguide/#/[Apple Style Guide]
+- icon:external-link[] link:https://developers.google.com/style/[Google Developer Style Guide]
+- icon:external-link[] link:https://w3c.github.io/manual-of-style/[W3C Manual of Style]
+- icon:external-link[] link:https://styleguide.mailchimp.com/[Mailchimp Content Style Guide]
+
+
+== Using the company name
+
+Use the {compname} company name in the following ways:
+
+[horizontal]
+
+{compname}:: Use this version for most content and don't abbreviate it.
+
+{compname-short}:: Avoid this short version, unless you absolutely must use it for space reasons, or if it's displayed on the user interface (UI).
+
+{compname-legal}:: Use the full legal name only in legal content, the company address, or copyright information.
+
+Avoid beginning sentences with our company name.
+Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
+
+icon:times[] data4life's Analytics Platform
+
+icon:times[] Apple's developer tools
+
+icon:times[] data4life's committed to a privacy-by-design approach.
+
+
+
+== General writing principles
+
+At {compname}, use the following software industry best practices for your documentation.
+
+=== Use American English
+
+Because we write for an international audience, write documentation for developers and end users in American English.
+Many users who aren't native English speakers read our content.
+Keep in mind that our content will be translated into other languages.
+This is typically done by a localization agency or by international users with computer-assisted translation tools.
+
+Be aware of different terms and spellings used in American English and British English.
+
+icon:eye[] See <<Different terms and spellings in American English and British English>> in the appendix.
+
+
+=== Use the active voice
+
+Use the active voice whenever you can.
+The active voice asserts that the subject of the sentence is in action.
+The passive voice asserts that the action is on the subject.
+
+TIP: The passive voice may be used to avoid awkward sentences or to avoid giving the impression that you're blaming users.
+The passive voice can also be used in error messages, warnings, or notifications.
+
+
+=== Focus on the user
+
+Always focus on the user.
+Users use apps with a goal in mind. They want to get specific things done.
+
+icon:check[] The {compname} encrypted storage lets you store your health documents securely.
+
+icon:times[] The Photos app on the iPhone has the capability to store health documents.
+
+icon:times[] The {compname} app gives you the possibility to share health documents with your doctor.
+
+=== Directly address your users
+
+To establish a connection with the user, use the second person.
+Write as though you're speaking to the user by using the personal pronoun "you".
+This style supports a friendly, human tone and helps avoid the passive voice by focusing the discussion on the user.
+
+TIP: Avoid over-using auxiliary verbs. Consider omitting "you can" whenever a sentence works without it.
+
+icon:check[] Use the {compname} encrypted storage to securely store your health documents.
+
+icon:times[] You can use the {compname} encrypted storage to securely store your health documents.
+
+=== Use the present tense
+
+Use the present tense.
+Always avoid the future tense.
+You can often rewrite future tense sentences without changing their meaning.
+
+icon:check[] Send a query to the {compname} backend service. The server sends an acknowledgment.
+
+icon:times[] Send a query to the {compname} backend service. The server will send an acknowledgment.
+
+
+=== Use short words and sentences for better readability
+
+
+Readability describes how easy or hard it is for readers to understand text.
+Short words and sentences are more readable than long words and sentences.
+
+Use short, familiar words whenever possible.
+
+Try to split sentences with more than 25 words to make them more digestible. The average sentence length should be around 15 words.
+
+
+
+TIP: Use online readability tools to improve your writing.
+These tools score text based on word and sentence length.
+Technical writing at {compname} aims for a Flesch reading ease score of 60 or higher.
+
+
+=== Avoid the first person plural
+Avoid the pronoun "we" in technical documentation and phrases like "we recommend".
+Write around it and keep the focus on the reader.
+
+=== Use contractions
+Use common contractions, such as, it’s, you’re, that's, can't and don’t.
+Contractions support the friendly and informal tone that represents {compname}.
+
+=== Use the serial comma
+
+Use the serial comma.
+In English language punctuation, a serial comma is placed immediately before the coordinating conjunction (usually "and" or "or") in a series of 3 or more terms.
+The serial comma is also called Oxford comma.
+
+icon:check[] This section covers identification, authentication, and authorization.
+
+icon:times[] This section covers identification, authentication and authorization.
+
+
+=== Capitalization of headings
+
+Use sentence-style capitalization.
+Capitalize only the first word of a sentence or phrase and capitalize proper nouns.
+Although all uppercase text is occasionally used on web pages or on user interfaces, avoid it in instructional text.
+A mix of uppercase and lowercase characters gives words familiar shapes, increases accessibility, and helps readers scan text more efficiently.
+
+icon:check[] Use sentence-style capitalization everywhere
+
+icon:times[] This Line Provides an Example of Title-Style Capitalization
+
+=== Formatting choices
+
+Consistent use of fonts, text formatting, capitalization, and text alignment improves accessibility and readability.
+Follow the formatting guidelines outlined here.
+
+Avoid over-formatting, for example, using bold formatting for keywords.
+Bold format can improve readability, but it becomes tiring when used too often.
+Use italics to emphasize words and reserve bold formatting for referring to user interface elements.
+
+[cols=2*,options=header]
+|===
+|Text element
+|Format
+
+|Keywords, titles of other documents, filenames
+|Italics
+
+|User interface elements
+|Bold
+
+|===
+
+=== Using abbreviations
+
+Abbreviations can be unclear, especially for international audiences.
+In some languages, abbreviations are uncommon.
+
+Avoid abbreviations. Always spell out terms when they are short or when used only 2 or 3 times within a topic.
+This ensures their meaning is explicit.
+
+==== Introducing abbreviations
+
+You may use abbreviations if they stop text becoming tiring.
+
+When a term is first mentioned, spell it out and write its abbreviated form in parentheses.
+Use its abbreviated form thereafter.
+
+Note: You don't need to spell out URL on its first mention.
+
+icon:check[] hospital information system (HIS)
+
+icon:check[] subject matter expert (SME)
+
+icon:check[] HPI-Mount Sinai (HPIMS)
+
+icon:times[] UX (user experience)
+
+IMPORTANT: Don't introduce abbreviations in headings.
+
+Don't use numeronyms. They are jargon and unnecessary abbreviations.
+
+icon:times[] a11y (for accessibility)
+
+icon:times[] i18n (for internationalization)
+
+Never use an apostrophe to form a plural abbreviation.
+
+icon:times[] PC's
+
+icon:times[] RFC's
+
+=== Use nouns, not pronouns
+Repeat a noun instead of using a backward-referring pronoun like "it," "they," "this," or "these".
+Repeating the noun ensures that the reference is clear.
+
+icon:times[] Remove the users from the group. Afterwards, they cannot access the resource anymore.
+
+icon:check[] Remove the users from the group. Afterwards, the users cannot access the resource anymore.
+
+=== Referring to special characters
+You may sometimes need to refer to special characters by their name. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
+
+icon:check[] Use an asterisk (*) as a wildcard character in your search.
+
+icon:times[] Use '*' as a wildcard character in your search.
+
+icon:eye[] See <<Names of common special characters and punctuation marks>> in the appendix.
+
+=== Avoid the following words and phrases
+
+To avoid wordiness, use simple, common words and phrases.
+The table gives examples of verbs or phrasing that you can simplify.
+The table also shows other common examples of shortening options.
+
+// I added some aspects like and/or and or not. Maybe they should not be in this table, but elsewhere.
+
+[cols=2*,options=header]
+|===
+|Avoid
+|Use instead
+
+|and/or
+|or
+
+|as a consequence of
+|because
+
+|as well as
+|and
+
+|assist
+|help
+
+|at a later date
+|later
+
+|carry out (commands and programs)
+|run
+
+|establish a connection
+|connect
+
+|in addition
+|also
+
+|in order to
+|to
+
+|initiate
+|start
+
+|take a decision on
+|decide
+
+|make a recommendation
+|recommend
+
+|perform an upgrade
+|upgrade
+
+|provide an explanation
+|explain
+
+|take into consideration
+|consider
+
+|navigate
+|go to
+
+|make sure
+|ensure
+
+|utilize
+|use
+
+|commence
+|start
+
+|comprises, is comprised of
+|is composed of, consists of
+
+|prior to
+|before
+
+|on a regular basis
+|regularly
+
+|in the event of
+|if
+
+|whether or not
+|whether
+
+|===
+
+
+=== Using "that," "which," and "who" in relative clauses [[using-that-which-and-who-in-relative-clauses]]
+
+In English, there are restrictive and nonrestrictive clauses.
+Restrictive clauses are not set off with commas because the relative clause is essential to the meaning.
+
+NOTE: Restrictive clauses are also known as defining clauses.
+And nonrestrictive clauses are also known as nondefining clauses.
+
+[cols=3*,options=header]
+|===
+|Relative pronoun
+|Type of relative clause
+|icon:check[] Example
+
+|that
+|Restrictive (no commas)
+|The backups that run weekly are triggered by the external backup tool.
+
+[Note: This example implies that only weekly backups are triggered by the external tool.]
+
+|which
+|Nonrestrictive (with commas)
+|The backups, which are run weekly, are triggered by an external backup tool.
+
+[Note: This example implies that all backups are triggered by the external tool and that these are run weekly.]
+
+.2+| who [for persons]
+|Restrictive (no commas)
+|My brother who lives in Berlin ... [Note: I have at least 2 brothers.]
+
+|Nonrestrictive (with commas)
+|My brother, who lives in Berlin, ... [Note: I have only 1 brother.]
+|===
+=== Using the word "please"
+
+Avoid "please" in instructional text and in cross-references.
+It's OK to use "please" in situations where the user is asked to do something inconvenient.
+Also use "please" in user interface copy where the app or platform is to blame for the situation.
+
+icon:check[] Follow the steps below.
+
+icon:times[] Please follow the steps below.
+
+icon:check[] Update your antivirus software immediately.
+
+icon:times[] Please update your antivirus software immediately.
+
+
+=== Using prepositions consistently
+
+The following table outlines the verb-preposition combinations for common IT terms.
+[cols=3*,options=header]
+|===
+|Verb
+|Preposition
+|Example
+
+|convert
+|to
+|Convert number to text
+
+|migrate
+|to
+|Migrate your data to the latest format.
+
+|integrate
+|with
+
+into
+|To integrate your application with the platform, complete the following steps...
+
+To integrate your data into the system, complete the following steps...
+
+|assign
+|to
+|Assign the correct roles to each user.
+
+|import
+|into
+|Ensure that you've imported all data into the system.
+
+
+|===
+The following table outlines the preposition-noun combinations to use for common IT terms.
+
+[cols=3*,options=header]
+|===
+|Category
+|Noun
+|Preposition
+
+|*System and software*
+|application
+|in the...
+
+|
+|backend
+|in the...
+
+|
+|frontend
+|install on the...
+
+|
+|database
+|in the...
+
+|
+|solution
+|in the...
+
+|
+|program
+|in the...
+
+|
+|platform
+|on the...
+
+|
+|software
+|in the...
+
+|
+|hardware
+|in the...
+
+|
+|system
+|in the...
+
+|
+|session
+|in the...
+
+|
+|server
+|on the...
+
+|
+|toolkit
+|in the...
+
+|
+|user interface, UI
+|on the...
+
+|
+|workbench
+|in the...
+
+|*Computer*
+|directory
+|in the...
+
+|
+|disk
+|on the...
+
+|
+|hard drive
+|on the...
+
+|
+|path
+|under <path>
+
+|
+|PC
+|on the...
+
+|*Web*
+|internet
+|on the...
+
+|
+|cloud
+|in the...
+
+|
+|web, website
+|on the...
+
+|
+|wiki
+|on the...
+
+|
+|URL
+|at <URL>...
+|===
+
+=== Avoid dangling modifiers
+A dangling modifier is a phrase that, from a grammatical perspective, refers to the subject of a sentence but is actually intended to refer to a different noun.
+
+Ensure your text doesn't contain dangling modifiers.
+
+icon:times[] After scanning the document, the file is ready to share.
+
+icon:check[] After you have scanned the document, the file is ready to share.
+
+== Writing for an international audience
+
+Writing in the international style means naturally and expressing yourself using standard international conventions.
+When you write this way, you support the internationalization of your content.
+
+=== Using international style
+
+These are the basic rules for international style:
+
+- Write in simple structures.
+- Don’t use jargon, idioms, or colloquial expressions.
+- Avoid shortcuts, symbols, and abbreviations that could easily be spelled out.
+
+icon:times[] The UUID is then displayed in the UI next to the PIN number.
+
+icon:times[] You can also use the CLI.
+
+icon:times[] At the end of the day, our think-outside-the-box meeting brought everyone on the same page to create a great win-win situation for all key stakeholders to identify the low-hanging fruit.
+
+icon:times[] Our technology stack is built around virtualization and containerization, with a high-availability baseline achieved using redundant nodes and providing a configuration both resilient and flexible to scale with the help of automation.
+
+==== Avoid non-English words
+
+Don't use Latin abbreviations.
+Use the full English equivalent instead.
+
+[cols=3*,options=header]
+|===
+|icon:times[] Latin form
+|icon:check[] Full form
+|Examples
+
+|e.g.
+|for example, such as
+|icon:times[] The status can have various values, e.g., _New_, _Pending_, _Completed_.
+
+icon:check[] The status can have various values, such as _New_, _Pending_, _Completed_.
+
+|etc.
+|and so on
+
+Note: Don't use "and so on" together with "for example". Choose 1 of the 2 alternatives.
+|icon:times[] The document can contain text, images, links, etc.
+
+icon:times[] For example, the document can contain text, images, links, and so on.
+
+icon:check[] The document can contain text, images, links, and so on.
+
+|i.e.
+|that is, which means, meaning
+|icon:times[] The preview is live, i.e. it's updated as the data is being changed.
+
+icon:check[] The preview is live, that is, it's updated as the data is being changed.
+
+
+|et al.
+|and others
+|icon:times[] This is based on the work of Adams, Baxter, et al.
+
+icon:check[] This is based on the work of Adams, Baxter, and others.
+
+|via
+|using, by using
+|icon:times[] Open the file via the menu option.
+
+icon:check[] Open the file using the menu option.
+
+|vs.
+|opposed to, versus
+|icon:times[] Windows vs. Mac
+
+icon:check[] Windows versus Mac
+
+|vice versa
+|bidirectionally, the other way around
+
+Note: It's often better to paraphrase rather than force the use of these terms.
+|icon:times[] from the client to the server and vice versa
+
+icon:check[] bidirectionally between the client and the server
+
+
+|===
+
+== Writing numbers
+
+Be consistent with your use of numbers.
+When you refer to numbers used in examples or on the user interface, duplicate them exactly as they're displayed on the user interface.
+
+=== Numerals or words
+
+In content that doesn't refer to the user interface, apply these guidelines:
+
+- Write all numbers as numerals in body text and in tables.
+
+- Don't start a sentence with a numeral.
+Add a modifier before the number, or spell the number out if you can't rewrite the sentence.
+
+.*Content from the {compname} Brand team uses different rules for numbers*
+NOTE: The rule to always use numerals instead of words does not apply to writing brand content at {compname}.
+For brand content, spell out numbers from 0 through 9, except when they are used with a percent sign or a unit of measurement.
+Use numerals for 10 and greater.
+
+icon:check[] 9%
+
+icon:check[] 2 TB
+
+
+=== Ordinal numbers
+
+Ordinal numbers indicate the place of an item in a sequence, such as first or second.
+Use ordinal numbers as follows:
+
+- Always spell out ordinal numbers.
+- Don't use ordinal numbers for dates.
+
+icon:check[] The first column of the table
+
+icon:check[] The twenty-first anniversary
+
+icon:times[] The 1st rule is to use numerals.
+
+icon:times[] June fifth 2020
+
+=== Commas in numbers
+
+Don't use commas in numbers.
+In numbers of 5 or more digits, use a nonbreaking space (press option-space bar).
+Breaking up large numbers makes them easier to read, especially in tables.
+A nonbreaking space can’t be misinterpreted as a decimal marker.
+
+icon:check[] 5000
+
+icon:check[] 2492.7201
+
+icon:check[] 20 000
+
+icon:check[] Apple sold 3.7 million MacBook Pro computers in 2 years.
+
+
+
+=== Writing dates and times
+
+==== Dates
+
+In body text, capitalize the names of months and always spell them out to avoid ambiguity.
+Only use abbreviations if space is extremely limited. Use a numeral for the day in dates.
+
+Use the following format for dates:
+
+- _month day, year_
+
+icon:check[] July 31, 2019
+
+icon:times[] 31 July 2019
+
+icon:times[] 31/7/2019
+
+NOTE: The positions of the month and day vary by country.
+For example, 6/12/2017 might be June 12, 2017 or December 6, 2017.
+Using the _month day, year_ format for dates avoids confusion.
+
+TIP: When you refer to the user interface and in content for developers, it's OK to use numbers and slashes for dates if the code supports that format, for example, YYYY/MM/DD.
+The International Organization for Standardization (ISO) recommends writing dates with numerals in year-month-day format, such as 2018-10-24.
+This is useful when people need to convey information across international borders.
+The version day-month-year is used by the United Nations when writing the full date format in official documents.
+But for prose in American English, use the month-day-year format. And always use 4 digits for the year for clarity.
+
+Omit the comma in partial dates. For example, when only giving the month and year.
+
+icon:check[] I started working at {compname} in May 2019.
+
+When you add the day of the week, use a comma.
+When a date is in the middle of a sentence, add a comma after the year.
+
+icon:check[] Monday, May 2, 2019, was my first day of work.
+
+
+
+==== Times
+
+Express the time of the day using the 24-hour clock.
+Only use AM and PM when you describe a time displayed differently on the user interface or when you describe a feature that uses the 12-hour clock.
+Write AM and PM in capital letters, without the period, and with a space before.
+
+icon:check[] Our weekly executive meeting starts each Tuesday at 15:00.
+
+Use this formatting when you must break the 24-hour clock rule.
+
+icon:check[] Our weekly executive meeting starts each Tuesday at 3:00 PM.
+
+Not all time zones have names, and some time-zone names are used in more than 1 geographical area.
+If you're talking about a particular place, clarify the country or reference Coordinated Universal Time (UTC).
+Don't include spaces around the plus sign (+) or hyphen (-).
+
+icon:check[] Berlin (UTC+1)
+
+icon:check[] Eastern Time (UTC+10)
+
+icon:check[] UTC+02:00
+
+
+==== Ranges of time
+
+In text, use _to_ in a range of times.
+
+icon:check[] Our core working hours are from 10:00 to 16:30.
+
+icon:check[] Our core working hours are from 10:00 AM to 4:30 PM. (exception)
+
+=== Days of the week and names of months
+
+Capitalize the days of the week and the names of months.
+Only use abbreviations when space is very limited.
+In those circumstances, use the 3-letter abbreviations without a period:
+
+[horizontal]
+
+Days of the week:: Sun, Mon, Tue, Wed, Thu, Fri, and Sat
+Months:: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, and Dec
+
+== Measurement units
+
+Measurement units are represented by the following symbols.
+Write out the name of units in body text.
+In tables use the unit symbol.
+Always use these symbols with numeric quantities.
+
+[cols=2*,options=header]
+|===
+|Name of unit
+|Unit symbol
+
+|centimeter
+|cm
+
+|day
+|d
+
+|deciliter
+|dL
+
+|gigabyte
+|GB
+
+|gram
+|g
+
+|hertz
+|Hz
+
+|hour
+|h
+
+|inch
+|in
+
+|kilobit per second
+|kbit/s
+
+|kilobyte
+|KB
+
+|kilogram
+|kg
+
+|kilohertz
+|kHz
+
+|kilometer
+|km
+
+|kilometer per hour
+|km/h
+
+|liter
+|L
+
+|megabit per second
+|Mbit/s
+
+|megabyte
+|MB
+
+|meter
+|m
+
+|millimeter
+|mm
+
+|millimole
+|mmol
+
+|millimole per deciliter
+|mmol/dL
+
+|millisecond
+|ms
+
+|minute
+|min
+
+|mole
+|mol
+
+|second
+|s
+
+|terabyte
+|TB
+
+|===
+
+=== Writing numerals with measurement units
+
+Use a space to separate the numerical value from the unit symbol.
+These exceptions apply:
+
+- Percent sign (%)
+
+- Plus sign (+)
+
+- Minus sign (-)
+
+- Degree sign (°) when it refers to an angle or temperature
+
+icon:check[] 106 mmol/dL
+
+icon:check[] 95%
+
+icon:check[] 90°
+
+=== Writing currencies
+
+Express currency amounts with the 3-letter currency code.
+Currency codes are specific to a currency and can’t be confused or misinterpreted by readers.
+Currency symbols such as the dollar sign ($) aren’t unique and are easily misread.
+
+International currency codes follow the ISO 4217 standard.
+
+icon:external-link[] link:http:www.iso.org[International Organization for Standardization (ISO)]
+
+Write the currency code in capitals followed by a space and the amount.
+
+icon:check[] The computer is priced at USD 1234.
+
+icon:check[] The computer costs EUR 1234.
+
+icon:check[] The new car has a price of USD 29 999.
+
+The table shows more examples of currency codes.
+
+[cols=2*,options=header]
+|===
+|Currency code
+|Currency
+
+|AUD
+|Australian dollar
+
+|HUF
+|Hungarian forint
+
+|JPY
+|Japanese yen
+
+|NOK
+|Norwegian krone
+
+|PLN
+|Polish zloty
+
+|TRY
+|Turkish lira
+
+|===
+
+
+== Working with lists
+
+Lists are a great way to present complex information in a way that's easy to scan.
+Lists are useful because they do the following:
+
+- Highlight levels of importance
+- Help readers understand the order in which things happen
+- Help readers skim and scan
+- Make it easy to identify all steps in a process
+- Add white space, improving readability
+- Provide an ideal way to present items, conditions, and exceptions
+
+
+=== Introducing lists
+
+Follow these rules when you use lists:
+
+- Ensure the purpose of the list is clear in the heading and the introduction.
+- Introduce a list with a complete sentence that ends with a colon.
+- Never use a partial sentence as a lead-in that's completed by the list items.
+
+=== Using capitalization and punctuation in lists
+
+Use sentence case for list entries:
+
+- Begin each entry in a bulleted or numbered list with a capital letter.
+- If an entry is a complete sentence, end it with a period.
+- If an entry is a fragment, don't end with a period.
+- Avoid mixing fragments and full sentences in the same list by ensuring that all entries have a parallel structure.
+
+=== Ensuring a parallel structure within list items
+
+Make entries in lists parallel.
+Parallelism means that entries with similar content have the same grammatical structure.
+For example, each item should be a noun or a phrase that starts with a verb.
+
+icon:check[] sing, dance, and shout
+
+icon:check[] singing, dancing, and shouting
+
+icon:times[] I like running, traveling, and to read.
+
+=== Unordered lists
+
+Use unordered lists – also called bulleted lists – for entries that have something in common but for which the sequence of items isn't important.
+
+
+=== Numbered lists
+
+Use a numbered list when you want to stress the sequential nature of steps, rules, or instructions.
+In numbered task lists, make each step a complete sentence.
+Use sentence-style capitalization for each item and end each item with closing punctuation.
+
+icon:eye[] See <<Writing task topics and procedures>>.
+
+=== Capitalization after colons
+
+For colons in a sentence, use these rules:
+
+- If the colon is followed by a complete sentence, begin the first word with an uppercase letter.
+
+- If the colon is followed by an incomplete sentence (a word or a phrase), begin the first word with a lowercase letter.
+
+- If the colon is in a headline, always follow with an uppercase letter.
+
+
+////
+== List common mistakes?
+
+- Word list from Microsoft style for DE
+- Examples from CMOS 5.250, for example, and/or
+- and/or: Guardian style guide says: about and/or – This is horrible. Make your mind up and say either “and” or “or” – whichever is more appropriate.
+////
+
+== Handling punctuation
+
+=== Exclamation points
+
+Use exclamation points sparingly. Save them for when emphasis is most necessary.
+
+icon:check[] Don't call exclamation points exclamation marks.
+
+icon:times[] Don't call exclamation points exclamation marks!
+
+=== Ellipses
+
+Avoid ellipses. When referring to an ellipsis on text or buttons on the user interface,
+remove the ellipsis in your instructions.
+
+icon:check[] At the top of the page, select *File* > *Open*.
+
+icon:times[] At the top of the page, select *File* > *Open...*.
+
+=== End punctuation
+
+Skip end punctuation on titles, headings, subheads, UI titles, and items in a list that aren't full sentences. Save the periods for paragraphs and body copy.
+
+
+=== Quotation marks
+
+In most content, use double quotation marks.
+In printed content, use curly quotation marks (“ ”) except in user input and code samples.
+In code examples, use straight quotation marks (" ").
+In online content, use straight quotation marks.
+
+NOTE: Commas and periods go inside quotation marks. (This is the standard American style.)
+
+Use single quotation marks (' ') in documentation in the these cases:
+
+- In code examples, in languages that use single quotation marks.
+- When nesting a quotation inside another quotation.
+
+TIP: Don't use scare quotes. Scare quotes are quotation marks that writers place around a word or phrase to signal that they are using it in a nonstandard, ironic, or otherwise special sense.
+They are also called shudder quotes or sneer quotes.
+
+=== Ampersands
+
+Don't use ampersands unless they are part of a company or brand name.
+Don't use the "&" character in place of "and" in text or headings unless referring to the symbol as it exists on the user interface.
+You may use "&" when referencing its use in HTML or programming languages.
+
+icon:check[] Ben & Jerry's
+
+icon:check[] Smith & Wesson
+
+icon:times[] Managing identification, authentication & authorization
+
+=== Commas
+
+Place a comma after introductory words or phrases.
+
+icon:check[] In 2024, {compname} reported a net profit of 5 million Euro.
+
+icon:check[] As stated in our guidelines, users must create a 15-digit password.
+
+icon:check[] To summarize, commas are a great way to increase readability.
+
+Use a comma after or around the words "for example."
+
+icon:check[] The {compname} platforms use the latest encryption technology, for example, for storing patient data on the Personal Health Data Platform.
+
+TIP: Don't use "for example" and "and so on" together, it's redundant. +
+icon:times[] We support the most popular browsers, for example, Chrome, Firefox, Safari, Edge, and so on.
+
+Put a comma before the word "which" at the start of a nonrestrictive clause.
+
+icon:eye[] See <<using-that-which-and-who-in-relative-clauses>>.
+
+//Add link to section that explains relative clauses and which vs. that
+
+//Add link to section about the serial comma
+
+=== Dashes and hyphens
+
+Use the en dash (–) to indicate spans of time and ranges of numbers.
+Avoid the en dash with compound adjectives, use the hyphen.
+Avoid the em dash.
+
+To set off a word or phrase that interrupts or adds more information to a sentence, use spaced en dashes instead.
+
+icon:check[] Bits 3–17
+
+icon:check[] The scheduled downtime for our servers is 1:00–3:00. But preferably "1:00 to 3:00."
+
+icon:check[] When to use – and not use – dashes
+
+icon:times[] When to use—and not use—dashes
+
+icon:times[] Desktop interface–specific instructions
+
+
+//Link to rule to use "to" for ranges
+
+TIP: En dashes can help you reduce parentheses in your writing – but use them sparingly.
+
+=== Semicolons
+
+Sentences containing semicolons are often complex and can be simplified.
+Avoid semicolons or try replacing them with a period or a comma.
+
+
+=== Multiplication signs
+
+Use the multiplication sign (×), not the letter x, to indicate the mathematical operation or when referring to screen resolution or dimensions.
+
+icon:check[] Your profile picture must at least be  80 × 80 pixels and in PNG format.
+
+
+== Writing task topics and procedures
+
+Tasks are the most common topic type for user assistance content.
+Instructions consist of multiple steps formatted as a numbered list.
+Use a task heading to help users quickly find instructions.
+In the heading, tell users what the instructions help them do.
+
+If there's more than 1 way to do something, describe the best way.
+Giving alternative ways can confuse users.
+
+Apply these guidelines when writing procedures:
+
+- Use the gerund in your headings to ensure a parallel structure.
+- If you want to add some background information, start with a short description of no more than 2 or 3 sentences.
+Your short description can also outline any prerequisites that need to be met before the user can begin.
+- Introduce your procedure with an introductory sentence using this format:
++
+_To XYZ, follow these steps:_.
+- Use a separate numbered entry for each step.
+- Use complete sentences with imperative verb forms.
+- Capitalize the first word in each step and use a period at the end of each step.
+- You can combine short steps that are displayed in the same place on the user interface.
+- If it helps the user, consider adding a step result to procedure steps.
+- Finish your procedure by stating the expected result.
+
+
+===== *Example:* =====
+
+*Installing the iOS app*
+
+You’ve received an email from TestFlight inviting you to test the data4life app for iOS.
+You’ve also installed the TestFlight app on your iOS device.
+
+To install the iOS app, follow these steps:
+
+. On your device, open the *View in TestFlight* link from the email.
++
+This opens the *TestFlight* app.
+. Choose *Accept*.
+. Choose *Redeem*.
+. Enter the code provided.
+. Choose *Install*.
+. When the app is installed, choose *Open*.
+
+Once the app is installed, you can open it to set up your account.
+
+
+=== Writing optional steps in procedures
+
+For an optional step, use "Optional" as the first word of the step, followed by a colon.
+
+icon:check[] Optional: Select more documents to share with your doctor.
+
+icon:times[] Option: Select more documents to share with your doctor.
+
+icon:times[] Optionally, you can select more documents to share with your doctor.
+
+
+
+== Bias-free communication and gender neutrality
+
+Avoid pronouns like "he" and "his" in references to a person whose gender is unknown.
+Instead, rewrite to use the second person (you).
+Or refer to a person's role (for example, user, employee, or client), or just use "person" or "individual."
+
+TIP: The best option is to cast the reference into the plural or to reword so that no pronoun is needed.
+
+The Chicago Manual of Style, 17th edition, has a section about "Techniques for achieving gender neutrality."
+
+See icon:book[] _The Chicago Manual of Style_
+
+icon:times[] Each user can store his or her encrypted health data on the data4life platform.
+
+icon:check[] Users can store their encrypted health data on the data4life platform.
+
+icon:times[] Each student is expected to choose the topic of his or her research paper before taking the midterm.
+
+icon:check[] Students are expected to choose the topic of their research paper before they take the midterm.
+
+icon:check[] Each student is expected to choose a research paper topic before taking the midterm.
+
+It's a good idea to use a disclaimer like this:
+
+icon:check[] We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
+
+
+
+== Adding cross-references
+
+Cross-references link to nonessential information that may help a user.
+For the different types of cross-references, use these icons:
+
+
+[horizontal]
+
+icon:eye[]:: Information in another part of the same document or on our own website. When you refer to another section or topic, insert the section heading as an active link.
+
+icon:external-link[]:: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
+
+icon:book[]:: Link to another document or information product. Set the title in italics.
+
+Keep introductions to cross-references short.
+In most cases, the word "see" with the icon is sufficient.
+For web links, it's best to link to an overview page instead of a technical specification because deep links on websites often change.
+
+icon:check[] icon:eye[] See <<Writing-link-text-web-addresses-and-URLs>>
+
+icon:check[] icon:external-link[] See https://www.w3.org/WAI/standards-guidelines/wcag/
+
+icon:check[] icon:book[] See _iPhone User Guide for iOS 12.3_
+
+icon:check[] For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
+
+icon:times[] For more information, refer to the W3C website here https://www.w3.org/WAI/standards-guidelines/wcag/
+
+
+== Writing link text, web addresses, and URLs [[Writing-link-text-web-addresses-and-URLs]]
+
+A link is any text or icon that users can select to go somewhere.
+Links can direct users to other documents, other places within the same document, or other web pages.
+
+Link text can take 3 forms:
+
+- A description of the linked-to content, capitalized with sentence style.
+- The exact title of the linked-to content, capitalized the same way the title is capitalized.
+- A URL or web address, written in lowercase.
+
+Link text must indicate what the reader sees, or where they will be taken, after selecting it.
+When writing link text, ensure it's clear without its surrounding text.
+
+icon:check[] Read more about bats in the link:[Flying Mammals section].
+
+icon:check[] For more on gameplay mechanics, refer to the link:[Settlers of Catan rulebook].
+
+icon:times[] Read more about bats in the Flying Mammals link:[section].
+
+icon:times[] To find out more about gameplay mechanics, link:[click the link].
+
+
+TIP: Never use "click here" as link text.
+
+=== Web addresses and URLs
+
+Avoid writing web addresses as link text. If writing a web address is essential, follow these guidelines:
+
+- In content for general audiences, use "address" or "web address" rather than uniform resource locator (URL).
+For a technical audience, use "URL" and don't spell it out on its first mention.
+- For clarity in technical content, include the protocol name with the URL, for example, HTTPS or FTP.
+Some authoring tools, such as the AsciiDoc editor, automatically recognize this text as a link.
+- Use the preposition "at" followed by the address in lowercase.
+
+
+icon:check[] Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
+
+icon:times[] On link:[HTTPS://www.data4life.care/EN/Sports/Clothing/Jackets], you can find our new sports jackets.
+
+== Writing about the user interface
+
+Writing about the user interface is the core element in user assistance topics.
+
+=== Describing interactions with the user interface
+
+Users interact with our products using different input methods, for example:
+
+- Touch screen
+- Keyboard
+- Mouse
+- Voice
+
+Use generic verbs that work with any input method.
+Try to avoid input-specific verbs, such as "click", "tap", or "swipe".
+Instead, use verbs like "choose" or "select".
+
+=== Referring to user interface elements
+
+Refer to common user interface elements in the following ways:
+
+//Finalize this part
+
+- drop-down menu, not pull-down menu -- Verb: choose
+- Button: choose or tap, don't use: select, using click or tap limits your description to a subset of devices.
+- radio button vs. option -- verb: choose, the radio button offers options that are mutually exclusive. The label on the radio button is sometimes called "Options"
+- checkbox, not check box, verbs: select and clear (don't use unselect or deselect). Or rewrite to describe what you do: use a checkbox to turn an option on or off.
+- Microsoft says about adjectives with checkboxes: Use check or checked as an adjective related to check boxes. Google and SAP: selected and unselected as adjectives, very common: checked and unchecked as main statuses.
+- States of checkboxes: selected, cleared, indeterminate OR: checked, unchecked, indeterminate
+- switch (Microsoft calls it toggle button), Google and Apple call it switch. Some also call it the toggle switch, Verb:
+Apple says: If you do need to refer to the switch (in order to specify its location, for example), avoid using the verbs switch or slide with it; use tap or click instead.
+Correct: To turn airplane mode on or off, tap the switch in the upper-right corner.
+Incorrect: To turn airplane mode on or off, slide the switch in the upper-right corner.
+Google uses the verb "toggle" with switches. Better: activate or deactivate.
+
+
+
+- Google: Bottom navigation bars: Bottom navigation bars allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom nativation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused or pressed.
+- Badges - Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
+
+- Top navigation bars: Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
+
+- Snackbars
+- Banners
+- dialogs
+- floating action buttons (FABs)
+- text button, Text buttons are typically used for less-pronounced actions, including those located:
+In dialogs, In cards. In cards, text buttons help maintain an emphasis on card content.
+- Outlined button: medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action in an app.
+- Contained button, Contained buttons display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+
+Apple:
+- bottom navigation bars are called "tab bar" (but there also are "toolbars"). Apple says Use a tab bar strictly for navigation. Tab bar buttons should not be used to perform actions. If you need to provide controls that act on elements in the current view, use a toolbar instead. See Toolbars. original from the Apple website: TIP
+It’s important to understand the difference between a tab bar and a toolbar, because both types of bars appear at the bottom of an app screen. A tab bar lets the user switch quickly between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. A toolbar contains buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. See Toolbars. Tab bars and toolbars never appear together in the same view.
+
+- dialog -- verb: is displayed, also possible displays. appear, opens, shows is deprecated -- as discussed with Sorcha
+- compare to show/hide
+- Refer to unavailable commands and options on the user interface as "unavailable", not as "grayed out", "dimmed", or "inactive". NOTE: The Google Android resource Material.io calls these commands "disabled". Apple accepts disabled for developer content. Avoid "disabled" in content for end users.
+
+// Don’t use disabled when you mean unavailable (when you refer to menu items). Microsoft prefers isn't available to unavailable for UI descriptions (for whatever reason)
+- expand, collapse
+- Menus contain commands that users choose. Don't refer to a command as a menu item, a choice, an entry, or an option.
+- Date picker or time pickers: select
+- Toggle button: switch on/off, don't use to toggle, choose
+- Slider, verb to use: move, not drag, use,
+
+=== Sequence of user actions
+
+To increase readability and to make texts easier to understand, adhere to the following rules.
+
+==== Write result before action
+
+Write result before action, and effect before cause.
+
+icon:check[] To access your account, enter the PIN code.
+
+icon:check[] To reset your password, choose  *Forgot password*.
+
+icon:check[] To show your password, in the *Login* dialog, in the *Password* field, choose the icon:eye[]  Eye symbol.
+
+icon:times[] Choose  *Forgot password* to reset your password.
+
+icon:times[] You will need to download the Chrome Remote Desktop app to use your mobile device for remote access.
+
+icon:times[] To use your mobile device for remote access, download the Chrome Remote Desktop app.
+
+==== Write user interface location before action
+
+To ensure that users can easily follow procedures on the user interface, write location before action.
+
+icon:check[] Under the *Password* field, choose *Forgot password*.
+
+icon:check[] On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
+
+icon:times[] Choose *Start sharing* on the *Sharing* tab to select the information that you want to share with your doctor.
+
+== Writing about files, file types, and file formats
+
+When you write about files, follow these guidelines:
+
+- Use the formal name of the file type.
+- The file type names are in all caps, because many file type names are abbreviations.
+- Be as specific as you can be when referring to filenames.
+
+icon:check[] Share the PDF file with your doctor
+
+icon:times[] Share the .pdf file with your doctor
+
+icon:check[] Import the APK file
+
+icon:times[] Import the .apk file
+
+Avoid the filename extension to refer generically to the file type.
+
+icon:check[] Upload the TIFF file from your smartphone
+
+icon:times[] Upload the .tif file from your smartphone
+
+
+NOTE: Use "file format" only when you refer to the file structure and the method of storing data. Otherwise, use "file type."
+
+Consider spelling out the abbreviations, unless your audience is familiar with a file type.
+
+icon:check[] Create a Bash script for the task
+
+icon:times[] Create an .sh script for the task
+
+Use lowercase for filename extensions.
+
+icon:check[] Your folder now contains the setup.exe file
+
+icon:times[] Your folder now contains the setup.EXE file
+
+Include the period when specifically referring to the filename extension.
+
+icon:check[] When you rename a file, don't change its filename extension, for example, .md.
+
+
+== Writing about key names
+
+Apple: Key names: Don’t italicize a letter when you use it as the name of a key.
+
+Press Command-Q.
+
+Microsoft is different, uses the + sign also doesn't uppercase!
+
+Keyboard commands vs. keyboard shortcuts
+
+
+== Appendix
+
+==== Different terms and spellings in American English and British English
+
+[cols=3*,options=header]
+|===
+|Category
+|American English term
+|British English term
+
+|*Prepositions*
+
+|fill out [a form]
+|fill in [a form]
+
+|
+|backward
+|backwards
+
+|
+|forward
+|forwards
+
+|
+|toward
+|towards
+
+|*Conjunctions*
+|because
+|as [often used to mean "because"]
+
+|
+|while
+|whilst, while
+
+|*Punctuation marks*
+|() = parentheses
+|brackets
+
+|
+|{ } = curly brackets, braces
+
+Use "curly brackets" for consistency.
+|curly brackets
+
+|
+|[ ] = square brackets, brackets
+
+Use "square brackets" for consistency.
+|square brackets
+
+|
+|check mark
+|tick
+
+|
+|exclamation point
+|exclamation mark
+
+|
+|period
+|full stop
+
+|
+|quotation marks
+|inverted commas
+
+|*Medical field*
+|anemia
+|anaemia
+
+|
+|anesthesia
+|anaesthesia
+
+|
+|anesthetic
+|anaesthetic
+
+|
+|celiac
+|coeliac
+
+|
+|cesarean
+|caesarean
+
+|
+|diarrhea
+|diarrhoea
+
+|
+|dyslipidemia
+|dyslipidaemia
+
+|
+|dyspnea
+|dyspnoea
+
+|
+|edema
+|oedema
+
+|
+|galactosemia
+|galactosaemia
+
+|
+|glycemic index
+|glycaemic index
+
+|
+|gynecology
+|gynaecology
+
+|
+|hemoglobin
+|haemoglobin
+
+|
+|hemorrhage
+|haemorrhage
+
+|
+|hemophilia
+|haemophilia
+
+|
+|ischemic
+|ischaemic
+
+|
+|hyperlipidemia
+|hyperlipidaemia
+
+|
+|leukocyte
+|leucocyte
+|
+|leukemia
+|leukaemia
+
+|
+|esophagus
+|oesophagus
+
+|
+|estrogen
+|oestrogen
+
+|
+|orthopedic
+|orthopaedic
+
+|
+|pediatric
+|paediatric
+
+|
+|tumor
+|tumour
+
+|*Measurements*
+|kilometer
+|kilometre
+
+|
+|liter
+|litre
+
+|
+|meter
+|metre
+
+|*Other*
+|aging
+|ageing
+
+|
+|aluminum
+|aluminium
+
+|
+|artifact
+|artefact
+
+|
+|canceled
+|cancelled
+
+|
+|catalog
+|catalogue
+
+|
+|counterclockwise
+|anti-clockwise
+
+|
+|cell phone
+|mobile phone
+
+|
+|color
+|colour
+
+|
+|dependent
+|dependant
+
+|
+|disk
+|disc, disk
+
+|
+|enroll
+|enrol
+
+|
+|expiration date
+|expiry date
+
+|
+|fulfill
+|fulfil
+
+|
+|fulfillment
+|fulfilment
+
+|
+|inquire
+|enquire
+
+|
+|license (verb and noun)
+|license (verb), licence (noun)
+
+|
+|practice (verb and noun)
+|practice (noun), practise (verb)
+
+|
+|program
+|programme (not computer-related)
+
+|===
+
+==== Names of common special characters and punctuation marks
+
+[cols=2*,options=header]
+|===
+|Character symbol
+|Character name
+
+|*
+|asterisk
+
+|&
+|ampersand
+
+|#
+|number sign
+
+|§
+|section symbol
+
+|~
+|tilde
+
+|_
+|underscore
+
+|/
+|slash, forward slash
+
+|\
+|backslash
+
+|\|
+|vertical slash
+
+|>
+|greater than sign
+
+|<
+|less than sign
+
+|=
+|equal sign
+
+|-
+|hyphen
+
+|–
+|en dash
+
+|--
+|em dash
+
+|+
+|plus sign
+
+|-
+|minus sign
+
+|±
+|plus or minus sign
+
+|×
+|multiplication sign
+
+|÷
+|division sign
+
+|°
+|degree symbol
+
+|%
+|percent sign
+
+|.
+|period
+
+|!
+|exclamation point
+
+|?
+|question mark
+
+|,
+|comma
+
+|:
+|colon
+
+|;
+|semicolon
+
+|…
+|ellipsis
+
+|'
+|apostrophe
+
+|^
+|caret
+
+|( )
+|parentheses
+
+|{}
+|curly brackets
+
+|[]
+|square brackets
+
+|<>
+|angle brackets
+
+|“ ”
+|double quotation marks
+
+|‘ ’
+|single quotation marks
+
+|===
+
+{copyright-statement}
