@@ -228,7 +228,7 @@ The passive voice can also be used in error messages, warnings, or notifications
 Always focus on the user.
 Users use apps with a goal in mind. They want to get specific things done.
 
-icon:check[] The {compname} encrypted storage lets you store your health documents securely.
+icon:check-square-o[] The {compname} encrypted storage lets you store your health documents securely.
 
 icon:times[] The Photos app on the iPhone has the capability to store health documents.
 
