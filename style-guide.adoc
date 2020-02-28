@@ -59,7 +59,7 @@ icon:copyright[] Copyright sign
 
 icon:envelope[] For email address {email-docs}
 
-icon:check-square-o[] Checkmark, for positive example
+icon:check[] Checkmark, for positive example
 
 icon:times[] Do not do this, actually it's the times sign, but no better X available here
 
@@ -228,7 +228,7 @@ The passive voice can also be used in error messages, warnings, or notifications
 Always focus on the user.
 Users use apps with a goal in mind. They want to get specific things done.
 
-icon:check-square-o[] The {compname} encrypted storage lets you store your health documents securely.
+icon:check[] The {compname} encrypted storage lets you store your health documents securely.
 
 icon:times[] The Photos app on the iPhone has the capability to store health documents.
 
