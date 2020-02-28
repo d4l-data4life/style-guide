@@ -1,5 +1,6 @@
 :icons: font
-// :toc: left
+toc::[]
+:toc: left
 :toclevel: 3
 :sectnums:
 
