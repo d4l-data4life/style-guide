@@ -1,5 +1,4 @@
 
-:icon: font 
 :toc: macro
 :toc: left
 :toclevel: 3
@@ -25,8 +24,18 @@
 :copyright-year: 2019 – 2020
 :copyright-statement: (C) {copyright-year} {compname-legal}. All rights reserved.
 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+
+endif::[]
 
 ////
+
+
 Recycle icons from here:
 
 icon:comment[] This is a comment icon
@@ -66,6 +75,8 @@ icon:check[] Checkmark, for positive example
 icon:times[] Do not do this, actually it's the times sign, but no better X available here
 
 icon:trash[] Trash icon
+
+
 ////
 
 
@@ -221,7 +232,7 @@ Use the active voice whenever you can.
 The active voice asserts that the subject of the sentence is in action.
 The passive voice asserts that the action is on the subject.
 
-[NOTE] The passive voice may be used to avoid awkward sentences or to avoid giving the impression that you're blaming users.
+TIP: The passive voice may be used to avoid awkward sentences or to avoid giving the impression that you're blaming users.
 The passive voice can also be used in error messages, warnings, or notifications.
 
 
