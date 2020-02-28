@@ -59,7 +59,7 @@ icon:copyright[] Copyright sign
 
 icon:envelope[] For email address {email-docs}
 
-icon:check[] Checkmark, for positive example
+icon:check-square-o[] Checkmark, for positive example
 
 icon:times[] Do not do this, actually it's the times sign, but no better X available here
 
