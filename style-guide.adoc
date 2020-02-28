@@ -1,5 +1,5 @@
 :icons: font
-toc::[]
+:toc: macro
 :toc: left
 :toclevel: 3
 :sectnums:
