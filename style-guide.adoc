@@ -1274,7 +1274,7 @@ _To XYZ, follow these steps:_.
 - Finish your procedure by stating the expected result.
 
 
-===== *Example:* =====
+_Example_:
 
 *Installing the iOS app*
 
