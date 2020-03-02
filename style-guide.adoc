@@ -1,4 +1,4 @@
-((:heavy_check_mark:)) test
+ test
 
 :icons: font
 :icon-set: fas
@@ -51,7 +51,7 @@ icon:external-link[] External link
 
 icon:bomb[] Da bomb
 
-:books: Book
+((:books:)) Book
 
 icon:database[] Database
 
@@ -73,7 +73,7 @@ icon:copyright[] Copyright sign
 
 icon:envelope[] For email address {email-docs}
 
-((heavy_check_mark)) Checkmark, for positive example
+((:heavy_check_mark:)) Checkmark, for positive example
 
 icon:times[] Do not do this, actually it's the times sign, but no better X available here
 
@@ -244,7 +244,7 @@ The passive voice can also be used in error messages, warnings, or notifications
 Always focus on the user.
 Users use apps with a goal in mind. They want to get specific things done.
 
-icon:check[] The {compname} encrypted storage lets you store your health documents securely.
+((:heavy_check_mark:)) The {compname} encrypted storage lets you store your health documents securely.
 
 icon:times[] The Photos app on the iPhone has the capability to store health documents.
 
@@ -258,7 +258,7 @@ This style supports a friendly, human tone and helps avoid the passive voice by 
 
 TIP: Avoid over-using auxiliary verbs. Consider omitting "you can" whenever a sentence works without it.
 
-icon:check[] Use the {compname} encrypted storage to securely store your health documents.
+((:heavy_check_mark:)) Use the {compname} encrypted storage to securely store your health documents.
 
 icon:times[] You can use the {compname} encrypted storage to securely store your health documents.
 
@@ -268,7 +268,7 @@ Use the present tense.
 Always avoid the future tense.
 You can often rewrite future tense sentences without changing their meaning.
 
-icon:check[] Send a query to the {compname} backend service. The server sends an acknowledgment.
+((:heavy_check_mark:)) Send a query to the {compname} backend service. The server sends an acknowledgment.
 
 icon:times[] Send a query to the {compname} backend service. The server will send an acknowledgment.
 
@@ -304,7 +304,7 @@ Use the serial comma.
 In English language punctuation, a serial comma is placed immediately before the coordinating conjunction (usually "and" or "or") in a series of 3 or more terms.
 The serial comma is also called Oxford comma.
 
-icon:check[] This section covers identification, authentication, and authorization.
+((:heavy_check_mark:)) This section covers identification, authentication, and authorization.
 
 icon:times[] This section covers identification, authentication and authorization.
 
@@ -316,7 +316,7 @@ Capitalize only the first word of a sentence or phrase and capitalize proper nou
 Although all uppercase text is occasionally used on web pages or on user interfaces, avoid it in instructional text.
 A mix of uppercase and lowercase characters gives words familiar shapes, increases accessibility, and helps readers scan text more efficiently.
 
-icon:check[] Use sentence-style capitalization everywhere
+((:heavy_check_mark:)) Use sentence-style capitalization everywhere
 
 icon:times[] This Line Provides an Example of Title-Style Capitalization
 
@@ -359,11 +359,11 @@ Use its abbreviated form thereafter.
 
 Note: You don't need to spell out URL on its first mention.
 
-icon:check[] hospital information system (HIS)
+((:heavy_check_mark:)) hospital information system (HIS)
 
-icon:check[] subject matter expert (SME)
+((:heavy_check_mark:)) subject matter expert (SME)
 
-icon:check[] HPI-Mount Sinai (HPIMS)
+((:heavy_check_mark:)) HPI-Mount Sinai (HPIMS)
 
 icon:times[] UX (user experience)
 
@@ -387,12 +387,12 @@ Repeating the noun ensures that the reference is clear.
 
 icon:times[] Remove the users from the group. Afterwards, they cannot access the resource anymore.
 
-icon:check[] Remove the users from the group. Afterwards, the users cannot access the resource anymore.
+((:heavy_check_mark:)) Remove the users from the group. Afterwards, the users cannot access the resource anymore.
 
 === Referring to special characters
 You may sometimes need to refer to special characters by their name. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
 
-icon:check[] Use an asterisk (*) as a wildcard character in your search.
+((:heavy_check_mark:)) Use an asterisk (*) as a wildcard character in your search.
 
 icon:times[] Use '*' as a wildcard character in your search.
 
@@ -498,7 +498,7 @@ And nonrestrictive clauses are also known as nondefining clauses.
 |===
 |Relative pronoun
 |Type of relative clause
-|icon:check[] Example
+|((:heavy_check_mark:)) Example
 
 |that
 |Restrictive (no commas)
@@ -525,11 +525,11 @@ Avoid "please" in instructional text and in cross-references.
 It's OK to use "please" in situations where the user is asked to do something inconvenient.
 Also use "please" in user interface copy where the app or platform is to blame for the situation.
 
-icon:check[] Follow the steps below.
+((:heavy_check_mark:)) Follow the steps below.
 
 icon:times[] Please follow the steps below.
 
-icon:check[] Update your antivirus software immediately.
+((:heavy_check_mark:)) Update your antivirus software immediately.
 
 icon:times[] Please update your antivirus software immediately.
 
@@ -685,7 +685,7 @@ Ensure your text doesn't contain dangling modifiers.
 
 icon:times[] After scanning the document, the file is ready to share.
 
-icon:check[] After you have scanned the document, the file is ready to share.
+((:heavy_check_mark:)) After you have scanned the document, the file is ready to share.
 
 == Writing for an international audience
 
@@ -716,14 +716,14 @@ Use the full English equivalent instead.
 [cols=3*,options=header]
 |===
 |icon:times[] Latin form
-|icon:check[] Full form
+|((:heavy_check_mark:)) Full form
 |Examples
 
 |e.g.
 |for example, such as
 |icon:times[] The status can have various values, e.g., _New_, _Pending_, _Completed_.
 
-icon:check[] The status can have various values, such as _New_, _Pending_, _Completed_.
+((:heavy_check_mark:)) The status can have various values, such as _New_, _Pending_, _Completed_.
 
 |etc.
 |and so on
@@ -733,32 +733,32 @@ Note: Don't use "and so on" together with "for example". Choose 1 of the 2 alter
 
 icon:times[] For example, the document can contain text, images, links, and so on.
 
-icon:check[] The document can contain text, images, links, and so on.
+((:heavy_check_mark:)) The document can contain text, images, links, and so on.
 
 |i.e.
 |that is, which means, meaning
 |icon:times[] The preview is live, i.e. it's updated as the data is being changed.
 
-icon:check[] The preview is live, that is, it's updated as the data is being changed.
+((:heavy_check_mark:)) The preview is live, that is, it's updated as the data is being changed.
 
 
 |et al.
 |and others
 |icon:times[] This is based on the work of Adams, Baxter, et al.
 
-icon:check[] This is based on the work of Adams, Baxter, and others.
+((:heavy_check_mark:)) This is based on the work of Adams, Baxter, and others.
 
 |via
 |using, by using
 |icon:times[] Open the file via the menu option.
 
-icon:check[] Open the file using the menu option.
+((:heavy_check_mark:)) Open the file using the menu option.
 
 |vs.
 |opposed to, versus
 |icon:times[] Windows vs. Mac
 
-icon:check[] Windows versus Mac
+((:heavy_check_mark:)) Windows versus Mac
 
 |vice versa
 |bidirectionally, the other way around
@@ -766,7 +766,7 @@ icon:check[] Windows versus Mac
 Note: It's often better to paraphrase rather than force the use of these terms.
 |icon:times[] from the client to the server and vice versa
 
-icon:check[] bidirectionally between the client and the server
+((:heavy_check_mark:)) bidirectionally between the client and the server
 
 
 |===
@@ -790,9 +790,9 @@ NOTE: The rule to always use numerals instead of words does not apply to writing
 For brand content, spell out numbers from 0 through 9, except when they are used with a percent sign or a unit of measurement.
 Use numerals for 10 and greater.
 
-icon:check[] 9%
+((:heavy_check_mark:)) 9%
 
-icon:check[] 2 TB
+((:heavy_check_mark:)) 2 TB
 
 
 === Ordinal numbers
@@ -803,9 +803,9 @@ Use ordinal numbers as follows:
 - Always spell out ordinal numbers.
 - Don't use ordinal numbers for dates.
 
-icon:check[] The first column of the table
+((:heavy_check_mark:)) The first column of the table
 
-icon:check[] The twenty-first anniversary
+((:heavy_check_mark:)) The twenty-first anniversary
 
 icon:times[] The 1st rule is to use numerals.
 
@@ -818,13 +818,13 @@ In numbers of 5 or more digits, use a nonbreaking space (press option-space bar)
 Breaking up large numbers makes them easier to read, especially in tables.
 A nonbreaking space can’t be misinterpreted as a decimal marker.
 
-icon:check[] 5000
+((:heavy_check_mark:)) 5000
 
-icon:check[] 2492.7201
+((:heavy_check_mark:)) 2492.7201
 
-icon:check[] 20 000
+((:heavy_check_mark:)) 20 000
 
-icon:check[] Apple sold 3.7 million MacBook Pro computers in 2 years.
+((:heavy_check_mark:)) Apple sold 3.7 million MacBook Pro computers in 2 years.
 
 
 
@@ -839,7 +839,7 @@ Use the following format for dates:
 
 - _month day, year_
 
-icon:check[] July 31, 2019
+((:heavy_check_mark:)) July 31, 2019
 
 icon:times[] 31 July 2019
 
@@ -857,12 +857,12 @@ But for prose in American English, use the month-day-year format. And always use
 
 Omit the comma in partial dates. For example, when only giving the month and year.
 
-icon:check[] I started working at {compname} in May 2019.
+((:heavy_check_mark:)) I started working at {compname} in May 2019.
 
 When you add the day of the week, use a comma.
 When a date is in the middle of a sentence, add a comma after the year.
 
-icon:check[] Monday, May 2, 2019, was my first day of work.
+((:heavy_check_mark:)) Monday, May 2, 2019, was my first day of work.
 
 
 
@@ -872,30 +872,30 @@ Express the time of the day using the 24-hour clock.
 Only use AM and PM when you describe a time displayed differently on the user interface or when you describe a feature that uses the 12-hour clock.
 Write AM and PM in capital letters, without the period, and with a space before.
 
-icon:check[] Our weekly executive meeting starts each Tuesday at 15:00.
+((:heavy_check_mark:)) Our weekly executive meeting starts each Tuesday at 15:00.
 
 Use this formatting when you must break the 24-hour clock rule.
 
-icon:check[] Our weekly executive meeting starts each Tuesday at 3:00 PM.
+((:heavy_check_mark:)) Our weekly executive meeting starts each Tuesday at 3:00 PM.
 
 Not all time zones have names, and some time-zone names are used in more than 1 geographical area.
 If you're talking about a particular place, clarify the country or reference Coordinated Universal Time (UTC).
 Don't include spaces around the plus sign (+) or hyphen (-).
 
-icon:check[] Berlin (UTC+1)
+((:heavy_check_mark:)) Berlin (UTC+1)
 
-icon:check[] Eastern Time (UTC+10)
+((:heavy_check_mark:)) Eastern Time (UTC+10)
 
-icon:check[] UTC+02:00
+((:heavy_check_mark:)) UTC+02:00
 
 
 ==== Ranges of time
 
 In text, use _to_ in a range of times.
 
-icon:check[] Our core working hours are from 10:00 to 16:30.
+((:heavy_check_mark:)) Our core working hours are from 10:00 to 16:30.
 
-icon:check[] Our core working hours are from 10:00 AM to 4:30 PM. (exception)
+((:heavy_check_mark:)) Our core working hours are from 10:00 AM to 4:30 PM. (exception)
 
 === Days of the week and names of months
 
@@ -1013,11 +1013,11 @@ These exceptions apply:
 
 - Degree sign (°) when it refers to an angle or temperature
 
-icon:check[] 106 mmol/dL
+((:heavy_check_mark:)) 106 mmol/dL
 
-icon:check[] 95%
+((:heavy_check_mark:)) 95%
 
-icon:check[] 90°
+((:heavy_check_mark:)) 90°
 
 === Writing currencies
 
@@ -1031,11 +1031,11 @@ icon:external-link[] link:http:www.iso.org[International Organization for Standa
 
 Write the currency code in capitals followed by a space and the amount.
 
-icon:check[] The computer is priced at USD 1234.
+((:heavy_check_mark:)) The computer is priced at USD 1234.
 
-icon:check[] The computer costs EUR 1234.
+((:heavy_check_mark:)) The computer costs EUR 1234.
 
-icon:check[] The new car has a price of USD 29 999.
+((:heavy_check_mark:)) The new car has a price of USD 29 999.
 
 The table shows more examples of currency codes.
 
@@ -1101,9 +1101,9 @@ Make entries in lists parallel.
 Parallelism means that entries with similar content have the same grammatical structure.
 For example, each item should be a noun or a phrase that starts with a verb.
 
-icon:check[] sing, dance, and shout
+((:heavy_check_mark:)) sing, dance, and shout
 
-icon:check[] singing, dancing, and shouting
+((:heavy_check_mark:)) singing, dancing, and shouting
 
 icon:times[] I like running, traveling, and to read.
 
@@ -1145,7 +1145,7 @@ For colons in a sentence, use these rules:
 
 Use exclamation points sparingly. Save them for when emphasis is most necessary.
 
-icon:check[] Don't call exclamation points exclamation marks.
+((:heavy_check_mark:)) Don't call exclamation points exclamation marks.
 
 icon:times[] Don't call exclamation points exclamation marks!
 
@@ -1154,7 +1154,7 @@ icon:times[] Don't call exclamation points exclamation marks!
 Avoid ellipses. When referring to an ellipsis on text or buttons on the user interface,
 remove the ellipsis in your instructions.
 
-icon:check[] At the top of the page, select *File* > *Open*.
+((:heavy_check_mark:)) At the top of the page, select *File* > *Open*.
 
 icon:times[] At the top of the page, select *File* > *Open...*.
 
@@ -1186,9 +1186,9 @@ Don't use ampersands unless they are part of a company or brand name.
 Don't use the "&" character in place of "and" in text or headings unless referring to the symbol as it exists on the user interface.
 You may use "&" when referencing its use in HTML or programming languages.
 
-icon:check[] Ben & Jerry's
+((:heavy_check_mark:)) Ben & Jerry's
 
-icon:check[] Smith & Wesson
+((:heavy_check_mark:)) Smith & Wesson
 
 icon:times[] Managing identification, authentication & authorization
 
@@ -1196,15 +1196,15 @@ icon:times[] Managing identification, authentication & authorization
 
 Place a comma after introductory words or phrases.
 
-icon:check[] In 2024, {compname} reported a net profit of 5 million Euro.
+((:heavy_check_mark:)) In 2024, {compname} reported a net profit of 5 million Euro.
 
-icon:check[] As stated in our guidelines, users must create a 15-digit password.
+((:heavy_check_mark:)) As stated in our guidelines, users must create a 15-digit password.
 
-icon:check[] To summarize, commas are a great way to increase readability.
+((:heavy_check_mark:)) To summarize, commas are a great way to increase readability.
 
 Use a comma after or around the words "for example."
 
-icon:check[] The {compname} platforms use the latest encryption technology, for example, for storing patient data on the Personal Health Data Platform.
+((:heavy_check_mark:)) The {compname} platforms use the latest encryption technology, for example, for storing patient data on the Personal Health Data Platform.
 
 TIP: Don't use "for example" and "and so on" together, it's redundant. +
 icon:times[] We support the most popular browsers, for example, Chrome, Firefox, Safari, Edge, and so on.
@@ -1225,11 +1225,11 @@ Avoid the em dash.
 
 To set off a word or phrase that interrupts or adds more information to a sentence, use spaced en dashes instead.
 
-icon:check[] Bits 3–17
+((:heavy_check_mark:)) Bits 3–17
 
-icon:check[] The scheduled downtime for our servers is 1:00–3:00. But preferably "1:00 to 3:00."
+((:heavy_check_mark:)) The scheduled downtime for our servers is 1:00–3:00. But preferably "1:00 to 3:00."
 
-icon:check[] When to use – and not use – dashes
+((:heavy_check_mark:)) When to use – and not use – dashes
 
 icon:times[] When to use—and not use—dashes
 
@@ -1250,7 +1250,7 @@ Avoid semicolons or try replacing them with a period or a comma.
 
 Use the multiplication sign (×), not the letter x, to indicate the mathematical operation or when referring to screen resolution or dimensions.
 
-icon:check[] Your profile picture must at least be  80 × 80 pixels and in PNG format.
+((:heavy_check_mark:)) Your profile picture must at least be  80 × 80 pixels and in PNG format.
 
 
 == Writing task topics and procedures
@@ -1304,7 +1304,7 @@ Once the app is installed, you can open it to set up your account.
 
 For an optional step, use "Optional" as the first word of the step, followed by a colon.
 
-icon:check[] Optional: Select more documents to share with your doctor.
+((:heavy_check_mark:)) Optional: Select more documents to share with your doctor.
 
 icon:times[] Option: Select more documents to share with your doctor.
 
@@ -1326,17 +1326,17 @@ See :books: _The Chicago Manual of Style_
 
 icon:times[] Each user can store his or her encrypted health data on the data4life platform.
 
-icon:check[] Users can store their encrypted health data on the data4life platform.
+((:heavy_check_mark:)) Users can store their encrypted health data on the data4life platform.
 
 icon:times[] Each student is expected to choose the topic of his or her research paper before taking the midterm.
 
-icon:check[] Students are expected to choose the topic of their research paper before they take the midterm.
+((:heavy_check_mark:)) Students are expected to choose the topic of their research paper before they take the midterm.
 
-icon:check[] Each student is expected to choose a research paper topic before taking the midterm.
+((:heavy_check_mark:)) Each student is expected to choose a research paper topic before taking the midterm.
 
 It's a good idea to use a disclaimer like this:
 
-icon:check[] We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
+((:heavy_check_mark:)) We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
 
 
 
@@ -1357,13 +1357,13 @@ Keep introductions to cross-references short.
 In most cases, the word "see" with the icon is sufficient.
 For web links, it's best to link to an overview page instead of a technical specification because deep links on websites often change.
 
-icon:check[] icon:eye[] See <<Writing-link-text-web-addresses-and-URLs>>
+((:heavy_check_mark:)) icon:eye[] See <<Writing-link-text-web-addresses-and-URLs>>
 
-icon:check[] icon:external-link[] See https://www.w3.org/WAI/standards-guidelines/wcag/
+((:heavy_check_mark:)) icon:external-link[] See https://www.w3.org/WAI/standards-guidelines/wcag/
 
-icon:check[] :books: See _iPhone User Guide for iOS 12.3_
+((:heavy_check_mark:)) :books: See _iPhone User Guide for iOS 12.3_
 
-icon:check[] For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
+((:heavy_check_mark:)) For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
 
 icon:times[] For more information, refer to the W3C website here https://www.w3.org/WAI/standards-guidelines/wcag/
 
@@ -1382,9 +1382,9 @@ Link text can take 3 forms:
 Link text must indicate what the reader sees, or where they will be taken, after selecting it.
 When writing link text, ensure it's clear without its surrounding text.
 
-icon:check[] Read more about bats in the link:[Flying Mammals section].
+((:heavy_check_mark:)) Read more about bats in the link:[Flying Mammals section].
 
-icon:check[] For more on gameplay mechanics, refer to the link:[Settlers of Catan rulebook].
+((:heavy_check_mark:)) For more on gameplay mechanics, refer to the link:[Settlers of Catan rulebook].
 
 icon:times[] Read more about bats in the Flying Mammals link:[section].
 
@@ -1404,7 +1404,7 @@ Some authoring tools, such as the AsciiDoc editor, automatically recognize this 
 - Use the preposition "at" followed by the address in lowercase.
 
 
-icon:check[] Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
+((:heavy_check_mark:)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
 
 icon:times[] On link:[HTTPS://www.data4life.care/EN/Sports/Clothing/Jackets], you can find our new sports jackets.
 
@@ -1482,11 +1482,11 @@ To increase readability and to make texts easier to understand, adhere to the fo
 
 Write result before action, and effect before cause.
 
-icon:check[] To access your account, enter the PIN code.
+((:heavy_check_mark:)) To access your account, enter the PIN code.
 
-icon:check[] To reset your password, choose  *Forgot password*.
+((:heavy_check_mark:)) To reset your password, choose  *Forgot password*.
 
-icon:check[] To show your password, in the *Login* dialog, in the *Password* field, choose the icon:eye[]  Eye symbol.
+((:heavy_check_mark:)) To show your password, in the *Login* dialog, in the *Password* field, choose the icon:eye[]  Eye symbol.
 
 icon:times[] Choose  *Forgot password* to reset your password.
 
@@ -1498,9 +1498,9 @@ icon:times[] To use your mobile device for remote access, download the Chrome Re
 
 To ensure that users can easily follow procedures on the user interface, write location before action.
 
-icon:check[] Under the *Password* field, choose *Forgot password*.
+((:heavy_check_mark:)) Under the *Password* field, choose *Forgot password*.
 
-icon:check[] On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
+((:heavy_check_mark:)) On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
 
 icon:times[] Choose *Start sharing* on the *Sharing* tab to select the information that you want to share with your doctor.
 
@@ -1512,17 +1512,17 @@ When you write about files, follow these guidelines:
 - The file type names are in all caps, because many file type names are abbreviations.
 - Be as specific as you can be when referring to filenames.
 
-icon:check[] Share the PDF file with your doctor
+((:heavy_check_mark:)) Share the PDF file with your doctor
 
 icon:times[] Share the .pdf file with your doctor
 
-icon:check[] Import the APK file
+((:heavy_check_mark:)) Import the APK file
 
 icon:times[] Import the .apk file
 
 Avoid the filename extension to refer generically to the file type.
 
-icon:check[] Upload the TIFF file from your smartphone
+((:heavy_check_mark:)) Upload the TIFF file from your smartphone
 
 icon:times[] Upload the .tif file from your smartphone
 
@@ -1531,19 +1531,19 @@ NOTE: Use "file format" only when you refer to the file structure and the method
 
 Consider spelling out the abbreviations, unless your audience is familiar with a file type.
 
-icon:check[] Create a Bash script for the task
+((:heavy_check_mark:)) Create a Bash script for the task
 
 icon:times[] Create an .sh script for the task
 
 Use lowercase for filename extensions.
 
-icon:check[] Your folder now contains the setup.exe file
+((:heavy_check_mark:)) Your folder now contains the setup.exe file
 
 icon:times[] Your folder now contains the setup.EXE file
 
 Include the period when specifically referring to the filename extension.
 
-icon:check[] When you rename a file, don't change its filename extension, for example, .md.
+((:heavy_check_mark:)) When you rename a file, don't change its filename extension, for example, .md.
 
 
 == Writing about key names
