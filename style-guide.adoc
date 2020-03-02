@@ -29,7 +29,6 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-
 endif::[]
 
 ////
@@ -53,9 +52,9 @@ Recycle icons from here:
 
 ((&#128421;)) Desktop computers
 
-((&#128241;)) Mobile devices
+((&#128241;)) Mobile device
 
-((:&#9729;)) The Cloud
+((:&#9729;)) Cloud
 
 ((&#9998;)) Pen (Edit)
 
@@ -67,13 +66,13 @@ Recycle icons from here:
 
 ((&#169;)) Copyright sign
 
-((:envelope:) For email address {email-docs}
+((&#9993;)) Email, for email address {email-docs}
 
-((:heavy_check_mark:)) Checkmark, for positive example
+((&#10004;)) Check mark, for a positive example
 
-((:heavy_multiplication_x:)) Actually it's the times sign, but there's no better X available here
+((&#10006;)) Cross, for a negative example (Actually it's the times sign, but there's no better X available here)
 
-((:wastebasket:)) Trash
+((&#128465;)) Trash
 
 
 ////
@@ -146,7 +145,7 @@ Abbreviations used in this style guide.
 
 We made every effort to ensure that this document fulfills the intended use.
 Your feedback on any aspect of this publication is welcome and is considered during updates.
-Should you have any such feedback, talk to your technical writer or send an email to ((:envelope:)) {email-docs}.
+Should you have any such feedback, talk to your technical writer or send an email to ((&#9993;)) {email-docs}.
 
 ////
 - List of abbreviations used in the style guide (if needed)
@@ -201,11 +200,11 @@ Use the {compname} company name in the following ways:
 Avoid beginning sentences with our company name.
 Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
 
-((:heavy_check_mark:)) data4life's Analytics Platform
+((&#10004;)) data4life's Analytics Platform
 
-((:heavy_multiplication_x:)) Apple's developer tools
+((&#10006;)) Apple's developer tools
 
-((:heavy_multiplication_x:)) data4life's committed to a privacy-by-design approach.
+((&#10006;)) data4life's committed to a privacy-by-design approach.
 
 
 
@@ -240,11 +239,11 @@ The passive voice can also be used in error messages, warnings, or notifications
 Always focus on the user.
 Users use apps with a goal in mind. They want to get specific things done.
 
-((:heavy_check_mark:)) The {compname} encrypted storage lets you store your health documents securely.
+((&#10004;)) The {compname} encrypted storage lets you store your health documents securely.
 
-((:heavy_multiplication_x:)) The Photos app on the iPhone has the capability to store health documents.
+((&#10006;)) The Photos app on the iPhone has the capability to store health documents.
 
-((:heavy_multiplication_x:)) The {compname} app gives you the possibility to share health documents with your doctor.
+((&#10006;)) The {compname} app gives you the possibility to share health documents with your doctor.
 
 === Directly address your users
 
@@ -254,9 +253,9 @@ This style supports a friendly, human tone and helps avoid the passive voice by 
 
 TIP: Avoid over-using auxiliary verbs. Consider omitting "you can" whenever a sentence works without it.
 
-((:heavy_check_mark:)) Use the {compname} encrypted storage to securely store your health documents.
+((&#10004;)) Use the {compname} encrypted storage to securely store your health documents.
 
-((:heavy_multiplication_x:)) You can use the {compname} encrypted storage to securely store your health documents.
+((&#10006;)) You can use the {compname} encrypted storage to securely store your health documents.
 
 === Use the present tense
 
@@ -264,9 +263,9 @@ Use the present tense.
 Always avoid the future tense.
 You can often rewrite future tense sentences without changing their meaning.
 
-((:heavy_check_mark:)) Send a query to the {compname} backend service. The server sends an acknowledgment.
+((&#10004;)) Send a query to the {compname} backend service. The server sends an acknowledgment.
 
-((:heavy_multiplication_x:)) Send a query to the {compname} backend service. The server will send an acknowledgment.
+((&#10006;)) Send a query to the {compname} backend service. The server will send an acknowledgment.
 
 
 === Use short words and sentences for better readability
@@ -300,9 +299,9 @@ Use the serial comma.
 In English language punctuation, a serial comma is placed immediately before the coordinating conjunction (usually "and" or "or") in a series of 3 or more terms.
 The serial comma is also called Oxford comma.
 
-((:heavy_check_mark:)) This section covers identification, authentication, and authorization.
+((&#10004;)) This section covers identification, authentication, and authorization.
 
-((:heavy_multiplication_x:)) This section covers identification, authentication and authorization.
+((&#10006;)) This section covers identification, authentication and authorization.
 
 
 === Capitalization of headings
@@ -312,9 +311,9 @@ Capitalize only the first word of a sentence or phrase and capitalize proper nou
 Although all uppercase text is occasionally used on web pages or on user interfaces, avoid it in instructional text.
 A mix of uppercase and lowercase characters gives words familiar shapes, increases accessibility, and helps readers scan text more efficiently.
 
-((:heavy_check_mark:)) Use sentence-style capitalization everywhere
+((&#10004;)) Use sentence-style capitalization everywhere
 
-((:heavy_multiplication_x:)) This Line Provides an Example of Title-Style Capitalization
+((&#10006;)) This Line Provides an Example of Title-Style Capitalization
 
 === Formatting choices
 
@@ -355,42 +354,42 @@ Use its abbreviated form thereafter.
 
 Note: You don't need to spell out URL on its first mention.
 
-((:heavy_check_mark:)) hospital information system (HIS)
+((&#10004;)) hospital information system (HIS)
 
-((:heavy_check_mark:)) subject matter expert (SME)
+((&#10004;)) subject matter expert (SME)
 
-((:heavy_check_mark:)) HPI-Mount Sinai (HPIMS)
+((&#10004;)) HPI-Mount Sinai (HPIMS)
 
-((:heavy_multiplication_x:)) UX (user experience)
+((&#10006;)) UX (user experience)
 
 IMPORTANT: Don't introduce abbreviations in headings.
 
 Don't use numeronyms. They are jargon and unnecessary abbreviations.
 
-((:heavy_multiplication_x:)) a11y (for accessibility)
+((&#10006;)) a11y (for accessibility)
 
-((:heavy_multiplication_x:)) i18n (for internationalization)
+((&#10006;)) i18n (for internationalization)
 
 Never use an apostrophe to form a plural abbreviation.
 
-((:heavy_multiplication_x:)) PC's
+((&#10006;)) PC's
 
-((:heavy_multiplication_x:)) RFC's
+((&#10006;)) RFC's
 
 === Use nouns, not pronouns
 Repeat a noun instead of using a backward-referring pronoun like "it," "they," "this," or "these".
 Repeating the noun ensures that the reference is clear.
 
-((:heavy_multiplication_x:)) Remove the users from the group. Afterwards, they cannot access the resource anymore.
+((&#10006;)) Remove the users from the group. Afterwards, they cannot access the resource anymore.
 
-((:heavy_check_mark:)) Remove the users from the group. Afterwards, the users cannot access the resource anymore.
+((&#10004;)) Remove the users from the group. Afterwards, the users cannot access the resource anymore.
 
 === Referring to special characters
 You may sometimes need to refer to special characters by their name. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
 
-((:heavy_check_mark:)) Use an asterisk (*) as a wildcard character in your search.
+((&#10004;)) Use an asterisk (*) as a wildcard character in your search.
 
-((:heavy_multiplication_x:)) Use '*' as a wildcard character in your search.
+((&#10006;)) Use '*' as a wildcard character in your search.
 
 ((&#128065;)) See <<Names of common special characters and punctuation marks>> in the appendix.
 
@@ -494,7 +493,7 @@ And nonrestrictive clauses are also known as nondefining clauses.
 |===
 |Relative pronoun
 |Type of relative clause
-|((:heavy_check_mark:)) Example
+|((&#10004;)) Example
 
 |that
 |Restrictive (no commas)
@@ -521,13 +520,13 @@ Avoid "please" in instructional text and in cross-references.
 It's OK to use "please" in situations where the user is asked to do something inconvenient.
 Also use "please" in user interface copy where the app or platform is to blame for the situation.
 
-((:heavy_check_mark:)) Follow the steps below.
+((&#10004;)) Follow the steps below.
 
-((:heavy_multiplication_x:)) Please follow the steps below.
+((&#10006;)) Please follow the steps below.
 
-((:heavy_check_mark:)) Update your antivirus software immediately.
+((&#10004;)) Update your antivirus software immediately.
 
-((:heavy_multiplication_x:)) Please update your antivirus software immediately.
+((&#10006;)) Please update your antivirus software immediately.
 
 
 === Using prepositions consistently
@@ -679,9 +678,9 @@ A dangling modifier is a phrase that, from a grammatical perspective, refers to 
 
 Ensure your text doesn't contain dangling modifiers.
 
-((:heavy_multiplication_x:)) After scanning the document, the file is ready to share.
+((&#10006;)) After scanning the document, the file is ready to share.
 
-((:heavy_check_mark:)) After you have scanned the document, the file is ready to share.
+((&#10004;)) After you have scanned the document, the file is ready to share.
 
 == Writing for an international audience
 
@@ -696,13 +695,13 @@ These are the basic rules for international style:
 - Don’t use jargon, idioms, or colloquial expressions.
 - Avoid shortcuts, symbols, and abbreviations that could easily be spelled out.
 
-((:heavy_multiplication_x:)) The UUID is then displayed in the UI next to the PIN number.
+((&#10006;)) The UUID is then displayed in the UI next to the PIN number.
 
-((:heavy_multiplication_x:)) You can also use the CLI.
+((&#10006;)) You can also use the CLI.
 
-((:heavy_multiplication_x:)) At the end of the day, our think-outside-the-box meeting brought everyone on the same page to create a great win-win situation for all key stakeholders to identify the low-hanging fruit.
+((&#10006;)) At the end of the day, our think-outside-the-box meeting brought everyone on the same page to create a great win-win situation for all key stakeholders to identify the low-hanging fruit.
 
-((:heavy_multiplication_x:)) Our technology stack is built around virtualization and containerization, with a high-availability baseline achieved using redundant nodes and providing a configuration both resilient and flexible to scale with the help of automation.
+((&#10006;)) Our technology stack is built around virtualization and containerization, with a high-availability baseline achieved using redundant nodes and providing a configuration both resilient and flexible to scale with the help of automation.
 
 ==== Avoid non-English words
 
@@ -711,58 +710,58 @@ Use the full English equivalent instead.
 
 [cols=3*,options=header]
 |===
-|((:heavy_multiplication_x:)) Latin form
-|((:heavy_check_mark:)) Full form
+|((&#10006;)) Latin form
+|((&#10004;)) Full form
 |Examples
 
 |e.g.
 |for example, such as
-|((:heavy_multiplication_x:)) The status can have various values, e.g., _New_, _Pending_, _Completed_.
+|((&#10006;)) The status can have various values, e.g., _New_, _Pending_, _Completed_.
 
-((:heavy_check_mark:)) The status can have various values, such as _New_, _Pending_, _Completed_.
+((&#10004;)) The status can have various values, such as _New_, _Pending_, _Completed_.
 
 |etc.
 |and so on
 
 Note: Don't use "and so on" together with "for example". Choose 1 of the 2 alternatives.
-|((:heavy_multiplication_x:)) The document can contain text, images, links, etc.
+|((&#10006;)) The document can contain text, images, links, etc.
 
-((:heavy_multiplication_x:)) For example, the document can contain text, images, links, and so on.
+((&#10006;)) For example, the document can contain text, images, links, and so on.
 
-((:heavy_check_mark:)) The document can contain text, images, links, and so on.
+((&#10004;)) The document can contain text, images, links, and so on.
 
 |i.e.
 |that is, which means, meaning
-|((:heavy_multiplication_x:)) The preview is live, i.e. it's updated as the data is being changed.
+|((&#10006;)) The preview is live, i.e. it's updated as the data is being changed.
 
-((:heavy_check_mark:)) The preview is live, that is, it's updated as the data is being changed.
+((&#10004;)) The preview is live, that is, it's updated as the data is being changed.
 
 
 |et al.
 |and others
-|((:heavy_multiplication_x:)) This is based on the work of Adams, Baxter, et al.
+|((&#10006;)) This is based on the work of Adams, Baxter, et al.
 
-((:heavy_check_mark:)) This is based on the work of Adams, Baxter, and others.
+((&#10004;)) This is based on the work of Adams, Baxter, and others.
 
 |via
 |using, by using
-|((:heavy_multiplication_x:)) Open the file via the menu option.
+|((&#10006;)) Open the file via the menu option.
 
-((:heavy_check_mark:)) Open the file using the menu option.
+((&#10004;)) Open the file using the menu option.
 
 |vs.
 |opposed to, versus
-|((:heavy_multiplication_x:)) Windows vs. Mac
+|((&#10006;)) Windows vs. Mac
 
-((:heavy_check_mark:)) Windows versus Mac
+((&#10004;)) Windows versus Mac
 
 |vice versa
 |bidirectionally, the other way around
 
 Note: It's often better to paraphrase rather than force the use of these terms.
-|((:heavy_multiplication_x:)) from the client to the server and vice versa
+|((&#10006;)) from the client to the server and vice versa
 
-((:heavy_check_mark:)) bidirectionally between the client and the server
+((&#10004;)) bidirectionally between the client and the server
 
 
 |===
@@ -786,9 +785,9 @@ NOTE: The rule to always use numerals instead of words does not apply to writing
 For brand content, spell out numbers from 0 through 9, except when they are used with a percent sign or a unit of measurement.
 Use numerals for 10 and greater.
 
-((:heavy_check_mark:)) 9%
+((&#10004;)) 9%
 
-((:heavy_check_mark:)) 2 TB
+((&#10004;)) 2 TB
 
 
 === Ordinal numbers
@@ -799,13 +798,13 @@ Use ordinal numbers as follows:
 - Always spell out ordinal numbers.
 - Don't use ordinal numbers for dates.
 
-((:heavy_check_mark:)) The first column of the table
+((&#10004;)) The first column of the table
 
-((:heavy_check_mark:)) The twenty-first anniversary
+((&#10004;)) The twenty-first anniversary
 
-((:heavy_multiplication_x:)) The 1st rule is to use numerals.
+((&#10006;)) The 1st rule is to use numerals.
 
-((:heavy_multiplication_x:)) June fifth 2020
+((&#10006;)) June fifth 2020
 
 === Commas in numbers
 
@@ -814,13 +813,13 @@ In numbers of 5 or more digits, use a nonbreaking space (press option-space bar)
 Breaking up large numbers makes them easier to read, especially in tables.
 A nonbreaking space can’t be misinterpreted as a decimal marker.
 
-((:heavy_check_mark:)) 5000
+((&#10004;)) 5000
 
-((:heavy_check_mark:)) 2492.7201
+((&#10004;)) 2492.7201
 
-((:heavy_check_mark:)) 20 000
+((&#10004;)) 20 000
 
-((:heavy_check_mark:)) Apple sold 3.7 million MacBook Pro computers in 2 years.
+((&#10004;)) Apple sold 3.7 million MacBook Pro computers in 2 years.
 
 
 
@@ -835,11 +834,11 @@ Use the following format for dates:
 
 - _month day, year_
 
-((:heavy_check_mark:)) July 31, 2019
+((&#10004;)) July 31, 2019
 
-((:heavy_multiplication_x:)) 31 July 2019
+((&#10006;)) 31 July 2019
 
-((:heavy_multiplication_x:)) 31/7/2019
+((&#10006;)) 31/7/2019
 
 NOTE: The positions of the month and day vary by country.
 For example, 6/12/2017 might be June 12, 2017 or December 6, 2017.
@@ -853,12 +852,12 @@ But for prose in American English, use the month-day-year format. And always use
 
 Omit the comma in partial dates. For example, when only giving the month and year.
 
-((:heavy_check_mark:)) I started working at {compname} in May 2019.
+((&#10004;)) I started working at {compname} in May 2019.
 
 When you add the day of the week, use a comma.
 When a date is in the middle of a sentence, add a comma after the year.
 
-((:heavy_check_mark:)) Monday, May 2, 2019, was my first day of work.
+((&#10004;)) Monday, May 2, 2019, was my first day of work.
 
 
 
@@ -868,30 +867,30 @@ Express the time of the day using the 24-hour clock.
 Only use AM and PM when you describe a time displayed differently on the user interface or when you describe a feature that uses the 12-hour clock.
 Write AM and PM in capital letters, without the period, and with a space before.
 
-((:heavy_check_mark:)) Our weekly executive meeting starts each Tuesday at 15:00.
+((&#10004;)) Our weekly executive meeting starts each Tuesday at 15:00.
 
 Use this formatting when you must break the 24-hour clock rule.
 
-((:heavy_check_mark:)) Our weekly executive meeting starts each Tuesday at 3:00 PM.
+((&#10004;)) Our weekly executive meeting starts each Tuesday at 3:00 PM.
 
 Not all time zones have names, and some time-zone names are used in more than 1 geographical area.
 If you're talking about a particular place, clarify the country or reference Coordinated Universal Time (UTC).
 Don't include spaces around the plus sign (+) or hyphen (-).
 
-((:heavy_check_mark:)) Berlin (UTC+1)
+((&#10004;)) Berlin (UTC+1)
 
-((:heavy_check_mark:)) Eastern Time (UTC+10)
+((&#10004;)) Eastern Time (UTC+10)
 
-((:heavy_check_mark:)) UTC+02:00
+((&#10004;)) UTC+02:00
 
 
 ==== Ranges of time
 
 In text, use _to_ in a range of times.
 
-((:heavy_check_mark:)) Our core working hours are from 10:00 to 16:30.
+((&#10004;)) Our core working hours are from 10:00 to 16:30.
 
-((:heavy_check_mark:)) Our core working hours are from 10:00 AM to 4:30 PM. (exception)
+((&#10004;)) Our core working hours are from 10:00 AM to 4:30 PM. (exception)
 
 === Days of the week and names of months
 
@@ -1009,11 +1008,11 @@ These exceptions apply:
 
 - Degree sign (°) when it refers to an angle or temperature
 
-((:heavy_check_mark:)) 106 mmol/dL
+((&#10004;)) 106 mmol/dL
 
-((:heavy_check_mark:)) 95%
+((&#10004;)) 95%
 
-((:heavy_check_mark:)) 90°
+((&#10004;)) 90°
 
 === Writing currencies
 
@@ -1027,11 +1026,11 @@ International currency codes follow the ISO 4217 standard.
 
 Write the currency code in capitals followed by a space and the amount.
 
-((:heavy_check_mark:)) The computer is priced at USD 1234.
+((&#10004;)) The computer is priced at USD 1234.
 
-((:heavy_check_mark:)) The computer costs EUR 1234.
+((&#10004;)) The computer costs EUR 1234.
 
-((:heavy_check_mark:)) The new car has a price of USD 29 999.
+((&#10004;)) The new car has a price of USD 29 999.
 
 The table shows more examples of currency codes.
 
@@ -1097,11 +1096,11 @@ Make entries in lists parallel.
 Parallelism means that entries with similar content have the same grammatical structure.
 For example, each item should be a noun or a phrase that starts with a verb.
 
-((:heavy_check_mark:)) sing, dance, and shout
+((&#10004;)) sing, dance, and shout
 
-((:heavy_check_mark:)) singing, dancing, and shouting
+((&#10004;)) singing, dancing, and shouting
 
-((:heavy_multiplication_x:)) I like running, traveling, and to read.
+((&#10006;)) I like running, traveling, and to read.
 
 === Unordered lists
 
@@ -1141,18 +1140,18 @@ For colons in a sentence, use these rules:
 
 Use exclamation points sparingly. Save them for when emphasis is most necessary.
 
-((:heavy_check_mark:)) Don't call exclamation points exclamation marks.
+((&#10004;)) Don't call exclamation points exclamation marks.
 
-((:heavy_multiplication_x:)) Don't call exclamation points exclamation marks!
+((&#10006;)) Don't call exclamation points exclamation marks!
 
 === Ellipses
 
 Avoid ellipses. When referring to an ellipsis on text or buttons on the user interface,
 remove the ellipsis in your instructions.
 
-((:heavy_check_mark:)) At the top of the page, select *File* > *Open*.
+((&#10004;)) At the top of the page, select *File* > *Open*.
 
-((:heavy_multiplication_x:)) At the top of the page, select *File* > *Open...*.
+((&#10006;)) At the top of the page, select *File* > *Open...*.
 
 === End punctuation
 
@@ -1182,28 +1181,28 @@ Don't use ampersands unless they are part of a company or brand name.
 Don't use the "&" character in place of "and" in text or headings unless referring to the symbol as it exists on the user interface.
 You may use "&" when referencing its use in HTML or programming languages.
 
-((:heavy_check_mark:)) Ben & Jerry's
+((&#10004;)) Ben & Jerry's
 
-((:heavy_check_mark:)) Smith & Wesson
+((&#10004;)) Smith & Wesson
 
-((:heavy_multiplication_x:)) Managing identification, authentication & authorization
+((&#10006;)) Managing identification, authentication & authorization
 
 === Commas
 
 Place a comma after introductory words or phrases.
 
-((:heavy_check_mark:)) In 2024, {compname} reported a net profit of 5 million Euro.
+((&#10004;)) In 2024, {compname} reported a net profit of 5 million Euro.
 
-((:heavy_check_mark:)) As stated in our guidelines, users must create a 15-digit password.
+((&#10004;)) As stated in our guidelines, users must create a 15-digit password.
 
-((:heavy_check_mark:)) To summarize, commas are a great way to increase readability.
+((&#10004;)) To summarize, commas are a great way to increase readability.
 
 Use a comma after or around the words "for example."
 
-((:heavy_check_mark:)) The {compname} platforms use the latest encryption technology, for example, for storing patient data on the Personal Health Data Platform.
+((&#10004;)) The {compname} platforms use the latest encryption technology, for example, for storing patient data on the Personal Health Data Platform.
 
 TIP: Don't use "for example" and "and so on" together, it's redundant. +
-((:heavy_multiplication_x:)) We support the most popular browsers, for example, Chrome, Firefox, Safari, Edge, and so on.
+((&#10006;)) We support the most popular browsers, for example, Chrome, Firefox, Safari, Edge, and so on.
 
 Put a comma before the word "which" at the start of a nonrestrictive clause.
 
@@ -1221,15 +1220,15 @@ Avoid the em dash.
 
 To set off a word or phrase that interrupts or adds more information to a sentence, use spaced en dashes instead.
 
-((:heavy_check_mark:)) Bits 3–17
+((&#10004;)) Bits 3–17
 
-((:heavy_check_mark:)) The scheduled downtime for our servers is 1:00–3:00. But preferably "1:00 to 3:00."
+((&#10004;)) The scheduled downtime for our servers is 1:00–3:00. But preferably "1:00 to 3:00."
 
-((:heavy_check_mark:)) When to use – and not use – dashes
+((&#10004;)) When to use – and not use – dashes
 
-((:heavy_multiplication_x:)) When to use—and not use—dashes
+((&#10006;)) When to use—and not use—dashes
 
-((:heavy_multiplication_x:)) Desktop interface–specific instructions
+((&#10006;)) Desktop interface–specific instructions
 
 
 //Link to rule to use "to" for ranges
@@ -1246,7 +1245,7 @@ Avoid semicolons or try replacing them with a period or a comma.
 
 Use the multiplication sign (×), not the letter x, to indicate the mathematical operation or when referring to screen resolution or dimensions.
 
-((:heavy_check_mark:)) Your profile picture must at least be  80 × 80 pixels and in PNG format.
+((&#10004;)) Your profile picture must at least be  80 × 80 pixels and in PNG format.
 
 
 == Writing task topics and procedures
@@ -1300,11 +1299,11 @@ Once the app is installed, you can open it to set up your account.
 
 For an optional step, use "Optional" as the first word of the step, followed by a colon.
 
-((:heavy_check_mark:)) Optional: Select more documents to share with your doctor.
+((&#10004;)) Optional: Select more documents to share with your doctor.
 
-((:heavy_multiplication_x:)) Option: Select more documents to share with your doctor.
+((&#10006;)) Option: Select more documents to share with your doctor.
 
-((:heavy_multiplication_x:)) Optionally, you can select more documents to share with your doctor.
+((&#10006;)) Optionally, you can select more documents to share with your doctor.
 
 
 
@@ -1320,19 +1319,19 @@ The Chicago Manual of Style, 17th edition, has a section about "Techniques for a
 
 See :books: _The Chicago Manual of Style_
 
-((:heavy_multiplication_x:)) Each user can store his or her encrypted health data on the data4life platform.
+((&#10006;)) Each user can store his or her encrypted health data on the data4life platform.
 
-((:heavy_check_mark:)) Users can store their encrypted health data on the data4life platform.
+((&#10004;)) Users can store their encrypted health data on the data4life platform.
 
-((:heavy_multiplication_x:)) Each student is expected to choose the topic of his or her research paper before taking the midterm.
+((&#10006;)) Each student is expected to choose the topic of his or her research paper before taking the midterm.
 
-((:heavy_check_mark:)) Students are expected to choose the topic of their research paper before they take the midterm.
+((&#10004;)) Students are expected to choose the topic of their research paper before they take the midterm.
 
-((:heavy_check_mark:)) Each student is expected to choose a research paper topic before taking the midterm.
+((&#10004;)) Each student is expected to choose a research paper topic before taking the midterm.
 
 It's a good idea to use a disclaimer like this:
 
-((:heavy_check_mark:)) We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
+((&#10004;)) We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
 
 
 
@@ -1353,15 +1352,15 @@ Keep introductions to cross-references short.
 In most cases, the word "see" with the icon is sufficient.
 For web links, it's best to link to an overview page instead of a technical specification because deep links on websites often change.
 
-((:heavy_check_mark:)) ((&#128065;)) See <<Writing-link-text-web-addresses-and-URLs>>
+((&#10004;)) ((&#128065;)) See <<Writing-link-text-web-addresses-and-URLs>>
 
-((:heavy_check_mark:)) ((&#10064;)) See https://www.w3.org/WAI/standards-guidelines/wcag/
+((&#10004;)) ((&#10064;)) See https://www.w3.org/WAI/standards-guidelines/wcag/
 
-((:heavy_check_mark:)) :books: See _iPhone User Guide for iOS 12.3_
+((&#10004;)) :books: See _iPhone User Guide for iOS 12.3_
 
-((:heavy_check_mark:)) For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
+((&#10004;)) For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
 
-((:heavy_multiplication_x:)) For more information, refer to the W3C website here https://www.w3.org/WAI/standards-guidelines/wcag/
+((&#10006;)) For more information, refer to the W3C website here https://www.w3.org/WAI/standards-guidelines/wcag/
 
 
 == Writing link text, web addresses, and URLs [[Writing-link-text-web-addresses-and-URLs]]
@@ -1378,13 +1377,13 @@ Link text can take 3 forms:
 Link text must indicate what the reader sees, or where they will be taken, after selecting it.
 When writing link text, ensure it's clear without its surrounding text.
 
-((:heavy_check_mark:)) Read more about bats in the link:[Flying Mammals section].
+((&#10004;)) Read more about bats in the link:[Flying Mammals section].
 
-((:heavy_check_mark:)) For more on gameplay mechanics, refer to the link:[Settlers of Catan rulebook].
+((&#10004;)) For more on gameplay mechanics, refer to the link:[Settlers of Catan rulebook].
 
-((:heavy_multiplication_x:)) Read more about bats in the Flying Mammals link:[section].
+((&#10006;)) Read more about bats in the Flying Mammals link:[section].
 
-((:heavy_multiplication_x:)) To find out more about gameplay mechanics, link:[click the link].
+((&#10006;)) To find out more about gameplay mechanics, link:[click the link].
 
 
 TIP: Never use "click here" as link text.
@@ -1400,9 +1399,9 @@ Some authoring tools, such as the AsciiDoc editor, automatically recognize this 
 - Use the preposition "at" followed by the address in lowercase.
 
 
-((:heavy_check_mark:)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
+((&#10004;)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
 
-((:heavy_multiplication_x:)) On link:[HTTPS://www.data4life.care/EN/Sports/Clothing/Jackets], you can find our new sports jackets.
+((&#10006;)) On link:[HTTPS://www.data4life.care/EN/Sports/Clothing/Jackets], you can find our new sports jackets.
 
 == Writing about the user interface
 
@@ -1478,27 +1477,27 @@ To increase readability and to make texts easier to understand, adhere to the fo
 
 Write result before action, and effect before cause.
 
-((:heavy_check_mark:)) To access your account, enter the PIN code.
+((&#10004;)) To access your account, enter the PIN code.
 
-((:heavy_check_mark:)) To reset your password, choose  *Forgot password*.
+((&#10004;)) To reset your password, choose  *Forgot password*.
 
-((:heavy_check_mark:)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((&#128065;))  Eye symbol.
+((&#10004;)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((&#128065;))  Eye symbol.
 
-((:heavy_multiplication_x:)) Choose  *Forgot password* to reset your password.
+((&#10006;)) Choose  *Forgot password* to reset your password.
 
-((:heavy_multiplication_x:)) You will need to download the Chrome Remote Desktop app to use your mobile device for remote access.
+((&#10006;)) You will need to download the Chrome Remote Desktop app to use your mobile device for remote access.
 
-((:heavy_multiplication_x:)) To use your mobile device for remote access, download the Chrome Remote Desktop app.
+((&#10006;)) To use your mobile device for remote access, download the Chrome Remote Desktop app.
 
 ==== Write user interface location before action
 
 To ensure that users can easily follow procedures on the user interface, write location before action.
 
-((:heavy_check_mark:)) Under the *Password* field, choose *Forgot password*.
+((&#10004;)) Under the *Password* field, choose *Forgot password*.
 
-((:heavy_check_mark:)) On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
+((&#10004;)) On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
 
-((:heavy_multiplication_x:)) Choose *Start sharing* on the *Sharing* tab to select the information that you want to share with your doctor.
+((&#10006;)) Choose *Start sharing* on the *Sharing* tab to select the information that you want to share with your doctor.
 
 == Writing about files, file types, and file formats
 
@@ -1508,38 +1507,38 @@ When you write about files, follow these guidelines:
 - The file type names are in all caps, because many file type names are abbreviations.
 - Be as specific as you can be when referring to filenames.
 
-((:heavy_check_mark:)) Share the PDF file with your doctor
+((&#10004;)) Share the PDF file with your doctor
 
-((:heavy_multiplication_x:)) Share the .pdf file with your doctor
+((&#10006;)) Share the .pdf file with your doctor
 
-((:heavy_check_mark:)) Import the APK file
+((&#10004;)) Import the APK file
 
-((:heavy_multiplication_x:)) Import the .apk file
+((&#10006;)) Import the .apk file
 
 Avoid the filename extension to refer generically to the file type.
 
-((:heavy_check_mark:)) Upload the TIFF file from your smartphone
+((&#10004;)) Upload the TIFF file from your smartphone
 
-((:heavy_multiplication_x:)) Upload the .tif file from your smartphone
+((&#10006;)) Upload the .tif file from your smartphone
 
 
 NOTE: Use "file format" only when you refer to the file structure and the method of storing data. Otherwise, use "file type."
 
 Consider spelling out the abbreviations, unless your audience is familiar with a file type.
 
-((:heavy_check_mark:)) Create a Bash script for the task
+((&#10004;)) Create a Bash script for the task
 
-((:heavy_multiplication_x:)) Create an .sh script for the task
+((&#10006;)) Create an .sh script for the task
 
 Use lowercase for filename extensions.
 
-((:heavy_check_mark:)) Your folder now contains the setup.exe file
+((&#10004;)) Your folder now contains the setup.exe file
 
-((:heavy_multiplication_x:)) Your folder now contains the setup.EXE file
+((&#10006;)) Your folder now contains the setup.EXE file
 
 Include the period when specifically referring to the filename extension.
 
-((:heavy_check_mark:)) When you rename a file, don't change its filename extension, for example, .md.
+((&#10004;)) When you rename a file, don't change its filename extension, for example, .md.
 
 
 == Writing about key names
