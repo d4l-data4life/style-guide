@@ -49,7 +49,7 @@ icon:external-link[] External link
 
 icon:bomb[] Da bomb
 
-icon:book[] Book
+:books: Book
 
 icon:database[] Database
 
@@ -79,6 +79,8 @@ icon:trash[] Trash icon
 
 
 ////
+
+
 
 
 = The {compname} Technical Writing Style Guide
@@ -175,7 +177,7 @@ You can look up words online if you're unsure about spelling and word usage:
 
 In most cases, {compname} follows the writing rules in the Chicago Manual of Style:
 
-- icon:book[] Chicago Manual of Style, 17th edition
+- :books: Chicago Manual of Style, 17th edition
 - icon:external-link[] link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
 
 We sometimes deviate from these rules and mention the differences in this style guide.
@@ -203,7 +205,7 @@ Use the {compname} company name in the following ways:
 Avoid beginning sentences with our company name.
 Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
 
-:heavy_check_mark: data4life's Analytics Platform
+icon:check[] data4life's Analytics Platform
 
 icon:times[] Apple's developer tools
 
@@ -1320,7 +1322,7 @@ TIP: The best option is to cast the reference into the plural or to reword so th
 
 The Chicago Manual of Style, 17th edition, has a section about "Techniques for achieving gender neutrality."
 
-See icon:book[] _The Chicago Manual of Style_
+See :books: _The Chicago Manual of Style_
 
 icon:times[] Each user can store his or her encrypted health data on the data4life platform.
 
