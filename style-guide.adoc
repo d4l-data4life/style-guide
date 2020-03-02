@@ -1,4 +1,5 @@
-
+:icons: font
+:icon-set: fas
 :toc: macro
 :toc: left
 :toclevel: 3
@@ -202,7 +203,7 @@ Use the {compname} company name in the following ways:
 Avoid beginning sentences with our company name.
 Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
 
-icon:times[] data4life's Analytics Platform
+:heavy_check_mark: data4life's Analytics Platform
 
 icon:times[] Apple's developer tools
 
