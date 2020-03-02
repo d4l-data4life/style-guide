@@ -1,3 +1,4 @@
+
 :icons: font
 :icon-set: fas
 :toc: macro
@@ -1352,7 +1353,7 @@ icon:eye[]:: Information in another part of the same document or on our own webs
 
 icon:external-link[]:: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
 
-icon:book[]:: Link to another document or information product. Set the title in italics.
+:books: Link to another document or information product. Set the title in italics.
 
 Keep introductions to cross-references short.
 In most cases, the word "see" with the icon is sufficient.
@@ -1362,7 +1363,7 @@ icon:check[] icon:eye[] See <<Writing-link-text-web-addresses-and-URLs>>
 
 icon:check[] icon:external-link[] See https://www.w3.org/WAI/standards-guidelines/wcag/
 
-icon:check[] icon:book[] See _iPhone User Guide for iOS 12.3_
+icon:check[] :books: See _iPhone User Guide for iOS 12.3_
 
 icon:check[] For more information, see <<Writing-link-text-web-addresses-and-URLs>>. (in some cases)
 
