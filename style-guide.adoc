@@ -1274,7 +1274,7 @@ _To XYZ, follow these steps:_.
 - Finish your procedure by stating the expected result.
 
 
-_Example_:
+_Example:_
 
 *Installing the iOS app*
 
