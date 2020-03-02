@@ -1,4 +1,4 @@
- test
+((:eye:))test
 
 :icons: font
 :icon-set: fas
@@ -45,7 +45,7 @@ icon:comment[] This is a comment icon
 
 icon:file[] And a file icon
 
-icon:eye[] An eye that is a "see reference"
+((:eye:)) An eye that is a "see reference"
 
 ((&#x2398;)) External link
 
@@ -181,7 +181,7 @@ In most cases, {compname} follows the writing rules in the Chicago Manual of Sty
 - ((&#x2398;)) link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
 
 We sometimes deviate from these rules and mention the differences in this style guide.
-To find out how other companies manage the style of their content, icon:eye[] see:
+To find out how other companies manage the style of their content, ((:eye:)) see:
 
 - ((&#x2398;)) link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
 - ((&#x2398;)) link:https://help.apple.com/applestyleguide/#/[Apple Style Guide]
@@ -226,7 +226,7 @@ This is typically done by a localization agency or by international users with c
 
 Be aware of different terms and spellings used in American English and British English.
 
-icon:eye[] See <<Different terms and spellings in American English and British English>> in the appendix.
+((:eye:)) See <<Different terms and spellings in American English and British English>> in the appendix.
 
 
 === Use the active voice
@@ -396,7 +396,7 @@ You may sometimes need to refer to special characters by their name. To refer to
 
 ((:heavy_multiplication_x:)) Use '*' as a wildcard character in your search.
 
-icon:eye[] See <<Names of common special characters and punctuation marks>> in the appendix.
+((:eye:)) See <<Names of common special characters and punctuation marks>> in the appendix.
 
 === Avoid the following words and phrases
 
@@ -1118,7 +1118,7 @@ Use a numbered list when you want to stress the sequential nature of steps, rule
 In numbered task lists, make each step a complete sentence.
 Use sentence-style capitalization for each item and end each item with closing punctuation.
 
-icon:eye[] See <<Writing task topics and procedures>>.
+((:eye:)) See <<Writing task topics and procedures>>.
 
 === Capitalization after colons
 
@@ -1211,7 +1211,7 @@ TIP: Don't use "for example" and "and so on" together, it's redundant. +
 
 Put a comma before the word "which" at the start of a nonrestrictive clause.
 
-icon:eye[] See <<using-that-which-and-who-in-relative-clauses>>.
+((:eye:)) See <<using-that-which-and-who-in-relative-clauses>>.
 
 //Add link to section that explains relative clauses and which vs. that
 
@@ -1347,7 +1347,7 @@ For the different types of cross-references, use these icons:
 
 [horizontal]
 
-icon:eye[]:: Information in another part of the same document or on our own website. When you refer to another section or topic, insert the section heading as an active link.
+((:eye:)):: Information in another part of the same document or on our own website. When you refer to another section or topic, insert the section heading as an active link.
 
 ((&#x2398;)):: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
 
@@ -1357,7 +1357,7 @@ Keep introductions to cross-references short.
 In most cases, the word "see" with the icon is sufficient.
 For web links, it's best to link to an overview page instead of a technical specification because deep links on websites often change.
 
-((:heavy_check_mark:)) icon:eye[] See <<Writing-link-text-web-addresses-and-URLs>>
+((:heavy_check_mark:)) ((:eye:)) See <<Writing-link-text-web-addresses-and-URLs>>
 
 ((:heavy_check_mark:)) ((&#x2398;)) See https://www.w3.org/WAI/standards-guidelines/wcag/
 
@@ -1486,7 +1486,7 @@ Write result before action, and effect before cause.
 
 ((:heavy_check_mark:)) To reset your password, choose  *Forgot password*.
 
-((:heavy_check_mark:)) To show your password, in the *Login* dialog, in the *Password* field, choose the icon:eye[]  Eye symbol.
+((:heavy_check_mark:)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((:eye:))  Eye symbol.
 
 ((:heavy_multiplication_x:)) Choose  *Forgot password* to reset your password.
 
