@@ -1,7 +1,3 @@
-((:lock:)) test
-
-:icons: font
-:icon-set: fas
 :toc: macro
 :toc: left
 :toclevel: 3
@@ -41,27 +37,27 @@ endif::[]
 
 Recycle icons from here:
 
-icon:comment[] This is a comment icon
+((:speech_balloon:)) Comment
 
-icon:file[] And a file icon
+((&#128196;)) Document
 
 ((:eye:)) An eye that is a "see reference"
 
-((&#x2398;)) External link
+((&#10064;)) External link
 
-icon:bomb[] Da bomb
+((:bomb:)) Da bomb
 
 ((:books:)) Book
 
-icon:database[] Database
+((:file_cabinet:)) Database
 
-icon:desktop[] Desktop
+((:desktop_computer:)) Desktop computers
 
-icon:mobile[] Mobile
+((&#128241;)) Mobile devices
 
-icon:cloud[] Cloud
+((:cloud:)) The Cloud
 
-icon:edit[] Edit
+((&#9998;)) Pen (Edit)
 
 ((:lock:)) Lock for maximum security
 
@@ -75,9 +71,9 @@ icon:edit[] Edit
 
 ((:heavy_check_mark:)) Checkmark, for positive example
 
-((:heavy_multiplication_x:)) Do not do this, actually it's the times sign, but no better X available here
+((:heavy_multiplication_x:)) Actually it's the times sign, but there's no better X available here
 
-((:wastebasket:)) Trash icon
+((:wastebasket:)) Trash
 
 
 ////
@@ -173,21 +169,21 @@ This style guide isn't intended to provide a complete set of writing guidelines 
 For example, it doesn't cover parts of speech, subject-verb agreement, or other writing basics.
 You can look up words online if you're unsure about spelling and word usage:
 
-- ((&#x2398;)) link:https://www.merriam-webster.com/[Merriam-Webster Dictionary]
+- ((&#10064;)) link:https://www.merriam-webster.com/[Merriam-Webster Dictionary]
 
 In most cases, {compname} follows the writing rules in the Chicago Manual of Style:
 
 - ((:books:)) Chicago Manual of Style, 17th edition
-- ((&#x2398;)) link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
+- ((&#10064;)) link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
 
 We sometimes deviate from these rules and mention the differences in this style guide.
 To find out how other companies manage the style of their content, ((:eye:)) see:
 
-- ((&#x2398;)) link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
-- ((&#x2398;)) link:https://help.apple.com/applestyleguide/#/[Apple Style Guide]
-- ((&#x2398;)) link:https://developers.google.com/style/[Google Developer Style Guide]
-- ((&#x2398;)) link:https://w3c.github.io/manual-of-style/[W3C Manual of Style]
-- ((&#x2398;)) link:https://styleguide.mailchimp.com/[Mailchimp Content Style Guide]
+- ((&#10064;)) link:https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
+- ((&#10064;)) link:https://help.apple.com/applestyleguide/#/[Apple Style Guide]
+- ((&#10064;)) link:https://developers.google.com/style/[Google Developer Style Guide]
+- ((&#10064;)) link:https://w3c.github.io/manual-of-style/[W3C Manual of Style]
+- ((&#10064;)) link:https://styleguide.mailchimp.com/[Mailchimp Content Style Guide]
 
 
 == Using the company name
@@ -1027,7 +1023,7 @@ Currency symbols such as the dollar sign ($) aren’t unique and are easily misr
 
 International currency codes follow the ISO 4217 standard.
 
-((&#x2398;)) link:http:www.iso.org[International Organization for Standardization (ISO)]
+((&#10064;)) link:http:www.iso.org[International Organization for Standardization (ISO)]
 
 Write the currency code in capitals followed by a space and the amount.
 
@@ -1349,7 +1345,7 @@ For the different types of cross-references, use these icons:
 
 ((:eye:)):: Information in another part of the same document or on our own website. When you refer to another section or topic, insert the section heading as an active link.
 
-((&#x2398;)):: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
+((&#10064;)):: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
 
 ((:books:)):: Link to another document or information product. Set the title in italics.
 
@@ -1359,7 +1355,7 @@ For web links, it's best to link to an overview page instead of a technical spec
 
 ((:heavy_check_mark:)) ((:eye:)) See <<Writing-link-text-web-addresses-and-URLs>>
 
-((:heavy_check_mark:)) ((&#x2398;)) See https://www.w3.org/WAI/standards-guidelines/wcag/
+((:heavy_check_mark:)) ((&#10064;)) See https://www.w3.org/WAI/standards-guidelines/wcag/
 
 ((:heavy_check_mark:)) :books: See _iPhone User Guide for iOS 12.3_
 
