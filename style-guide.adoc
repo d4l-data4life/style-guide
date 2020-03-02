@@ -1,4 +1,4 @@
-((:eye:))test
+((:lock:)) test
 
 :icons: font
 :icon-set: fas
@@ -63,21 +63,21 @@ icon:cloud[] Cloud
 
 icon:edit[] Edit
 
-icon:lock[] Lock for maximum security
+((:lock:)) Lock for maximum security
 
-icon:question-circle[] Question mark with circle
+((:question:)) Red question mark icon
 
-icon:key[] Key
+((:eye:)) Key
 
-icon:copyright[] Copyright sign
+((:copyright:)) Copyright sign
 
-icon:envelope[] For email address {email-docs}
+((:envelope:) For email address {email-docs}
 
 ((:heavy_check_mark:)) Checkmark, for positive example
 
 ((:heavy_multiplication_x:)) Do not do this, actually it's the times sign, but no better X available here
 
-icon:trash[] Trash icon
+((:wastebasket:)) Trash icon
 
 
 ////
@@ -150,7 +150,7 @@ Abbreviations used in this style guide.
 
 We made every effort to ensure that this document fulfills the intended use.
 Your feedback on any aspect of this publication is welcome and is considered during updates.
-Should you have any such feedback, talk to your technical writer or send an email to icon:envelope[] {email-docs}.
+Should you have any such feedback, talk to your technical writer or send an email to ((:envelope:)) {email-docs}.
 
 ////
 - List of abbreviations used in the style guide (if needed)
