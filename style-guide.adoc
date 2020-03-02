@@ -1,3 +1,4 @@
+((:heavy_check_mark:)) test
 
 :icons: font
 :icon-set: fas
@@ -72,7 +73,7 @@ icon:copyright[] Copyright sign
 
 icon:envelope[] For email address {email-docs}
 
-icon:check[] Checkmark, for positive example
+((heavy_check_mark)) Checkmark, for positive example
 
 icon:times[] Do not do this, actually it's the times sign, but no better X available here
 
@@ -80,8 +81,6 @@ icon:trash[] Trash icon
 
 
 ////
-
-
 
 
 = The {compname} Technical Writing Style Guide
@@ -178,7 +177,7 @@ You can look up words online if you're unsure about spelling and word usage:
 
 In most cases, {compname} follows the writing rules in the Chicago Manual of Style:
 
-- :books: Chicago Manual of Style, 17th edition
+- ((:books:)) Chicago Manual of Style, 17th edition
 - icon:external-link[] link:https://www.chicagomanualofstyle.org/home.html[Chicago Manual of Style Online]
 
 We sometimes deviate from these rules and mention the differences in this style guide.
@@ -206,7 +205,7 @@ Use the {compname} company name in the following ways:
 Avoid beginning sentences with our company name.
 Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
 
-icon:check[] data4life's Analytics Platform
+((:heavy_check_mark:)) data4life's Analytics Platform
 
 icon:times[] Apple's developer tools
 
@@ -1346,14 +1345,13 @@ icon:check[] We try not to use gender-specific word forms and formulations. As a
 Cross-references link to nonessential information that may help a user.
 For the different types of cross-references, use these icons:
 
-
 [horizontal]
 
 icon:eye[]:: Information in another part of the same document or on our own website. When you refer to another section or topic, insert the section heading as an active link.
 
 icon:external-link[]:: External web link with information. Use the URL or choose descriptive link text. To ensure that the link works, click to test.
 
-:books: Link to another document or information product. Set the title in italics.
+((:books:)):: Link to another document or information product. Set the title in italics.
 
 Keep introductions to cross-references short.
 In most cases, the word "see" with the icon is sufficient.
