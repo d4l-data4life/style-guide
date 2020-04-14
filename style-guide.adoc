@@ -122,7 +122,7 @@ Abbreviations used in this style guide.
 |Chicago Manual of Style
 
 |D4L
-|data4life
+|Data4Life
 
 |ISO
 |International Organization for Standardization
@@ -199,7 +199,7 @@ Use the {compname} company name in the following ways:
 Avoid beginning sentences with our company name.
 Don't use apostrophes with brand names and product names, for example, in possessives and contractions.
 
-((&#10004;)) data4life's Analytics Platform
+((&#10004;)) {compname}'s Analytics Platform
 
 ((&#10006;)) Apple's developer tools
 
