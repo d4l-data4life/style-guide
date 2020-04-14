@@ -5,7 +5,7 @@
 
 :compname-short: D4L
 :compname-legal: D4L data4life gGmbH
-:compname: data4life
+:compname: Data4Life
 :email-contact: contact@data4life.care
 :email-docs: docs@data4life.care
 :url-company: https://www.data4life.care
