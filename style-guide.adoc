@@ -1277,7 +1277,7 @@ _Example:_
 
 *Installing the iOS app*
 
-You’ve received an email from TestFlight inviting you to test the data4life app for iOS.
+You’ve received an email from TestFlight inviting you to test the {compname} app for iOS.
 You’ve also installed the TestFlight app on your iOS device.
 
 To install the iOS app, follow these steps:
@@ -1318,9 +1318,9 @@ The Chicago Manual of Style, 17th edition, has a section about "Techniques for a
 
 See :books: _The Chicago Manual of Style_
 
-((&#10006;)) Each user can store his or her encrypted health data on the data4life platform.
+((&#10006;)) Each user can store his or her encrypted health data on the {compname} platform.
 
-((&#10004;)) Users can store their encrypted health data on the data4life platform.
+((&#10004;)) Users can store their encrypted health data on the {compname} platform.
 
 ((&#10006;)) Each student is expected to choose the topic of his or her research paper before taking the midterm.
 
