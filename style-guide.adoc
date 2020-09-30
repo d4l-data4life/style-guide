@@ -1544,49 +1544,43 @@ Include the period when specifically referring to the filename extension.
 
 When you write about the keyboard, follow these guidelines:
 
-Use bold.
-
-((&#10004;)) Press *Shift (⇧) + 9*
-
-((&#10006;)) Press Shift (⇧) + 9
-
 Use recognized key name abbreviations.
 
-((&#10004;)) Press *Esc*
+((&#10004;)) Press Esc
 
-((&#10006;)) Press *Escape*
+((&#10006;)) Press Escape
 
 Separate keys using + with spaces when writing combinations.
 
-((&#10004;)) Press *Cmd (⌘) + Shift (⇧) + V*
+((&#10004;)) Press Cmd (⌘) + Shift (⇧) + V
 
-((&#10004;)) Press *Cmd(⌘)+Shift(⇧)+V*
+((&#10004;)) Press Cmd(⌘)+Shift(⇧)+V
 
 Start each key name with a capital letter.
 
-((&#10004;)) You can copy text by pressing *Cmd (⌘) + C*.
+((&#10004;)) You can copy text by pressing Cmd (⌘) + C.
 
-((&#10006;)) You can copy text by pressing *Cmd + c*.
+((&#10006;)) You can copy text by pressing Cmd + c.
 
 If a key name includes a symbol, write the key name followed by its symbol in parenthesis.
 
-((&#10004;)) *Press Ctrl (^) + Plus (+)*
+((&#10004;)) Press Ctrl (^) + Plus (+)
 
-((&#10006;)) *Press Ctrl + Plus*
+((&#10006;)) Press Ctrl + Plus
 
 Unless writing about Mac or Windows keyboards alone, include key names for both. Separate them with a slash.
 
-((&#10004;)) *Press Option/Alt (⌥) + Tab*
+((&#10004;)) Press Option/Alt (⌥) + Tab
 
-((&#10006;)) *Press Alt (⌥) + Tab*
+((&#10006;)) Press Alt (⌥) + Tab
 
 When shortcuts for Mac and Windows keyboards differ, include both.
 
-((&#10004;)) To copy the text, press *Cmd (⌘) + C* on Mac or *Ctrl (^) + C* on Windows.
+((&#10004;)) To copy the text, press Cmd (⌘) + C on Mac or Ctrl (^) + C on Windows.
 
-((&#10006;)) To copy the text, press *Ctrl (^) + C*.
+((&#10006;)) To copy the text, press Ctrl (^) + C.
 
-NOTE: Call the key with the Windows logo the *Windows logo key*.
+NOTE: Call the key with the Windows logo the Windows logo key.
 
 == Appendix
 
