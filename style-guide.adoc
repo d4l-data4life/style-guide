@@ -1416,57 +1416,9 @@ Users interact with our products using different input methods, for example:
 - Voice
 
 Use generic verbs that work with any input method.
-Try to avoid input-specific verbs, such as "click", "tap", or "swipe".
+Avoid input-specific verbs, such as "click", "tap", or "swipe".
 Instead, use verbs like "choose" or "select".
 
-=== Referring to user interface elements
-
-Refer to common user interface elements in the following ways:
-
-//Finalize this part
-
-- drop-down menu, not pull-down menu -- Verb: choose
-- Button: choose or tap, don't use: select, using click or tap limits your description to a subset of devices.
-- radio button vs. option -- verb: choose, the radio button offers options that are mutually exclusive. The label on the radio button is sometimes called "Options"
-- checkbox, not check box, verbs: select and clear (don't use unselect or deselect). Or rewrite to describe what you do: use a checkbox to turn an option on or off.
-- Microsoft says about adjectives with checkboxes: Use check or checked as an adjective related to check boxes. Google and SAP: selected and unselected as adjectives, very common: checked and unchecked as main statuses.
-- States of checkboxes: selected, cleared, indeterminate OR: checked, unchecked, indeterminate
-- switch (Microsoft calls it toggle button), Google and Apple call it switch. Some also call it the toggle switch, Verb:
-Apple says: If you do need to refer to the switch (in order to specify its location, for example), avoid using the verbs switch or slide with it; use tap or click instead.
-Correct: To turn airplane mode on or off, tap the switch in the upper-right corner.
-Incorrect: To turn airplane mode on or off, slide the switch in the upper-right corner.
-Google uses the verb "toggle" with switches. Better: activate or deactivate.
-
-
-
-- Google: Bottom navigation bars: Bottom navigation bars allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom nativation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused or pressed.
-- Badges - Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
-
-- Top navigation bars: Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
-
-- Snackbars
-- Banners
-- dialogs
-- floating action buttons (FABs)
-- text button, Text buttons are typically used for less-pronounced actions, including those located:
-In dialogs, In cards. In cards, text buttons help maintain an emphasis on card content.
-- Outlined button: medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action in an app.
-- Contained button, Contained buttons display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
-
-Apple:
-- bottom navigation bars are called "tab bar" (but there also are "toolbars"). Apple says Use a tab bar strictly for navigation. Tab bar buttons should not be used to perform actions. If you need to provide controls that act on elements in the current view, use a toolbar instead. See Toolbars. original from the Apple website: TIP
-It’s important to understand the difference between a tab bar and a toolbar, because both types of bars appear at the bottom of an app screen. A tab bar lets the user switch quickly between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. A toolbar contains buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. See Toolbars. Tab bars and toolbars never appear together in the same view.
-
-- dialog -- verb: is displayed, also possible displays. appear, opens, shows is deprecated -- as discussed with Sorcha
-- compare to show/hide
-- Refer to unavailable commands and options on the user interface as "unavailable", not as "grayed out", "dimmed", or "inactive". NOTE: The Google Android resource Material.io calls these commands "disabled". Apple accepts disabled for developer content. Avoid "disabled" in content for end users.
-
-// Don’t use disabled when you mean unavailable (when you refer to menu items). Microsoft prefers isn't available to unavailable for UI descriptions (for whatever reason)
-- expand, collapse
-- Menus contain commands that users choose. Don't refer to a command as a menu item, a choice, an entry, or an option.
-- Date picker or time pickers: select
-- Toggle button: switch on/off, don't use to toggle, choose
-- Slider, verb to use: move, not drag, use,
 
 === Sequence of user actions
 
