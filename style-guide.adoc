@@ -145,7 +145,7 @@ Abbreviations used in this style guide.
 
 |===
 
-Find more abbreviations used at {compname} in the link:https://docs.google.com/spreadsheets/d/10VNPt-paWPf_pr2Vf7JHqgkN6T0K72eizkRNw6l9-bo/edit#gid=0[terminology word list] (only accessible internally)
+Find more abbreviations used at {compname} in the link:https://docs.google.com/spreadsheets/d/10VNPt-paWPf_pr2Vf7JHqgkN6T0K72eizkRNw6l9-bo/edit#gid=0[terminology word list] (only accessible internally).
 
 
 === Feedback
@@ -920,9 +920,9 @@ Follow these rules when you use lists:
 
 Avoid mentioning numbers in list introductions. This can cause issues when you add or remove entries to the list.
 
-((&#10004;)) When you save your recovery key, you have the following options: 
+((&#10004;)) When you save your recovery key, you have the following options:
 
-((&#10006;)) When you save your recovery key, you have the following 3 options: 
+((&#10006;)) When you save your recovery key, you have the following 3 options:
 
 === Using capitalization and punctuation in lists
 
@@ -1265,7 +1265,7 @@ Avoid writing web addresses as link text. If writing a web address is essential,
 For a technical audience, use "URL" and don't spell it out on its first mention.
 - For clarity in technical content, include the protocol name with the URL, for example, HTTPS or FTP.
 Some authoring tools, such as the AsciiDoc editor, automatically recognize this text as a link.
-- Use the preposition "at" followed by the address in lowercase.
+- Use the preposition _at_ followed by the address in lowercase.
 
 
 ((&#10004;)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
