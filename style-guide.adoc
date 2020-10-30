@@ -1159,7 +1159,7 @@ See :books: _The Chicago Manual of Style_
 
 ((&#10004;)) Users can store their encrypted health data on the {compname} platform.
 
-((&#10004;)) When you arrive at the test center, staff scans your QR code.
+((&#10004;)) When you arrive at the test center, the staff scan your QR code.
 
 ((&#10006;)) Each student is expected to choose the topic of his or her research paper before taking the midterm.
 
@@ -1171,7 +1171,7 @@ It's a good idea to use a disclaimer like this:
 
 ((&#10004;)) We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
 
-=== Avoid terms that transport racial bias
+=== Avoid terms that carry racial bias
 
 ==== Blacklist/Whitelist
 
@@ -1240,8 +1240,8 @@ Link text can take the following forms:
 - The exact title of the linked-to content, capitalized the same way the title is capitalized.
 - A URL or web address, written in lowercase.
 
-Link text must indicate what the reader sees, or where they will be taken, after selecting it.
-When writing link text, ensure it's clear without its surrounding text.
+Link text must indicate what the reader sees, or where they go, after selecting it.
+When writing link text, ensure it makes sense by itself.
 
 ((&#10004;)) Read more about bats in the link:[Flying Mammals section].
 
@@ -1354,8 +1354,6 @@ These examples are names with their descriptors (in bold) that you see in docume
 
 In user documentation, the name preceding the generic descriptor is formatted as *bold* (unlike in this list).
 
-IMPORTANT: For English, the name is followed by the generic name. For German, it's the other way around.
-
 ((&#10004;)) To configure your settings, choose the *Menu* icon.
 
 ((&#10006;)) To configure your settings, choose the icon *Menu*.
@@ -1412,7 +1410,7 @@ In most cases, procedures can use names of UI elements and leave out the generic
 
 |drop-down list
 |choose
-|choose from, don't call it a drop-down menu, pull-down list etc.
+|choose from, don't call it a drop-down menu, pull-down list and so on.
 
 |icon
 |choose
