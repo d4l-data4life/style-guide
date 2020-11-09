@@ -145,7 +145,7 @@ Abbreviations used in this style guide.
 
 |===
 
-Find more abbreviations used at {compname} in the link:https://docs.google.com/spreadsheets/d/10VNPt-paWPf_pr2Vf7JHqgkN6T0K72eizkRNw6l9-bo/edit#gid=0[terminology word list] (only accessible internally)
+Find more abbreviations used at {compname} in the link:https://docs.google.com/spreadsheets/d/10VNPt-paWPf_pr2Vf7JHqgkN6T0K72eizkRNw6l9-bo/edit#gid=0[terminology word list] (only accessible internally).
 
 
 === Feedback
@@ -241,8 +241,8 @@ It's common to use passive voice in error messages, warnings, or notifications.
 === Focus on the user
 
 Always focus on the user.
-Users interact with digital solutions with a goal in mind. 
-Users want to get specific tasks done and they have limited time.
+Users interact with digital solutions with a goal in mind.
+Users want to do specific tasks and they have limited time.
 
 ((&#10004;)) The {compname} encrypted storage lets you securely store your health documents.
 
@@ -259,7 +259,7 @@ Short words and sentences are more readable than long words and sentences.
 
 Use short, familiar words whenever possible.
 
-Try to split sentences with more than 25 words to make them more digestible. The average sentence length should be around 15 words.
+Try to split sentences with more than 25 words. The average sentence length should be around 15 words.
 
 === Use contractions
 
@@ -269,8 +269,8 @@ Contractions support the friendly and informal tone that represents {compname}.
 === Use the serial comma
 
 Use the serial comma.
-In English language punctuation, a serial comma is placed immediately before the coordinating conjunction (usually "and" or "or") in a series of 3 or more terms.
-The serial comma is also called Oxford comma.
+In English language punctuation, a serial comma is placed immediately before the coordinating conjunction (usually _and_ or _or_) in a series of 3 or more terms.
+The serial comma is also called the Oxford comma.
 
 ((&#10004;)) This section covers identification, authentication, and authorization.
 
@@ -279,14 +279,14 @@ The serial comma is also called Oxford comma.
 === Directly address your readers
 
 To establish a connection with the user, use the second person.
-Write as though you're speaking to the user by using the personal pronoun "you".
-This style supports a friendly, human tone and helps avoid the passive voice by focusing the discussion on the user.
+Write as though you're speaking to the user by using the personal pronoun _you_.
+This style supports a friendly, human tone and helps avoid the passive voice.
 
 ((&#10004;)) Use the {compname} encrypted storage to securely store your health documents.
 
 ((&#10006;)) You can use the {compname} encrypted storage to securely store your health documents.
 
-TIP: Avoid over-using auxiliary verbs. Consider omitting "you can" whenever a sentence works without it.
+TIP: Avoid over-using auxiliary verbs. Consider omitting _you can_ whenever a sentence works without it.
 
 === Use the present tense
 
@@ -299,12 +299,12 @@ You can often rewrite future tense sentences without changing their meaning.
 
 == Other writing guidelines
 
-These guidelines also help you write clear and to the point.
+These guidelines also help you write clearly and to the point.
 
 === Use plain language
 
-Write in plain language. 
-Plain language makes it easier for everyone to read and understand our communications and use our products.
+Write in plain language.
+Plain language makes it easier for everyone to read and understand our communications, and use our products.
 
 ((&#128065;)) See link:https://plainlanguage.gov/[Official guidelines for the US Plain Writing Act]
 
@@ -324,23 +324,23 @@ Technical writing at {compname} aims for a Flesch reading ease score of 60 and h
 ((&#128065;)) See link:https://www.prepostseo.com/readability-checker[prepostseo Readability Score Checker]
 
 === Avoid the first person plural
-Avoid the pronoun _we_ and phrases like "we recommend".
+Avoid the pronoun _we_ and phrases like "we recommend."
 Write around it and keep the focus on the reader.
-It's OK to use _we_ when you write for reuse and want to avoid mentioning the company name. 
+It's OK to use _we_ when you write for reuse and want to avoid mentioning the company name.
 Don't refer to the user in different ways in the same sentence.
 
 ((&#10006;)) Change your preferences in *My profile*
 
 === Use nouns, not pronouns
-Repeat a noun instead of using a backward-referring pronoun like "it," "they," "this," or "these".
+Repeat a noun instead of using a backward-referring pronoun like _it_, _they_, _this_, or _these_.
 Repeating the noun ensures that the reference is clear.
 
-((&#10006;)) Remove the users from the group. Afterwards, they cannot access the resource anymore.
+((&#10006;)) Remove the users from the group. Afterward, they cannot access the resource anymore.
 
-((&#10004;)) Remove the users from the group. Afterwards, the users cannot access the resource anymore.
+((&#10004;)) Remove the users from the group. Afterward, the users cannot access the resource anymore.
 
 === Referring to special characters
-You sometimes need to refer to special characters by their name. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
+Refer to special characters by their name when necessary. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
 
 ((&#10004;)) Use an asterisk (*) as a wildcard character in your search.
 
@@ -348,13 +348,13 @@ You sometimes need to refer to special characters by their name. To refer to a s
 
 ((&#10006;)) The percent sign (%) saves space in tables.
 
-((&#10004;)) See <<Names of common special characters and punctuation marks>> in the appendix.
+((&#128065;)) See <<Names of common special characters and punctuation marks>> in the appendix.
 
 === Avoid the following styles and phrases
 
 To avoid wordiness, fluff, and marketing style, use simple, common words and phrases.
 The table gives examples of verbs or phrasing that you can simplify.
-The full table in the appendix gives more examples of shortening options.
+The full table in the appendix gives more examples.
 
 // I added some aspects like and/or and or not. Maybe they should not be in this table, but elsewhere.
 
@@ -441,11 +441,11 @@ And nonrestrictive clauses are also known as nondefining clauses.
 |My brother, who lives in Berlin, ... [Note: I have only 1 brother.]
 |===
 
-=== Using the word "please"
+=== Using the word _please_
 
-Avoid "please" in instructional text and in cross-references.
-It's OK to use "please" in situations where users are asked to do something inconvenient.
-Also use "please" in user interface copy where the app or platform is to blame for the situation.
+Avoid _please_ in instructional text and in cross-references.
+It's OK to use _please_ in situations where users are asked to do something inconvenient.
+Also use _please_ in user interface copy where the app or platform is to blame for the situation.
 
 ((&#10004;)) Follow the steps below.
 
@@ -558,7 +558,7 @@ The table gives examples of non-English words and how to replace them.
 Abbreviations can be unclear, especially for international audiences.
 In some languages, abbreviations are uncommon.
 
-Avoid abbreviations. 
+Avoid abbreviations.
 This ensures that their meaning is explicit.
 Always spell out terms when they're short or when they're used only 2 or 3 times within a topic.
 
@@ -581,7 +581,7 @@ TIP: Don't introduce abbreviations in headings.
 
 === Numeronyms
 
-Don't use numeronyms, unless you're writing for an expert audience, for example, the {compname} tech blog. 
+Don't use numeronyms, unless you're writing for an expert audience, for example, the {compname} tech blog.
 Numeronyms are jargon and unnecessary abbreviations.
 
 ((&#10006;)) a11y (for accessibility)
@@ -615,9 +615,9 @@ NOTE: The rule to always use numerals instead of words does not apply to writing
 For brand content, spell out numbers from 0 through 9.
 Use numerals for 10 and greater.
 
-((&#10004;)) 9%
+((&#10004;)) More than 70% of the Earth's surface is water.
 
-((&#10004;)) 2 TB
+((&#10004;)) The SSD has 2 TB of storage.
 
 
 === Ordinal numbers
@@ -656,7 +656,7 @@ A nonbreaking space can’t be misinterpreted as a decimal marker.
 Use the percent sign (%) in headlines and in body text, without a preceding space.
 The percent sign saves space and makes your text more scannable.
 
-((&#10004;)) 9% of our test users always scanned any new page they came across. Only 16% read word by word.
+((&#10004;)) 9% of our test users scanned every new page they came across. Only 16% read word by word.
 
 
 === Writing dates and times
@@ -914,15 +914,15 @@ Lists are helpful because they do the following:
 
 Follow these rules when you use lists:
 
-- Ensure that the purpose of the list is clear in the heading and in the introduction.
+- Ensure that the purpose of the list is clear in the heading and introduction.
 - Introduce a list with a complete sentence that ends with a colon.
 - Never use a partial sentence as a lead-in that's completed by the list items.
 
 Avoid mentioning numbers in list introductions. This can cause issues when you add or remove entries to the list.
 
-((&#10004;)) When you save your recovery key, you have the following options: 
+((&#10004;)) When you save your recovery key, you have the following options:
 
-((&#10006;)) When you save your recovery key, you have the following 3 options: 
+((&#10006;)) When you save your recovery key, you have the following 3 options:
 
 === Using capitalization and punctuation in lists
 
@@ -1001,10 +1001,9 @@ Skip end punctuation on titles, headings, subheads, UI titles, and items in a li
 
 === Quotation marks
 
-In most content, use double quotation marks.
-In printed content, use curly quotation marks (“ ”) except in user input and code samples.
-In code examples, use straight quotation marks (" ").
-In online content, use straight quotation marks.
+In most content, use double quotation marks. In online content, use straight quotation marks (" "). In code examples, use straight quotation marks. In printed content, use curly quotation marks (“ ”) except in user input and code samples.
+
+
 
 NOTE: Commas and periods go inside quotation marks. (This is the standard American style.)
 
@@ -1019,7 +1018,7 @@ They are also called shudder quotes or sneer quotes.
 === Ampersands
 
 Avoid the ampersand (&) character unless it's part of a company name or brand name.
-Don't use the ampersand in place of "and" in text or headings unless referring to the symbol as it is displayed on the user interface.
+Don't use the ampersand in place of _and_ in text or headings unless referring to the symbol as it's displayed on the user interface.
 You may use the ampersand when referencing its use in HTML or programming languages.
 
 ((&#10004;)) Ben & Jerry's
@@ -1030,7 +1029,7 @@ You may use the ampersand when referencing its use in HTML or programming langua
 
 ((&#10006;)) The technical writers are friendly & approachable
 
-TIP: Because space is limited in the user interface, the ampersand (&) character is often used in category names. For example, IKEA uses the product category _Beds & mattresses_ and Microsoft Windows has _Time & Language_ settings. 
+TIP: Because space is limited in the user interface, the ampersand (&) character is often used in category names. For example, IKEA uses the product category _Beds & mattresses_ and Microsoft Windows has _Time & Language_ settings.
 
 === Commas
 
@@ -1105,22 +1104,22 @@ Giving alternative ways can confuse users.
 
 Apply these guidelines when writing procedures:
 
-=== Topic headlings
+=== Topic headings
 
-- Use the gerund in your headings to ensure a parallel structure.
+- Use the gerund in headings to ensure a parallel structure.
 
 - Keep headings short and to the point. Place the important part at the beginning. This is called front-loading.
 
-- Avoid having two headings in a row without text in between. 
+- Avoid having two headings in a row without text in between.
 
 === Short topic descriptions
 
 - If you want to add some background information, start with a short description of no more than 2 or 3 sentences.
-Your short description can also outline any prerequisites that must be met before the user can begin.
+Your short description can also outline any prerequisites that must be met before the user begins.
 
 === Procedures in topics
 
-- Introduce your procedure with an introductory sentence using an infinitive phrase:
+- Introduce your procedure with a sentence that uses an infinitive phrase:
 +
 _To create awesome headings:_
 - Use a separate numbered entry for each step.
@@ -1142,7 +1141,7 @@ For an optional step, use _Optional_ as the first word of the step, followed by 
 
 
 
-== Bias-free communication 
+== Bias-free communication
 
 === Gender neutrality
 
@@ -1160,7 +1159,7 @@ See :books: _The Chicago Manual of Style_
 
 ((&#10004;)) Users can store their encrypted health data on the {compname} platform.
 
-((&#10004;)) When you arrive at the test center, staff scans your QR code.
+((&#10004;)) When you arrive at the test center, the staff scan your QR code.
 
 ((&#10006;)) Each student is expected to choose the topic of his or her research paper before taking the midterm.
 
@@ -1172,21 +1171,21 @@ It's a good idea to use a disclaimer like this:
 
 ((&#10004;)) We try not to use gender-specific word forms and formulations. As appropriate for context and readability, {compname} may use masculine word forms to refer to all genders.
 
-=== Avoid terms that transport racial bias
+=== Avoid terms that carry racial bias
 
 ==== Blacklist/Whitelist
 
 Instead of blacklist and whitelist (as nouns and verbs), you can use the following:
 
-- block list/allow list 
+- block list/allow list
 - deny list/approved list
-- unapproved list/approved list 
+- unapproved list/approved list
 
-((&#10004;)) Block lists help filter out spam messages before they reach your inbox. 
+((&#10004;)) Block lists help filter out spam messages before they reach your inbox.
 
 ==== Master/Slave
 
-Don’t use master and slave to describe the relationship between 2 processes or hardware devices. Instead, use an alternative that’s appropriate for the context, such as the following: 
+Don’t use master and slave to describe the relationship between 2 processes or hardware devices. Instead, use an alternative that’s appropriate for the context, such as the following:
 
 - primary/subordinate
 - primary/secondary
@@ -1235,14 +1234,14 @@ For web addresses, it's best to link to an overview page instead of a technical 
 A link is any text or icon that users can select to go somewhere.
 Links can direct users to other documents, other places within the same document, or other web pages.
 
-Link text can take 3 forms:
+Link text can take the following forms:
 
 - A description of the linked-to content, capitalized with sentence style.
 - The exact title of the linked-to content, capitalized the same way the title is capitalized.
 - A URL or web address, written in lowercase.
 
-Link text must indicate what the reader sees, or where they will be taken, after selecting it.
-When writing link text, ensure it's clear without its surrounding text.
+Link text must indicate what the reader sees, or where they go, after selecting it.
+When writing link text, ensure it makes sense by itself.
 
 ((&#10004;)) Read more about bats in the link:[Flying Mammals section].
 
@@ -1254,7 +1253,7 @@ When writing link text, ensure it's clear without its surrounding text.
 
 TIP: Never use "click here" as link text.
 
-TIP: Lean more" is the new "Click here". Be more descriptive in the link text, unless you have no space. Just using "Learn more" as link text has usability and accessibility issues. 
+TIP: _Learn more_ is the new _Click here_. Be more descriptive in the link text, unless you have no space. Just using _Learn more_ as link text has usability and accessibility issues.
 
 
 === Web addresses and URLs
@@ -1265,7 +1264,7 @@ Avoid writing web addresses as link text. If writing a web address is essential,
 For a technical audience, use "URL" and don't spell it out on its first mention.
 - For clarity in technical content, include the protocol name with the URL, for example, HTTPS or FTP.
 Some authoring tools, such as the AsciiDoc editor, automatically recognize this text as a link.
-- Use the preposition "at" followed by the address in lowercase.
+- Use the preposition _at_ followed by the address in lowercase.
 
 
 ((&#10004;)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
@@ -1274,8 +1273,8 @@ Some authoring tools, such as the AsciiDoc editor, automatically recognize this 
 
 == Writing about the user interface
 
-Writing about the user interface (UI) and describing user actions is the core element of user assistance writing. 
-Users interact with computer systems by using UI elements which initiate actions. 
+Writing about the user interface (UI) and describing user actions is the core element of user assistance writing.
+Users interact with computer systems by using UI elements which initiate actions.
 Developers call UI elements _controls_. Don't use _control_ in content for end users.
 
 //Add link to the task topic part in this document here
@@ -1330,7 +1329,7 @@ These examples are names with their generic names (in bold) that are common in d
 - undefined *state*
 - GET *request*
 
-In developer documentation, the name preceding the generic name is formatted as `code`. 
+In developer documentation, the name preceding the generic name is formatted as `code`.
 
 ((&#10004;)) The `lastName` variable has no value.
 
@@ -1340,9 +1339,9 @@ In developer documentation, the name preceding the generic name is formatted as 
 
 ((&#10006;)) The command `curl` didn't execute.
 
-==== User documentation and generic names 
+==== User documentation and generic names
 
-In most end user documentation, you can leave out the generic name. Unless you need to include the descriptor to avoid confusion. 
+In most end user documentation, you can leave out the generic name. Unless you need to include the descriptor to avoid confusion.
 
 These examples are names with their descriptors (in bold) that you see in documentation for users:
 
@@ -1355,8 +1354,6 @@ These examples are names with their descriptors (in bold) that you see in docume
 
 In user documentation, the name preceding the generic descriptor is formatted as *bold* (unlike in this list).
 
-IMPORTANT: For English, the name is followed by the generic name. For German, it's the other way around.
-
 ((&#10004;)) To configure your settings, choose the *Menu* icon.
 
 ((&#10006;)) To configure your settings, choose the icon *Menu*.
@@ -1367,9 +1364,9 @@ NOTE: If a UI element name ends with an ellipsis (...), leave out the ellipsis i
 
 === Commonly used user interface elements at {compname}
 
-The link:https://storybook.d4l.io/[Data4Life component library] collects the UI elements for the web app. 
-In general, avoid talking about UI elements. 
-Most of the time, describe what users need to do. 
+The link:https://storybook.d4l.io/[Data4Life component library] collects the UI elements for the web app.
+In general, avoid talking about UI elements.
+Most of the time, describe what users need to do.
 In most cases, procedures can use names of UI elements and leave out the generic names. The table lists UI elements and the verbs and adjectives to use for them.
 
 [cols=3*,options=header]
@@ -1380,50 +1377,50 @@ In most cases, procedures can use names of UI elements and leave out the generic
 
 |accordion
 |expand, collapse
-|expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ their content 
+|expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ their content
 
 |alert
 |is displayed
 |states: error, success, notification
 
-|app store link 
+|app store link
 |choose
 |Android calls them _badge_. If _choose_ sounds awkward: _click or tap_, without _on_.
 
 
-|button 
+|button
 |choose
-|if choose sounds awkward: click or tap, without _on_. But click or tap limits your description to a subset of devices. Don't use _select_ for buttons. You "select" one out of several options, or from several files. 
+|if choose sounds awkward: click or tap, without _on_. But click or tap limits your description to a subset of devices. Don't use _select_ for buttons. You _select_ one out of several options, or from several files.
 
-|card   
+|card
 |is displayed
-|refer to cards by their title, to users, a card is like any dialog or screen
+|refer to cards by their title, to users, a card is like any dialog or screen.
 
-|checkbox       
+|checkbox
 |select, clear
 |one word, you can rewrite to describe what users do: use the checkbox to turn an option on or off. Adjectives for status: checked, unchecked, or indeterminate.
 
 |date input field
 |enter
-|it's a field not a box, in the future it might be a date picker. Use enter or just use, avoid type.
+|it's a field not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _type_.
 
 |date picker
 |is displayed
-|it's a field not a box, in the future it might be a date picker. Use "enter" or just "use", avoid pick.
+|it's a field not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _pick_.
 
-|drop-down list    
+|drop-down list
 |choose
-|choose from, don't call it a drop-down menu, pull-down list etc.
+|choose from, don't call it a drop-down menu, pull-down list and so on.
 
-|icon   
+|icon
 |choose
-|an icon ist like a button, if choose sounds awkward: click or tap , without "on"
+|an icon is like a button, if choose sounds awkward: _click_ or _tap_, without _on_.
 
-|input field    
+|input field
 |is displayed, enter
 |refer by its name, don't use input, just field, don't call it box
 
-|language switcher  
+|language switcher
 |change
 |
 
@@ -1436,12 +1433,12 @@ In most cases, procedures can use names of UI elements and leave out the generic
 |you can call tables lists, but be consistent in your content, some lists can be _expanded_ and _collapsed_ to _show_ and _hide_ their content
 
 |menu
-|
-|menus contain _commands_ that users _choose_ in the menu. Don't refer to a command as a menu item, a choice, an entry, or an option. Submenu one word.
-
-|multilanguage switcher    
 |choose
-|It's actually a *drop-down list* (choose language from)
+|menus contain _commands_ that users _choose_ in the menu. Don't refer to a command as a menu item, a choice, an entry, or an option. Submenu is one word.
+
+|multilanguage switcher
+|choose
+|it's actually a *drop-down list* (choose language from)
 
 |notification bar
 |is displayed
@@ -1455,27 +1452,27 @@ In most cases, procedures can use names of UI elements and leave out the generic
 |choose
 |call the element *option* in content for end users
 
-|scale bar  
+|scale bar
 |use
 |
 
-|search   
+|search
 |enter
 |it's a field, not a box, enter in
 
-|select 
+|select
 |choose
 |it's a *drop-down list*, choose from
 
-|slider input       
+|slider input
 |move
 |call it *slider*, don't use "drag"
 
-|snackbar   
+|snackbar
 |choose, click
 |choose might sound awkward for commands on the snackbar if they aren't buttons, but text buttons.
 
-|spinner    
+|spinner
 |is displayed
 |
 
@@ -1487,15 +1484,15 @@ In most cases, procedures can use names of UI elements and leave out the generic
 |enter
 |it's an input field, refer to it by its field name
 
-|toggle 
+|toggle
 |use, switch on/off, activate/deactivate
-|some call it switch, users know hot it works, so you don't have to use verbs like "toggle" or "slide".
+|some call it switch, users know how it works, so you don't have to use verbs like _toggle_ or _slide_.
 
 |===
 
-IMPORTANT: For UI elements without interaction, use _is displayed_. It's OK to use the passive voice here because the actor is obvious. Avoid the following words: displays, appear, opens, or shows.
+IMPORTANT: For UI elements without interaction, use _is displayed_. It's OK to use the passive voice here because the actor is obvious. Avoid the following words: displays, appears, opens, or shows.
 
-NOTE: For end user documentation, refer to unavailable commands and options on the UI as "unavailable", not as "grayed out", "dimmed", "disabled", or "inactive". Google calls these commands "disabled". Apple accepts disabled for developer content. Avoid "disabled" in content for end users.
+NOTE: For end user documentation, refer to unavailable commands and options on the UI as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. Google calls these commands _disabled_. Apple accepts disabled for developer content. Avoid _disabled_ in content for end users.
 
 === Sequence of user actions in procedures
 
@@ -1530,7 +1527,7 @@ Write result (a user's goal) before action, and effect before cause.
 
 === Shortcut: menu cascading
 
-To refer to a location in the UI without writing a detailed procedure, use menu cascading. Don't use this by default, but when space is limited:
+To refer to a location in the UI without writing a detailed procedure, use menu cascading. Don't use this by default, but when space is limited.
 
 ((&#10004;)) Choose *My profile > Account settings > Download my user data.*
 
@@ -1540,14 +1537,14 @@ To refer to a location in the UI without writing a detailed procedure, use menu 
 Refer to common user interface elements in the following ways:
 
 //Finalize this part
- 
+
 - Microsoft says about adjectives with checkboxes: Use check or checked as an adjective related to check boxes. Google and SAP: selected and unselected as adjectives, very common: checked and unchecked as main statuses.
 - States of checkboxes: selected, cleared, indeterminate OR: checked, unchecked, indeterminate
 - switch (Microsoft calls it toggle button), Google and Apple call it switch. Some also call it the toggle switch, Verb:
 
 === Google for Android
 
-Check out Google material.io resources. 
+Check out Google material.io resources.
 
 - *Bottom navigation bars* Bottom navigation bars allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom nativation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused or pressed.
 
