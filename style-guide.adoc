@@ -20,7 +20,7 @@
 :pub-version: 1.00
 :pub-status: draft
 :pub-title: {software-name} {pub-type}
-:copyright-year: 2019 – 2020
+:copyright-year: 2019–2021
 :copyright-statement: (C) {copyright-year} {compname-legal}. All rights reserved.
 
 ifdef::env-github[]
@@ -108,7 +108,13 @@ This guide is a living document and changes over time.
 |0.9
 |October 2020
 |Updated and moved to GitHub
+
+|1.0
+|January 2021
+|Updated and added user interface description part
+
 |===
+
 
 
 === List of abbreviations
@@ -450,7 +456,7 @@ And nonrestrictive clauses are also known as nondefining clauses.
 |My brother, who lives in Berlin, ... [Note: I have only 1 brother.]
 |===
 
-=== Using the word "please"
+=== Using please
 
 Avoid _please_ in instructional text and in cross-references.
 It's OK to use _please_ in situations where users are asked to do something inconvenient.
@@ -500,8 +506,6 @@ These are the basic rules for international style:
 
 Don't use Latin abbreviations.
 Use the full English equivalent instead.
-
-NOTE: Avoid the _via_ preposition unless you're writing about travel. The original meaning of the Latin word is: traveling through (a place) en route to a destination. For example, I arrived in Manhattan via Newark.
 
 The table gives examples of non-English words and how to replace them.
 
@@ -562,7 +566,9 @@ The table gives examples of non-English words and how to replace them.
 
 |===
 
-== Using abbreviations
+NOTE: Avoid the _via_ preposition unless you're writing about travel. The original meaning of the Latin word is: traveling through (a place) en route to a destination. For example, I arrived in Manhattan via Newark.
+
+== Using abbreviations and acronyms
 
 Abbreviations can be unclear and ambiguous, especially for international audiences.
 In some languages, abbreviations are uncommon.
@@ -576,7 +582,7 @@ Always spell out terms when they're short or when they're used only 2 or 3 times
 You may want to use abbreviations if they avoid text becoming tiring. 
 Or if a spelled-out version is long, for example, the _United States Food and Drug Administration (FDA)_.
 
-When you first mention a term in a topic, spell it out and write its abbreviated form in parentheses.
+When you first mention a term in a topic, spell it out and introduce its abbreviated form in parentheses.
 Use its abbreviated form thereafter.
 
 ((&#10004;)) hospital information system (HIS)
@@ -591,7 +597,7 @@ Use its abbreviated form thereafter.
 
 ((&#10006;)) user experience (short: "UX")
 
-TIP: Don't introduce abbreviations in headings. Use the first sentence of the following paragraph instead.
+TIP: Don't introduce abbreviations in headings. Introduce them in the first sentence of the following paragraph.
 
 === Numeronyms
 
@@ -635,7 +641,7 @@ Use numerals for 10 and greater.
 
 ((&#10004;)) 2 TB
 
-((&#10004;)) She downloaded 1 PDF file, but it took her 5 minutes.
+((&#10004;)) She downloaded 2 PDF files, but it took her 5 minutes.
 
 
 === Ordinal numbers
@@ -658,14 +664,18 @@ Use ordinal numbers as follows:
 
 Don't use commas in numbers.
 In numbers of 5 or more digits, use a nonbreaking space (press option-space bar).
-Breaking up large numbers makes them easier to read, especially in tables.
 A nonbreaking space can’t be misinterpreted as a decimal marker.
+Breaking up large numbers makes them easier to read, especially in tables.
 
 ((&#10004;)) 5000
 
+((&#10004;)) 20 000
+
+((&#10004;)) EUR 3 426 869 were missing from the bank account
+
 ((&#10004;)) 2492.7201
 
-((&#10004;)) 20 000
+((&#10004;)) 0.000 007
 
 ((&#10004;)) Apple sold 3.7 million MacBook Pro computers in 2 years.
 
@@ -673,7 +683,6 @@ A nonbreaking space can’t be misinterpreted as a decimal marker.
 
 Use the percent sign (%) in headlines and in body text, without a preceding space.
 The percent sign saves space and makes your text more scannable.
-Using % also avoids the discussion of writing _percent_ or _per cent_.
 
 ((&#10004;)) 9% of our test users always scanned any new page they came across. 
 
@@ -747,11 +756,15 @@ Don't include spaces around the plus sign (+) or hyphen (-).
 
 ==== Ranges of time
 
-In text, use _to_ in a range of times.
+In text, use _to_ in a range of times. 
+In a pair of numbers, _from_ should be followed by _to_ and _between_ should be followed by _and_. This rule doesn't only apply to time.
 
 ((&#10004;)) Our core working hours are from 10:00 to 16:30.
 
 ((&#10004;)) Our core working hours are from 10:00 AM to 4:30 PM. (exception if you must use AM and PM)
+
+((&#10004;)) between 50 and 100
+
 
 === Days of the week and names of months
 
@@ -1124,8 +1137,8 @@ Instructions consist of multiple steps formatted as a numbered list.
 Use a front-loaded task heading to help users quickly find instructions.
 In the heading, tell users what the instructions help them do.
 
-If there's more than 1 way to do something, describe the best way.
-Giving alternative ways can confuse users.
+TIP: If there's more than 1 way to do something, describe the best way.
+Giving alternative ways can confuse users and increase cognitive load.
 
 Apply these guidelines when writing procedures:
 
@@ -1219,11 +1232,9 @@ Don’t use master and slave to describe the relationship between 2 processes or
 - publisher/subscriber
 - host/client
 
-
-
 == Adding cross-references
 
-Cross-references are links to nonessential information that may help a user.
+Cross-references are links to nonessential information that may help users.
 For the different types of cross-references, use these icons:
 
 [horizontal]
@@ -1234,7 +1245,7 @@ For the different types of cross-references, use these icons:
 
 ((&#128218;)):: Link to another document or information product. Set the title in italics.
 
-Keep introductions to cross-references short.
+Keep introductions to cross-references short, especially when you have a list of cross-references.
 In most cases, the word "see" is sufficient.
 
 NOTE: To group your cross-references, use "Related topics" as a headline. Limit the number of cross-references under a topic to no more than 3.
@@ -1310,16 +1321,16 @@ Developers call UI elements _controls_. Don't use _control_ in content for end u
 
 Users interact with our digital solutions using different input methods:
 
-- Touch screen
+- Touchscreen
 - Keyboard
 - Mouse
 - Voice
 
 Use generic verbs that work with any input method.
 Avoid input-specific verbs, such as _click_, _tap_, or _swipe_ if possible.
-Instead, use verbs like _choose_ or _select_.
+Instead, use verbs like _choose_ (works in most cases) or _select_.
 
-You can use _right-click_ when describing user input on computers when there's no alternative.
+Use _right-click_ when describing user input on computers when there's no alternative.
 
 ((&#10004;)) To continue, choose *Next*.
 
@@ -1329,11 +1340,11 @@ You can use _right-click_ when describing user input on computers when there's n
 
 === Naming user interface elements
 
-UI element descriptions have two parts:
+UI element descriptions have 2 parts:
 
-- The _name_, which is displayed on the UI, for example, _Skip_.
+- **Name** – which is displayed on the UI, for example, _Skip_
 
-- The _generic name_ – also called descriptor – that describes the element, for example, _Button_.
+- **Generic name** (also called **descriptor**) – that describes the element, for example, _Button_
 
 IMPORTANT: For English, the name is followed by the generic name. For German, it's the other way around.
 
@@ -1394,8 +1405,8 @@ NOTE: If a UI element name ends with an ellipsis (...), leave out the ellipsis i
 === Commonly used user interface elements at {compname}
 
 The link:https://storybook.d4l.io/[Data4Life component library] collects the UI elements for the web app. 
-In general, avoid talking about UI elements. 
-Most of the time, describe what users need to do. 
+In general, avoid talking about UI elements. Describe what users need to do instead to carry out their tasks. 
+
 In most cases, procedures can use names of UI elements and leave out the generic names. 
 
 The table lists UI elements and the verbs and adjectives to use for them.
@@ -1408,71 +1419,71 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |accordion
 |expand, collapse
-|expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ their content 
+|An expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ their content. 
 
 |alert
 |is displayed
-|states: error, success, notification
+|States: error, success, notification, which have different colors.
 
 |app store link 
 |choose
-|Android calls them _badge_. If _choose_ sounds awkward: _click or tap_, without _on_
+|Android calls them _badge_. If _choose_ sounds awkward: _click or tap_, without _on_.
 
 |banner 
 |choose, click, tap
-|display a prominent message and related optional actions and links at the top of the screen._choose_ might sound awkward for commands on the banner if they aren't _buttons_, but _text buttons_.
+|Display of a prominent message and related optional actions and links at the top of the screen. _Choose_ might sound awkward for commands on the banner if they aren't _buttons_, but _text buttons_.
 
 |button 
 |choose
-|if _choose_ sounds awkward: _click_ or _tap_, without _on_. But _click_ or _tap_ limits your description to a subset of devices. Don't use _select_ for buttons. You _select_ one out of several options, or from several files
+|If _choose_ sounds awkward: _click_ or _tap_, without _on_. But _click_ or _tap_ limits your description to a subset of devices. Don't use _select_ for buttons. You _select_ one out of several options, or from several files.
 
 |card   
 |is displayed
-|refer to cards by their title, to users, a card is like any dialog or screen
+|Refer to cards by their title. To users, a card is like any other dialog or screen.
 
 |checkbox       
 |select, clear
-|one word, you can rewrite to describe what users do: use the checkbox to turn an option on or off. Adjectives for status: _checked_, _unchecked_, or _indeterminate_.
+|One word, you can rewrite to describe what users do: use the checkbox to turn an option on or off. Adjectives for status: _checked_, _unchecked_, or _indeterminate_.
 
 |date input field
 |enter
-|it's a _field_, not a box, in the future it might be a _date picker_. Use _enter_ or just _use_, avoid _type_.
+|It's a _field_ and not a box, in the future it might be a _date picker_. Use _enter_ or just _use_, avoid _type_. Date input fields are self-explanatory, so it's OK to be vague. Enter your date of birth. 
 
 |date picker
 |is displayed
-|it's a field not a box, in the future it might be a date picker. Use "enter" or just "use", avoid pick.
+|It's a _field_ and not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _pick_. In the date picker, enter your date of birth.
 
 |drop-down list    
 |choose
-|_choose from_, don't call it a _drop-down menu_, _pull-down list_ etc.
+|Choose _from_, don't call it a _drop-down menu_, _pull-down list_ etc.
 
 |icon   
 |choose
-|an icon ist like a button, if choose sounds awkward: click or tap , without _on_
+|An icon is like a button, if _choose_ sounds awkward: click or tap , without _on_.
 
 |input field    
 |is displayed, enter
-|refer by its name, don't use _input_, just _field_, don't call it _box_
+|refer by its name, don't use _input_, just _field_, don't call it _box_.
 
 |language switcher  
 |change
-|
+|On the language switcher, choose *EN*.
 
 |linear progress
 |is displayed
-|refer to it as *progress bar* (on), sometimes _status bar_
+|Refer to it as _progress bar_ (on), sometimes _status bar_. A progress bar is a linear progess indicator. 
 
 |list
 |choose
-|you can call tables lists, but be consistent in your content, some lists can be _expanded_ and _collapsed_ to _show_ and _hide_ their content
+|You can call tables _lists_, but be consistent in your content, some lists can be _expanded_ and _collapsed_ to _show_ and _hide_ their content.
 
 |menu
 |choose
-|menus contain _commands_ that users _choose_. Don't refer to a command as a menu item, a choice, an entry, or an option. Submenu one word.
+|Menus contain _commands_ that users _choose_. Don't refer to a command as a _menu item_, a _choice_, an _entry_, or an _option_. Submenu one word.
 
 |multilanguage switcher    
 |choose
-|It's actually a *drop-down list* (choose language from)
+|The multilanguage switcher is actually a *drop-down list* (choose language from).
 
 |notification bar
 |is displayed
@@ -1480,11 +1491,11 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |questionnaire
 |fill out
-|set of questions that users fill out. _Survey_ includes the questionnaire and the process of collecting and analyzing the responses
+|Set of questions that users fill out. _Survey_ includes the questionnaire and the process of collecting and analyzing the responses.
 
 |radio button
 |choose
-|call the element _option_ in content for end users
+|Call the element _option_ in content for end users.
 
 |scale bar  
 |use
@@ -1492,19 +1503,19 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |search   
 |enter
-|it's a _field_, not a _box_, _enter in_
+|It's a _field_, not a _box_, _enter in_.
 
 |select 
 |choose
-|it's a *drop-down list*, _choose from_
+|It's a _drop-down list_, _choose from_.
 
 |slider input       
 |move
-|call it *slider*, don't use _drag_
+|Call it _slider_, don't use _drag_.
 
 |snackbar   
 |choose, click, tap
-|_choose_ might sound awkward for commands on the snackbar if they aren't _buttons_, but _text buttons_.
+|_Choose_ might sound awkward for commands on the snackbar if they aren't _buttons_, but _text buttons_.
 
 |spinner    
 |is displayed
@@ -1516,48 +1527,49 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |text area
 |enter
-|it's an input field, refer to it by its field name
+|It's an input field, refer to it by its field name
 
 |toggle 
 |use, switch on/off, activate/deactivate
-|some call it _switch_, users know hot it works, so you don't have to use verbs like _toggle_ or _slide_.
+|Some call it _switch_, users know hot it works, so you don't have to use verbs like _toggle_ or _slide_.
 
 |===
 
-IMPORTANT: For UI elements without interaction, use _is displayed_. It's OK to use the passive voice here because the agent is obvious. Avoid the following words: _displays_, _appears_, _opens_, or _shows_.
+IMPORTANT: For UI elements without interaction, use _is displayed_. It's OK to use the passive voice here because the agent is obvious. Avoid the following words for UI elements: _displays_, _appears_, _opens_, or _shows_.
 
-NOTE: For end user documentation, refer to unavailable commands and options on the UI as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. 
+NOTE: In end user documentation, refer to displayed but nonresponsive commands and options on the UI as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. 
 
 === Other user interface elements
 
-The following sections list software-specific UI elements of mobile apps. 
+The following sections list software-specific user interface elements of mobile apps. 
 
-=== Android user interface elements
+==== Android-specific user interface elements
 
-Check out Google material.io resources. 
+Check out the link:https://material.io/[Google Material Design resources] for the full list. 
 
-*Bottom navigation bars:* Allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom navigation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused, or pressed.
+- *Bottom navigation bars:* Allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom navigation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused, or pressed.
 
-*Badges:* Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
+- *Badges:* Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
 
-*Top navigation bars:* Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
+- *Top navigation bars:* Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
 
-*Floating action buttons (FABs):* Performs the primary, or most common, action on a screen. FABs are displayed in front of all screen content, typically as a circular shape with an icon in their center. FABs come in three types: regular, mini, and extended.
+- *Floating action buttons (FABs):* Performs the primary, or most common, action on a screen. FABs are displayed in front of all screen content, typically as a circular shape with an icon in their center. FABs come in three types: regular, mini, and extended.
 
-**Text buttons:** Text buttons are typically used for less-pronounced actions, including those located:
-In dialogs, In cards. In cards, text buttons help maintain an emphasis on card content.
+- **Text buttons:** Typically used for less-pronounced actions, including those located in dialogs and in cards. In cards, text buttons help maintain an emphasis on card content.
 
-**Outlined buttons:** Medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action in an app.
+- **Outlined buttons:** Medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action.
 
-**Contained button:**, Contained buttons display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+- **Contained button:** Display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to an app.
 
-=== User interface elements of iOS
+==== iOS-specific user interface elements
 
-There are different types of bars that are displayed at the bottom of an iOS screen. 
+Check out the link:https://developer.apple.com/design/human-interface-guidelines/[Apple Human Interface Guidelines] for the full list.
 
-*Tab bars:* Let users switch between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. Tab bars are strictly for navigation and not to perform actions.
+There are different types of bars that are displayed at the bottom of iOS screens. 
 
-*Toolbars:* Contain buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. 
+- *Tab bars:* Let users switch between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. Tab bars are strictly for navigation and not to perform actions.
+
+- *Toolbars:* Contain buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. 
 
 Tab bars and toolbars never are displayed together in the same view.
 
@@ -1565,11 +1577,11 @@ Tab bars and toolbars never are displayed together in the same view.
 
 To increase readability and to make texts easier to understand, follow these rules.
 
-==== Write location before action
+==== Location before action
 
 To ensure that users can easily follow procedures on the UI, write location before action.
 
-((&#10004;)) Under the *Password* field, choose *Forgot password*.
+((&#10004;)) Under the *Password* field, choose *Forgot password?*.
 
 ((&#10004;)) On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
 
@@ -1582,11 +1594,11 @@ Write result (a user's goal) before action, and effect before cause.
 
 ((&#10004;)) To access your account, enter your PIN code.
 
-((&#10004;)) To reset your password, choose *Forgot password*.
+((&#10004;)) To reset your password, choose *Forgot password?*.
 
 ((&#10004;)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((&#128065;))  Eye symbol.
 
-((&#10006;)) Choose  *Forgot password* to reset your password.
+((&#10006;)) Choose  *Forgot password?* to reset your password.
 
 ((&#10006;)) You'll need to download the Chrome Remote Desktop app to use your mobile device for remote access.
 
@@ -1604,7 +1616,7 @@ To refer to a location in the UI without writing a detailed procedure, use menu 
 When you write about files, follow these guidelines:
 
 - Use the formal name of the file type.
-- The file type names are in all caps, because many file type names are abbreviations.
+- Often file type names are in all caps, because many file type names are abbreviations.
 - Be as specific as you can be when referring to filenames.
 
 ((&#10004;)) Share the PDF file with your doctor
