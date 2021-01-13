@@ -1343,7 +1343,7 @@ UI element descriptions have 2 parts:
 
 - **Name** – which is displayed on the UI, for example, _Skip_
 
-- **Generic name** (also called **descriptor**) – that describes the element, for example, _Button_
+- **Generic name** (also called **descriptor**) – that describes the element, for example, _button_
 
 IMPORTANT: For English, the name is followed by the generic name. For German, it's the other way around.
 
@@ -1452,11 +1452,7 @@ The table lists UI elements and the verbs and adjectives to use for these elemen
 
 |drop-down list
 |choose
-<<<<<<< .merge_file_pHd7Ev
 |Choose _from_, don't call it a _drop-down menu_, _pull-down list_, and so on.
-=======
-|Choose _from_, don't call it a _drop-down menu_, _pull-down list_ and so on.
->>>>>>> .merge_file_cZL6nF
 
 |icon
 |choose
@@ -1539,14 +1535,6 @@ The table lists UI elements and the verbs and adjectives to use for these elemen
 IMPORTANT: For user interface elements without interaction, use _is displayed_. It's OK to use the passive voice here because the agent is obvious. Avoid the following words for user interface elements: _displays_, _appears_, _opens_, or _shows_.
 
 NOTE: In end user documentation, refer to displayed but nonresponsive commands and options on the user interface as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. 
-=======
-|some call it switch, users know how it works, so you don't have to use verbs like _toggle_ or _slide_.
-
-|===
-
-IMPORTANT: For user interface elements without interaction, use _is displayed_. It's OK to use the passive voice here because the actor is obvious. Avoid the following words: displays, appears, opens, or shows.
-
-NOTE: For end user documentation, refer to unavailable commands and options on the user interface as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. Google calls these commands _disabled_. Apple accepts disabled for developer content. Avoid _disabled_ in content for end users.
 
 === Other user interface elements
 
@@ -1791,9 +1779,7 @@ The table also shows other common examples of shortening options.
 
 |whether or not
 |whether
-
 |===
-
 
 
 
