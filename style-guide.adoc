@@ -20,7 +20,7 @@
 :pub-version: 1.00
 :pub-status: draft
 :pub-title: {software-name} {pub-type}
-:copyright-year: 2019 – 2020
+:copyright-year: 2019–2021
 :copyright-statement: (C) {copyright-year} {compname-legal}. All rights reserved.
 
 ifdef::env-github[]
@@ -91,9 +91,7 @@ This document is for anyone writing or editing information for use at {compname}
 - Developer documentation at https://d4l.io
 - User assistance content at https://www.data4life.care/en/helpcenter.
 
-This content is for external target audiences by definition.
-
-This guide is a living document and will change over time.
+This guide is a living document and changes over time.
 
 === Revision history
 
@@ -110,7 +108,13 @@ This guide is a living document and will change over time.
 |0.9
 |October 2020
 |Updated and moved to GitHub
+
+|1.0
+|January 2021
+|Updated and added user interface description part
+
 |===
+
 
 
 === List of abbreviations
@@ -152,7 +156,7 @@ Find more abbreviations used at {compname} in the link:https://docs.google.com/s
 
 We made every effort to ensure that this document fulfills the intended use.
 Your feedback is very welcome and is considered during updates.
-To provide feedback on how we can improve, get in touch with your technical writer directly or send an email to ((&#9993;)) {email-docs}.
+To provide feedback on how we can improve, get in touch directly with your technical writer or send an email to ((&#9993;)) {email-docs}.
 
 == Main rules for technical writing and user assistance
 
@@ -160,7 +164,7 @@ Always keep in mind the following questions:
 
 - Who is your audience?
 - What does your audience want to accomplish?
-- How can you reduce the cognitive load of readers.
+- How can you reduce the cognitive load of your audience.
 - Will your content be translated?
 
 == Other resources to help you
@@ -183,10 +187,9 @@ To find out how other organizations manage the style of their written content, c
 - ((&#10064;)) link:https://help.apple.com/applestyleguide/#/[Apple Style Guide]
 - ((&#10064;)) link:https://developers.google.com/style/[Google Developer Style Guide]
 - ((&#10064;)) link:https://material.io/design/communication/writing.html#principles[Material Design Writing] by Google
-- ((&#10064;)) link:https://www.theguardian.com/guardian-observer-style-guide-a[Guardian and Observer style guide]
 - ((&#10064;)) link:https://w3c.github.io/manual-of-style/[W3C Manual of Style]
 - ((&#10064;)) link:https://styleguide.mailchimp.com/[Mailchimp Content Style Guide]
-
+- ((&#10064;)) link:https://www.theguardian.com/guardian-observer-style-guide-a[Guardian and Observer style guide]
 
 == Writing the {compname} company name
 
@@ -233,9 +236,18 @@ Be aware of different terms and spellings used in American English and British E
 Use the active voice whenever you can.
 The active voice asserts that the subject of the sentence is in action.
 The passive voice asserts that the action is on the subject.
+Passive sentences often hide who's performing an action.
 
 TIP: The passive voice may be used to avoid awkward sentences or to avoid giving the impression that you're blaming the users.
-It's common to use passive voice in error messages, warnings, or notifications.
+In the software world, it's common to use passive voice in error messages, warnings, or notifications.
+
+((&#10004;)) The technical writers published the {compname} style guide.
+
+((&#10006;)) The {compname} style guide was published by the technical writers.
+
+((&#10004;)) The application must be submitted by the end of this week.
+
+((&#10006;)) You must submit the application by the end of this week.
 
 
 === Focus on the user
@@ -284,18 +296,25 @@ This style supports a friendly, human tone and helps avoid the passive voice.
 
 ((&#10004;)) Use the {compname} encrypted storage to securely store your health documents.
 
+((&#10006;)) The {compname} encrypted storage is used to securely store health documents.
+
 ((&#10006;)) You can use the {compname} encrypted storage to securely store your health documents.
 
 TIP: Avoid over-using auxiliary verbs. Consider omitting _you can_ whenever a sentence works without it.
 
+Don't refer to the user in different ways in the same sentence.
+
+((&#10006;)) Change your preferences in *My profile*
+
 === Use the present tense
 
 Use the present tense.
+The present tense makes sentences simple and direct. 
 You can often rewrite future tense sentences without changing their meaning.
 
 ((&#10004;)) Send a query to the backend service. The server sends an acknowledgment.
 
-((&#10006;)) Send a query to the backend service. The server will send an acknowledgment.
+((&#10006;)) Once you've sent a query to the backend service, the server will send an acknowledgment.
 
 == Other writing guidelines
 
@@ -329,7 +348,7 @@ Write around it and keep the focus on the reader.
 It's OK to use _we_ when you write for reuse and want to avoid mentioning the company name.
 Don't refer to the user in different ways in the same sentence.
 
-((&#10006;)) Change your preferences in *My profile*
+((&#10004;)) To avoid entering your user name and password often, choose the **Keep me logged in** option.
 
 === Use nouns, not pronouns
 Repeat a noun instead of using a backward-referring pronoun like _it_, _they_, _this_, or _these_.
@@ -342,11 +361,11 @@ Repeating the noun ensures that the reference is clear.
 === Referring to special characters
 Refer to special characters by their name when necessary. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
 
-((&#10004;)) Use an asterisk (*) as a wildcard character in your search.
+((&#10006;)) Repeating the noun ensures that the reference is clear. It also avoids localization issues.
 
-((&#10006;)) Use '*' as a wildcard character in your search.
+((&#10006;)) Remove the users from the group. Afterwards, they can't access the resource anymore.
 
-((&#10006;)) The percent sign (%) saves space in tables.
+((&#10004;)) Remove the users from the group. Afterwards, the users can't access the resource anymore.
 
 ((&#128065;)) See <<Names of common special characters and punctuation marks>> in the appendix.
 
@@ -390,7 +409,7 @@ The full table in the appendix gives more examples.
 Consistent use of fonts, text formatting, capitalization, and text alignment improves accessibility and readability.
 
 Avoid over-formatting, for example, using bold formatting for keywords.
-Bold format can improve scannability, but becomes tiring when used too often.
+Bold format can improve scannability of text, but becomes tiring when used too often or inconsistently.
 Use italics to emphasize words and reserve bold formatting for referring to user interface elements.
 
 
@@ -407,9 +426,9 @@ Use italics to emphasize words and reserve bold formatting for referring to user
 
 |===
 
-=== Using "that," "which," and "who" in relative clauses [[using-that-which-and-who-in-relative-clauses]]
+=== Using that, which, and who in relative clauses [[using-that-which-and-who-in-relative-clauses]]
 
-In English, there are restrictive and nonrestrictive clauses.
+In English, there are _restrictive_ clauses and _nonrestrictive_ clauses.
 Restrictive clauses aren't set off with commas because the relative clause is essential to the meaning.
 
 NOTE: Restrictive clauses are also known as defining clauses.
@@ -445,16 +464,15 @@ And nonrestrictive clauses are also known as nondefining clauses.
 
 Avoid _please_ in instructional text and in cross-references.
 It's OK to use _please_ in situations where users are asked to do something inconvenient.
-Also use _please_ in user interface copy where the app or platform is to blame for the situation.
+Also use _please_ in user interface copy where the app or platform is to blame for the situation (for example, in error messages).
 
-((&#10004;)) Follow the steps below.
+((&#10004;)) To update your app, follow the steps below.
 
-((&#10006;)) Please follow the steps below.
+((&#10006;)) To update your app, please follow the steps below.
 
 ((&#10004;)) Update your antivirus software immediately.
 
 ((&#10006;)) Please update your antivirus software immediately.
-
 
 
 === Avoid dangling modifiers
@@ -468,7 +486,7 @@ Ensure your text doesn't contain dangling modifiers.
 
 == Writing for an international audience
 
-Writing in the international style means naturally and expressing yourself using standard international conventions.
+Writing in the international style means writing naturally and expressing yourself using standard international conventions.
 When you write this way, you support the internationalization of your content.
 
 === Using international style
@@ -492,8 +510,6 @@ These are the basic rules for international style:
 Don't use Latin abbreviations.
 Use the full English equivalent instead.
 
-NOTE: Avoid the _via_ preposition unless you're writing about travel. The original meaning of the Latin word is: traveling through (a place) en route to a destination. For example, _I arrived in Manhattan via Newark_.
-
 The table gives examples of non-English words and how to replace them.
 
 [cols=3*,options=header]
@@ -511,7 +527,7 @@ The table gives examples of non-English words and how to replace them.
 |etc.
 |and so on
 
-*Note:* Don't use "and so on" together with "for example". Choose 1 of the 2 alternatives.
+*Note:* Don't use _and so on_ together with _for example_. Choose 1 of the 2 alternatives.
 |((&#10006;)) The document can contain text, images, links, etc.
 
 ((&#10006;)) For example, the document can contain text, images, links, and so on.
@@ -553,20 +569,24 @@ The table gives examples of non-English words and how to replace them.
 
 |===
 
-== Using abbreviations
+NOTE: Avoid the _via_ preposition unless you're writing about travel. The original meaning of the Latin word is: traveling through (a place) en route to a destination. For example, I arrived in Manhattan via Newark.
 
-Abbreviations can be unclear, especially for international audiences.
+== Using abbreviations and acronyms
+
+Abbreviations can be unclear and ambiguous, especially for international audiences.
 In some languages, abbreviations are uncommon.
 
-Avoid abbreviations.
-This ensures that their meaning is explicit.
+Avoid abbreviations. 
+Writing out a term ensures that the meaning is explicit.
+
 Always spell out terms when they're short or when they're used only 2 or 3 times within a topic.
 
 === Introducing abbreviations
 
-You may use abbreviations if they avoid text becoming tiring. Or if a spelled-out version is really long.
+You may want to use abbreviations if they avoid text becoming tiring. 
+Or if a spelled-out version is long, for example, the _United States Food and Drug Administration (FDA)_.
 
-When you first mention a term, spell it out and write its abbreviated form in parentheses.
+When you first mention a term in a topic, spell it out and introduce its abbreviated form in parentheses.
 Use its abbreviated form thereafter.
 
 ((&#10004;)) hospital information system (HIS)
@@ -577,12 +597,16 @@ Use its abbreviated form thereafter.
 
 ((&#10006;)) UX (user experience)
 
-TIP: Don't introduce abbreviations in headings.
+((&#10006;)) UX (stands for "user experience")
+
+((&#10006;)) user experience (short: "UX")
+
+TIP: Don't introduce abbreviations in headings. Introduce them in the first sentence of the following paragraph.
 
 === Numeronyms
 
-Don't use numeronyms, unless you're writing for an expert audience, for example, the {compname} tech blog.
-Numeronyms are jargon and unnecessary abbreviations.
+Avoid numeronyms, unless you're writing for an expert audience, for example, on the {compname} tech blog. 
+Numeronyms are jargon.
 
 ((&#10006;)) a11y (for accessibility)
 
@@ -596,10 +620,12 @@ Never use an apostrophe to form a plural abbreviation.
 
 ((&#10006;)) RFC's
 
+TIP: The abbreviation FAQ stands for _frequently asked questions_, which is plural. Avoid _FAQs_, unless you refer to multiple lists of questions.
+
 == Writing numbers
 
 Be consistent with your use of numbers.
-When you refer to numbers used in examples or on the user interface, duplicate them exactly as they're displayed on the user interface.
+When you refer to numbers used in examples or on the user interface, write them exactly as they're displayed on the user interface.
 
 === Numerals or words
 
@@ -618,6 +644,8 @@ Use numerals for 10 and greater.
 ((&#10004;)) More than 70% of the Earth's surface is water.
 
 ((&#10004;)) The SSD has 2 TB of storage.
+
+((&#10004;)) She downloaded 2 PDF files, but it took her 5 minutes.
 
 
 === Ordinal numbers
@@ -640,14 +668,18 @@ Use ordinal numbers as follows:
 
 Don't use commas in numbers.
 In numbers of 5 or more digits, use a nonbreaking space (press option-space bar).
-Breaking up large numbers makes them easier to read, especially in tables.
 A nonbreaking space can’t be misinterpreted as a decimal marker.
+Breaking up large numbers makes them easier to read, especially in tables.
 
 ((&#10004;)) 5000
 
+((&#10004;)) 20 000
+
+((&#10004;)) EUR 3 426 869 were missing from the bank account
+
 ((&#10004;)) 2492.7201
 
-((&#10004;)) 20 000
+((&#10004;)) 0.000 007
 
 ((&#10004;)) Apple sold 3.7 million MacBook Pro computers in 2 years.
 
@@ -656,8 +688,9 @@ A nonbreaking space can’t be misinterpreted as a decimal marker.
 Use the percent sign (%) in headlines and in body text, without a preceding space.
 The percent sign saves space and makes your text more scannable.
 
-((&#10004;)) 9% of our test users scanned every new page they came across. Only 16% read word by word.
+((&#10004;)) 9% of our test users always scanned any new page they came across. 
 
+((&#10004;)) Your cloud storage is 98% full.
 
 === Writing dates and times
 
@@ -680,10 +713,12 @@ NOTE: The positions of the month and day vary by country.
 For example, 6/12/2017 might be June 12, 2017 or December 6, 2017.
 Using the _month day, year_ format for dates avoids confusion.
 
-TIP: When you refer to the user interface and in content for developers, it's OK to use numbers and slashes for dates if the code supports that format, for example, YYYY/MM/DD.
+When you refer to the user interface and in content for developers, it's OK to use numbers and slashes for dates if the code supports that format, for example, YYYY/MM/DD.
+
 The International Organization for Standardization (ISO) recommends writing dates with numerals in year-month-day format, such as 2018-10-24.
-This is useful when people need to convey information across international borders.
-The version day-month-year is used by the United Nations when writing the full date format in official documents.
+This format is useful when people need to convey information across international borders.
+
+The _day-month-year_ version is used by the United Nations when writing the full date format in official documents.
 But for prose in American English, use the month-day-year format. And always use 4 digits for the year for clarity.
 
 Omit the comma in partial dates. For example, when only giving the month and year.
@@ -700,14 +735,14 @@ When a date is in the middle of a sentence, add a comma after the year.
 ==== Times
 
 Express the time of the day using the 24-hour clock.
-Only use AM and PM when you describe a time displayed differently on the user interface or when you describe a feature that uses the 12-hour clock.
+Use AM and PM when you describe a time displayed differently on the user interface or when you describe a feature that uses the 12-hour clock.
 Write AM and PM in capital letters, without the period, and with a space before.
 
-((&#10004;)) Our weekly executive meeting starts each Tuesday at 15:00.
+((&#10004;)) Our executive meeting starts each Tuesday at 15:00.
 
-Use this formatting when you must break the 24-hour clock rule.
+Use this formatting when you feel like you must break the 24-hour clock rule.
 
-((&#10004;)) Our weekly executive meeting starts each Tuesday at 3:00 PM.
+((&#10004;)) Our executive meeting starts each Tuesday at 3:00 PM.
 
 Not all time zones have names, and some time-zone names are used in more than 1 geographical area.
 If you're talking about a particular place, clarify the country or reference Coordinated Universal Time (UTC).
@@ -719,14 +754,20 @@ Don't include spaces around the plus sign (+) or hyphen (-).
 
 ((&#10004;)) UTC+02:00
 
+((&#10006;)) 2020-10-24T10:17:22.6100772+00:00
+
 
 ==== Ranges of time
 
-In text, use _to_ in a range of times.
+In text, use _to_ in a range of times. 
+In a pair of numbers, _from_ should be followed by _to_ and _between_ should be followed by _and_. This rule doesn't only apply to time.
 
 ((&#10004;)) Our core working hours are from 10:00 to 16:30.
 
 ((&#10004;)) Our core working hours are from 10:00 AM to 4:30 PM. (exception if you must use AM and PM)
+
+((&#10004;)) between 50 and 100
+
 
 === Days of the week and names of months
 
@@ -742,7 +783,7 @@ Months:: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, and Dec
 == Units of measurement
 
 Units of measurement are represented by the following symbols.
-Write out the name of units in body text.
+Write out names of units in body text unless you refer to units that are intuitive for your audience.
 In tables, use the unit symbol.
 Always use these symbols with numerals.
 
@@ -898,7 +939,7 @@ The table shows more examples of currency codes.
 
 == Working with lists
 
-Lists are a great way to present complex information in a way that's easy to scan.
+Vertical lists are a great way to present complex information in a way that's easy to scan.
 
 Lists are helpful because they do the following:
 
@@ -909,20 +950,24 @@ Lists are helpful because they do the following:
 - Add white space, improving readability
 - Provide a good way to present items, conditions, and exceptions
 
+((&#10064;)) link:https://www.nngroup.com/articles/presenting-bulleted-lists/[7 Tips for Presenting Bulleted Lists in Digital Content]
 
-=== Introducing lists
+
+=== Introducing horizontal lists
 
 Follow these rules when you use lists:
 
-- Ensure that the purpose of the list is clear in the heading and introduction.
+- Ensure that you make the purpose of the list clear in the heading and in the introduction.
 - Introduce a list with a complete sentence that ends with a colon.
 - Never use a partial sentence as a lead-in that's completed by the list items.
 
-Avoid mentioning numbers in list introductions. This can cause issues when you add or remove entries to the list.
+Avoid mentioning numbers in list introductions. This can cause issues when you add or remove list entries.
 
 ((&#10004;)) When you save your recovery key, you have the following options:
 
 ((&#10006;)) When you save your recovery key, you have the following 3 options:
+
+NOTE: Never use ellipses (...) at the end of a list.
 
 === Using capitalization and punctuation in lists
 
@@ -952,7 +997,7 @@ Use unordered lists – also called bulleted lists – for entries that have som
 
 === Numbered lists
 
-Use a numbered list when you want to stress the sequential nature of steps, rules, or instructions.
+Use numbered lists when you want to stress the sequential nature of steps, rules, or instructions.
 In numbered task lists, make each step a complete sentence.
 Use sentence-style capitalization for each item and end each item with closing punctuation.
 
@@ -967,14 +1012,6 @@ For colons in a sentence, use these rules:
 - If the colon is followed by an incomplete sentence (a word or a phrase), begin the first word with a lowercase letter.
 
 
-////
-== List common mistakes?
-
-- Word list from Microsoft style for DE
-- Examples from CMOS 5.250, for example, and/or
-- and/or: Guardian style guide says: about and/or – This is horrible. Make your mind up and say either “and” or “or” – whichever is more appropriate.
-////
-
 == Handling punctuation
 
 === Exclamation points
@@ -987,8 +1024,7 @@ Use exclamation points sparingly. Save them for when emphasis is most necessary.
 
 === Ellipses
 
-Avoid ellipses. When referring to an ellipsis on text or buttons on the user interface,
-remove the ellipsis in your instructions.
+Avoid ellipses. When referring to an ellipsis on text or buttons on the user interface, remove the ellipsis in your instructions.
 
 ((&#10004;)) At the top of the page, select *File* > *Open*.
 
@@ -1058,7 +1094,7 @@ Put a comma before the word _which_ at the start of a nonrestrictive clause.
 
 === Dashes and hyphens
 
-Use the en dash (–) to indicate spans of time and ranges of numbers.
+Use the en dash (–) to indicate spans of time and ranges of numbers if you don't have space for _from_ and _to_.
 Avoid the en dash with compound adjectives, use the hyphen.
 Avoid the em dash.
 
@@ -1076,6 +1112,10 @@ To set off a word or phrase that interrupts or adds more information to a senten
 
 
 //Link to rule to use "to" for ranges
+
+=== Parentheses
+
+Use parentheses to introduce abbreviations and symbols. Avoid parentheses in running text, they interrupt the sentence flow. Try to rewrite or use other punctuation instead of parentheses. If removing text changes the meaning of a sentence, the text shouldn't be in parentheses.
 
 TIP: En dashes can help you reduce parentheses in your writing – but use them sparingly.
 
@@ -1099,8 +1139,8 @@ Instructions consist of multiple steps formatted as a numbered list.
 Use a front-loaded task heading to help users quickly find instructions.
 In the heading, tell users what the instructions help them do.
 
-If there's more than 1 way to do something, describe the best way.
-Giving alternative ways can confuse users.
+TIP: If there's more than 1 way to do something, describe the best way.
+Giving alternative ways can confuse users and increase cognitive load.
 
 Apply these guidelines when writing procedures:
 
@@ -1194,11 +1234,9 @@ Don’t use master and slave to describe the relationship between 2 processes or
 - publisher/subscriber
 - host/client
 
-
-
 == Adding cross-references
 
-Cross-references are links to nonessential information that may help a user.
+Cross-references are links to nonessential information that may help users.
 For the different types of cross-references, use these icons:
 
 [horizontal]
@@ -1209,10 +1247,10 @@ For the different types of cross-references, use these icons:
 
 ((&#128218;)):: Link to another document or information product. Set the title in italics.
 
-Keep introductions to cross-references short.
+Keep introductions to cross-references short, especially when you have a list of cross-references.
 In most cases, the word "see" is sufficient.
 
-NOTE: To group your cross-references, you can use "Related topics" as a headline. Limit the number of cross-references under a topic to no more than 3.
+NOTE: To group your cross-references, use "Related topics" as a headline. Limit the number of cross-references under a topic to no more than 3.
 
 For web addresses, it's best to link to an overview page instead of a technical specification because deep links on websites often change.
 
@@ -1234,8 +1272,7 @@ For web addresses, it's best to link to an overview page instead of a technical 
 A link is any text or icon that users can select to go somewhere.
 Links can direct users to other documents, other places within the same document, or other web pages.
 
-Link text can take the following forms:
-
+Link text can take these forms:
 - A description of the linked-to content, capitalized with sentence style.
 - The exact title of the linked-to content, capitalized the same way the title is capitalized.
 - A URL or web address, written in lowercase.
@@ -1253,23 +1290,23 @@ When writing link text, ensure it makes sense by itself.
 
 TIP: Never use "click here" as link text.
 
-TIP: _Learn more_ is the new _Click here_. Be more descriptive in the link text, unless you have no space. Just using _Learn more_ as link text has usability and accessibility issues.
-
+TIP: _Lean more_ is the new _Click here_. Try to be more descriptive in the link text, unless you have no space. Just using _Learn more_ as link text has usability and accessibility issues. 
 
 === Web addresses and URLs
 
 Avoid writing web addresses as link text. If writing a web address is essential, follow these guidelines:
 
-- In content for general audiences, use "address" or "web address" rather than uniform resource locator (URL).
-For a technical audience, use "URL" and don't spell it out on its first mention.
+- In content for general audiences, use _address_ or _web address_ rather than uniform resource locator (URL).
+For a technical audience, use _URL_ and don't spell it out on its first mention.
 - For clarity in technical content, include the protocol name with the URL, for example, HTTPS or FTP.
 Some authoring tools, such as the AsciiDoc editor, automatically recognize this text as a link.
 - Use the preposition _at_ followed by the address in lowercase.
-
+- Line-break long URLs before a slash.
 
 ((&#10004;)) Check out our new sports jackets at link:[https://www.data4life.care/en/sports/clothing/jackets].
 
 ((&#10006;)) On link:[HTTPS://www.data4life.care/EN/Sports/Clothing/Jackets], you can find our new sports jackets.
+
 
 == Writing about the user interface
 
@@ -1283,16 +1320,16 @@ Developers call UI elements _controls_. Don't use _control_ in content for end u
 
 Users interact with our digital solutions using different input methods:
 
-- Touch screen
+- Touchscreen
 - Keyboard
 - Mouse
 - Voice
 
 Use generic verbs that work with any input method.
 Avoid input-specific verbs, such as _click_, _tap_, or _swipe_ if possible.
-Instead, use verbs like _choose_ or _select_.
+Instead, use verbs like _choose_ (works in most cases) or _select_.
 
-You can use _right-click_ when describing user input on computers when there's no alternative.
+Use _right-click_ when describing user input on computers when there's no alternative.
 
 ((&#10004;)) To continue, choose *Next*.
 
@@ -1302,32 +1339,32 @@ You can use _right-click_ when describing user input on computers when there's n
 
 === Naming user interface elements
 
-UI element descriptions have two parts:
+UI element descriptions have 2 parts:
 
-- The _name_, which is displayed on the UI, for example, *Skip*.
+- **Name** – which is displayed on the UI, for example, _Skip_
 
-- The _generic name_ – also called descriptor – that describes the element, for example, *Button*.
+- **Generic name** (also called **descriptor**) – that describes the element, for example, _Button_
 
 IMPORTANT: For English, the name is followed by the generic name. For German, it's the other way around.
 
 ==== Developer documentation and generic names
 
-For clarity, always include the generic name with the element name in documentation.
+For clarity, always include the generic name with the element name.
 
-These examples are names with their generic names (in bold) that are common in documentation for developers:
+These examples are names with their generic names (in italics) that are common in documentation for developers:
 
-- <strong> *tag*
-- curl *command*
-- firstName *variable*
-- fadeOut() *function*
-- style *attribute*
-- .click() *event*
-- match() *method*
-- myObject *object*
-- length *property*
-- Activity *class*
-- undefined *state*
-- GET *request*
+- <strong> _tag_
+- curl _command_
+- firstName _variable_
+- fadeOut() _function_
+- style _attribute_
+- .click() _event_
+- match() _method_
+- myObject _object_
+- length _property_
+- Activity _class_
+- undefined _state_
+- GET _request_
 
 In developer documentation, the name preceding the generic name is formatted as `code`.
 
@@ -1341,18 +1378,18 @@ In developer documentation, the name preceding the generic name is formatted as 
 
 ==== User documentation and generic names
 
-In most end user documentation, you can leave out the generic name. Unless you need to include the descriptor to avoid confusion.
+In most end user documentation, you can leave out the generic name. Unless you need to include a descriptor to avoid confusion. 
 
-These examples are names with their descriptors (in bold) that you see in documentation for users:
+These examples are names with their generic names (in italics) that you see in documentation for users:
 
-- File *menu*
-- Save as *command*
-- Home *tab*
-- Back *button*
-- I consent *checkbox*
-- Menu *icon*
+- File _menu_
+- Save as _command_
+- Home _tab_
+- Back _button_
+- I consent _checkbox_
+- Menu _icon_
 
-In user documentation, the name preceding the generic descriptor is formatted as *bold* (unlike in this list).
+In user documentation, the name preceding the generic name is formatted as bold (unlike in this list).
 
 ((&#10004;)) To configure your settings, choose the *Menu* icon.
 
@@ -1364,10 +1401,12 @@ NOTE: If a UI element name ends with an ellipsis (...), leave out the ellipsis i
 
 === Commonly used user interface elements at {compname}
 
-The link:https://storybook.d4l.io/[Data4Life component library] collects the UI elements for the web app.
-In general, avoid talking about UI elements.
-Most of the time, describe what users need to do.
-In most cases, procedures can use names of UI elements and leave out the generic names. The table lists UI elements and the verbs and adjectives to use for them.
+The link:https://storybook.d4l.io/[Data4Life component library] collects the UI elements for the web app. 
+In general, avoid talking about UI elements. Describe what users need to do instead to carry out their tasks. 
+
+In most cases, procedures can use names of UI elements and leave out the generic names. 
+
+The table lists UI elements and the verbs and adjectives to use for these elements.
 
 [cols=3*,options=header]
 |===
@@ -1377,68 +1416,75 @@ In most cases, procedures can use names of UI elements and leave out the generic
 
 |accordion
 |expand, collapse
-|expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ their content
+|An expansion panel, which can be _expanded_ and _collapsed_ to _show_ and _hide_ content. 
 
 |alert
 |is displayed
-|states: error, success, notification
+|States: error, success, notification, which have different colors.
 
 |app store link
 |choose
 |Android calls them _badge_. If _choose_ sounds awkward: _click or tap_, without _on_.
 
+|banner 
+|choose, click, tap
+|A banner displays a prominent message and related optional actions and links at the top of the screen. _Choose_ might sound awkward for commands on the banner if they aren't _buttons_, but _text buttons_.
 
 |button
 |choose
-|if choose sounds awkward: click or tap, without _on_. But click or tap limits your description to a subset of devices. Don't use _select_ for buttons. You _select_ one out of several options, or from several files.
+|If _choose_ sounds awkward: _click_ or _tap_, without _on_. But _click_ or _tap_ limits your description to a subset of devices. Don't use _select_ for buttons. You _select_ one out of several options, or from several files.
 
 |card
 |is displayed
-|refer to cards by their title, to users, a card is like any dialog or screen.
+|Refer to cards by their title. To users, a card is like any other dialog or screen.
 
 |checkbox
 |select, clear
-|one word, you can rewrite to describe what users do: use the checkbox to turn an option on or off. Adjectives for status: checked, unchecked, or indeterminate.
+|One word, you can rewrite to describe what users do: use the checkbox to turn an option on or off. Adjectives for status: _checked_, _unchecked_, or _indeterminate_.
 
 |date input field
 |enter
-|it's a field not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _type_.
+|It's a _field_ and not a box, in the future it might be a _date picker_. Use _enter_ or just _use_, avoid _type_. Date input fields are self-explanatory, so it's OK to be vague. Enter your date of birth. 
 
 |date picker
 |is displayed
-|it's a field not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _pick_.
+|It's a _field_ and not a box, in the future it might be a date picker. Use _enter_ or just _use_, avoid _pick_. In the date picker, enter your date of birth.
 
 |drop-down list
 |choose
-|choose from, don't call it a drop-down menu, pull-down list and so on.
+<<<<<<< .merge_file_pHd7Ev
+|Choose _from_, don't call it a _drop-down menu_, _pull-down list_, and so on.
+=======
+|Choose _from_, don't call it a _drop-down menu_, _pull-down list_ and so on.
+>>>>>>> .merge_file_cZL6nF
 
 |icon
 |choose
-|an icon is like a button, if choose sounds awkward: _click_ or _tap_, without _on_.
+|An icon is like a button, if _choose_ sounds awkward: click or tap , without _on_.
 
 |input field
 |is displayed, enter
-|refer by its name, don't use input, just field, don't call it box
+|Refer to it by its name, don't use _input_, just _field_, don't call it _box_.
 
 |language switcher
 |change
-|
+|On the language switcher, choose *EN*.
 
 |linear progress
 |is displayed
-|refer to it as *progress bar* (on), sometimes status bar
+|Refer to it as _progress bar_ (on), sometimes _status bar_. A progress bar is a linear progess indicator. 
 
 |list
 |choose
-|you can call tables lists, but be consistent in your content, some lists can be _expanded_ and _collapsed_ to _show_ and _hide_ their content
+|You can call tables _lists_, but be consistent in your content, some lists can be _expanded_ and _collapsed_ to _show_ and _hide_ their content.
 
 |menu
 |choose
-|menus contain _commands_ that users _choose_ in the menu. Don't refer to a command as a menu item, a choice, an entry, or an option. Submenu is one word.
+|Menus contain _commands_ that users _choose_. Don't refer to a command as a _menu item_, a _choice_, an _entry_, or an _option_. Submenu one word.
 
 |multilanguage switcher
 |choose
-|it's actually a *drop-down list* (choose language from)
+|The multilanguage switcher is actually a *drop-down list* (choose language from).
 
 |notification bar
 |is displayed
@@ -1446,11 +1492,11 @@ In most cases, procedures can use names of UI elements and leave out the generic
 
 |questionnaire
 |fill out
-|set of questions that users fill out. _Survey_ includes the questionnaire and the process of collecting and analyzing the responses.
+|Set of questions that users fill out. _Survey_ includes the questionnaire and the process of collecting and analyzing the responses.
 
 |radio button
 |choose
-|call the element *option* in content for end users
+|Call the element _option_ in content for end users.
 
 |scale bar
 |use
@@ -1458,56 +1504,97 @@ In most cases, procedures can use names of UI elements and leave out the generic
 
 |search
 |enter
-|it's a field, not a box, enter in
+|It's a _field_, not a _box_, _enter in_.
 
 |select
 |choose
-|it's a *drop-down list*, choose from
+|It's a _drop-down list_, _choose from_.
 
 |slider input
 |move
-|call it *slider*, don't use "drag"
+|Call it _slider_, don't use _drag_.
 
-|snackbar
-|choose, click
-|choose might sound awkward for commands on the snackbar if they aren't buttons, but text buttons.
+|snackbar   
+|choose, click, tap
+|_Choose_ might sound awkward for commands on the snackbar if they aren't _buttons_, but _text buttons_.
 
 |spinner
 |is displayed
 |
 
 |tag
-|
+|is displayed
 |
 
 |text area
 |enter
-|it's an input field, refer to it by its field name
+|It's an input field, refer to it by its field name
 
 |toggle
 |use, switch on/off, activate/deactivate
+|Some call it _switch_, users know hot it works, so you don't have to use verbs like _toggle_ or _slide_.
+
+|===
+
+IMPORTANT: For user interface elements without interaction, use _is displayed_. It's OK to use the passive voice here because the agent is obvious. Avoid the following words for user interface elements: _displays_, _appears_, _opens_, or _shows_.
+
+NOTE: In end user documentation, refer to displayed but nonresponsive commands and options on the user interface as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. 
+=======
 |some call it switch, users know how it works, so you don't have to use verbs like _toggle_ or _slide_.
 
 |===
 
-IMPORTANT: For UI elements without interaction, use _is displayed_. It's OK to use the passive voice here because the actor is obvious. Avoid the following words: displays, appears, opens, or shows.
+IMPORTANT: For user interface elements without interaction, use _is displayed_. It's OK to use the passive voice here because the actor is obvious. Avoid the following words: displays, appears, opens, or shows.
 
-NOTE: For end user documentation, refer to unavailable commands and options on the UI as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. Google calls these commands _disabled_. Apple accepts disabled for developer content. Avoid _disabled_ in content for end users.
+NOTE: For end user documentation, refer to unavailable commands and options on the user interface as _unavailable_, not as _grayed out_, _dimmed_, _disabled_, or _inactive_. Google calls these commands _disabled_. Apple accepts disabled for developer content. Avoid _disabled_ in content for end users.
+
+=== Other user interface elements
+
+The following sections list software-specific user interface elements of mobile apps. 
+
+==== Android-specific user interface elements
+
+Check out the link:https://material.io/[Google Material Design resources] for the full list. 
+
+- *Bottom navigation bars:* Allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom navigation bars can be active or inactive. (Note difference with unavailable.) States: active, inactive, focused, or pressed.
+
+- *Badges:* Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
+
+- *Top navigation bars:* Can contain a menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
+
+- *Floating action buttons (FABs):* Performs the primary, or most common, action on a screen. FABs are displayed in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
+
+- **Text buttons:** Typically used for less-pronounced actions, including those located in dialogs and in cards. In cards, text buttons help maintain an emphasis on card content.
+
+- **Outlined buttons:** Medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action.
+
+- **Contained button:** Display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain the primary actions of an app or screen.
+
+==== iOS-specific user interface elements
+
+Check out the link:https://developer.apple.com/design/human-interface-guidelines/[Apple Human Interface Guidelines] for the full list.
+
+There are different types of bars that are displayed at the bottom of iOS screens. 
+
+- *Tab bars:* Let users switch between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. Tab bars are strictly for navigation and not to perform actions.
+
+- *Toolbars:* Contain buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. 
+
+Tab bars and toolbars never are displayed together in the same view.
 
 === Sequence of user actions in procedures
 
-To increase readability and to make texts easier to understand, follow these rules.
+To increase readability and to make procedures easier to understand, follow these rules.
 
-==== Write location before action
+==== Location before action
 
-To ensure that users can easily follow procedures on the UI, write location before action.
+To ensure that users can easily follow procedures on the user interface, write location before action.
 
-((&#10004;)) Under the *Password* field, choose *Forgot password*.
+((&#10004;)) Under the *Password* field, choose *Forgot password?*.
 
 ((&#10004;)) On the *Sharing* tab, select the information that you want to share with your doctor, and choose *Start sharing*.
 
 ((&#10006;)) Choose *Start sharing* on the *Sharing* tab to select the information that you want to share with your doctor.
-
 
 ==== Write result before action
 
@@ -1515,11 +1602,11 @@ Write result (a user's goal) before action, and effect before cause.
 
 ((&#10004;)) To access your account, enter your PIN code.
 
-((&#10004;)) To reset your password, choose *Forgot password*.
+((&#10004;)) To reset your password, choose *Forgot password?*.
 
 ((&#10004;)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((&#128065;))  Eye symbol.
 
-((&#10006;)) Choose  *Forgot password* to reset your password.
+((&#10006;)) Choose *Forgot password?* to reset your password.
 
 ((&#10006;)) You'll need to download the Chrome Remote Desktop app to use your mobile device for remote access.
 
@@ -1527,46 +1614,9 @@ Write result (a user's goal) before action, and effect before cause.
 
 === Shortcut: menu cascading
 
-To refer to a location in the UI without writing a detailed procedure, use menu cascading. Don't use this by default, but when space is limited.
+To refer to a location in the user interface without writing a detailed procedure, use menu cascading. Don't use this by default, but when space is limited:
 
 ((&#10004;)) Choose *My profile > Account settings > Download my user data.*
-
-
-=== Referring to user interface elements
-
-Refer to common user interface elements in the following ways:
-
-//Finalize this part
-
-- Microsoft says about adjectives with checkboxes: Use check or checked as an adjective related to check boxes. Google and SAP: selected and unselected as adjectives, very common: checked and unchecked as main statuses.
-- States of checkboxes: selected, cleared, indeterminate OR: checked, unchecked, indeterminate
-- switch (Microsoft calls it toggle button), Google and Apple call it switch. Some also call it the toggle switch, Verb:
-
-=== Google for Android
-
-Check out Google material.io resources.
-
-- *Bottom navigation bars* Bottom navigation bars allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom nativation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused or pressed.
-
-- *Badges:* Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
-
-- *Top navigation bars:* Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
-
-- Snackbars
-- Banners
-- dialogs
-- floating action buttons (FABs)
-- Text button, Text buttons are typically used for less-pronounced actions, including those located:
-In dialogs, In cards. In cards, text buttons help maintain an emphasis on card content.
-- Outlined button: medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action in an app.
-- Contained button, Contained buttons display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
-
-=== Apple mobile UI terminology
-- bottom navigation bars are called "tab bar" (but there also are "toolbars"). Apple says Use a tab bar strictly for navigation. Tab bar buttons should not be used to perform actions. If you need to provide controls that act on elements in the current view, use a toolbar instead. See Toolbars. original from the Apple website: TIP
-It’s important to understand the difference between a tab bar and a toolbar, because both types of bars appear at the bottom of an app screen. A tab bar lets the user switch quickly between different sections of an app, such as the Alarm, Stopwatch, and Timer tabs in the Clock app. A toolbar contains buttons for performing actions related to the current context, like creating an item, deleting an item, adding an annotation, or taking a photo. See Toolbars. Tab bars and toolbars never appear together in the same view.
-
-
-
 
 
 == Writing about files, file types, and file formats
@@ -1574,7 +1624,7 @@ It’s important to understand the difference between a tab bar and a toolbar, b
 When you write about files, follow these guidelines:
 
 - Use the formal name of the file type.
-- The file type names are in all caps, because many file type names are abbreviations.
+- Often file type names are in all caps, because many file type names are abbreviations.
 - Be as specific as you can be when referring to filenames.
 
 ((&#10004;)) Share the PDF file with your doctor
@@ -2139,7 +2189,17 @@ The following table outlines the preposition-noun combinations to use for common
 |===
 
 
-=== Names of common special characters and punctuation marks
+=== Names of special characters and punctuation marks
+
+You sometimes need to refer to special characters by their name. To refer to a special character, use the formulation _<character name> (<character symbol>)_.
+
+((&#10004;)) Use an asterisk (*) as a wildcard character in your search.
+
+((&#10006;)) Use '*' as a wildcard character in your search.
+
+((&#10006;)) The percent sign (%) saves space in tables.
+
+((&#10004;)) See <<Names of common special characters and punctuation marks>> in the appendix.
 
 [cols=2*,options=header]
 |===
