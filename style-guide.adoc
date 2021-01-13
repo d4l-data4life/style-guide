@@ -1431,7 +1431,7 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |banner 
 |choose, click, tap
-|Display of a prominent message and related optional actions and links at the top of the screen. _Choose_ might sound awkward for commands on the banner if they aren't _buttons_, but _text buttons_.
+|A banner displays a prominent message and related optional actions and links at the top of the screen. _Choose_ might sound awkward for commands on the banner if they aren't _buttons_, but _text buttons_.
 
 |button 
 |choose
@@ -1455,7 +1455,7 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |drop-down list    
 |choose
-|Choose _from_, don't call it a _drop-down menu_, _pull-down list_ etc.
+|Choose _from_, don't call it a _drop-down menu_, _pull-down list_, and so on.
 
 |icon   
 |choose
@@ -1463,7 +1463,7 @@ The table lists UI elements and the verbs and adjectives to use for them.
 
 |input field    
 |is displayed, enter
-|refer by its name, don't use _input_, just _field_, don't call it _box_.
+|Refer to it by its name, don't use _input_, just _field_, don't call it _box_.
 
 |language switcher  
 |change
@@ -1547,19 +1547,19 @@ The following sections list software-specific user interface elements of mobile 
 
 Check out the link:https://material.io/[Google Material Design resources] for the full list. 
 
-- *Bottom navigation bars:* Allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom navigation bars can be active or inactive. (note difference with unavailable). States: active, inactive, focused, or pressed.
+- *Bottom navigation bars:* Allow movement between primary destinations (3 to 5) in an app (mobile or tablet only). They consist of a container with icons that have text labels. Icons in the bottom navigation bars can be active or inactive. (Note difference with unavailable.) States: active, inactive, focused, or pressed.
 
 - *Badges:* Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.
 
-- *Top navigation bars:* Can contain menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
+- *Top navigation bars:* Can contain a menu icon (Hamburger), up arrow, back arrow, title, action items, and the overflow menu (3 dots)
 
-- *Floating action buttons (FABs):* Performs the primary, or most common, action on a screen. FABs are displayed in front of all screen content, typically as a circular shape with an icon in their center. FABs come in three types: regular, mini, and extended.
+- *Floating action buttons (FABs):* Performs the primary, or most common, action on a screen. FABs are displayed in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
 
 - **Text buttons:** Typically used for less-pronounced actions, including those located in dialogs and in cards. In cards, text buttons help maintain an emphasis on card content.
 
 - **Outlined buttons:** Medium-emphasis buttons that display a stroke around a text label. They contain actions that are important, but aren’t the primary action.
 
-- **Contained button:** Display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to an app.
+- **Contained button:** Display a container around a text label. Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain the primary actions of an app or screen.
 
 ==== iOS-specific user interface elements
 
@@ -1598,7 +1598,7 @@ Write result (a user's goal) before action, and effect before cause.
 
 ((&#10004;)) To show your password, in the *Login* dialog, in the *Password* field, choose the ((&#128065;))  Eye symbol.
 
-((&#10006;)) Choose  *Forgot password?* to reset your password.
+((&#10006;)) Choose *Forgot password?* to reset your password.
 
 ((&#10006;)) You'll need to download the Chrome Remote Desktop app to use your mobile device for remote access.
 
