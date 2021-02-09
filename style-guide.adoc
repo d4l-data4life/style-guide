@@ -1037,7 +1037,10 @@ Skip end punctuation on titles, headings, subheads, UI titles, and items in a li
 
 === Quotation marks
 
-In most content, use double quotation marks. In online content, use straight quotation marks (" "). In code examples, use straight quotation marks. In printed content, use curly quotation marks (“ ”) except in user input and code samples.
+- In most content, use double quotation marks.
+- In online content, use straight quotation marks (" ").
+- In code examples, use straight quotation marks.
+- In printed content, use curly quotation marks (“ ”) except in user input and code samples.
 
 
 
